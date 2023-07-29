@@ -1,0 +1,38 @@
+@import "~/src/scss/index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body::-webkit-scrollbar{
+   width: 7px;
+   background-color: #f7f7f7;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: $text-red;
+    border-radius: 2px;
+ }
+
+ 
+.container-class{
+    // box-shadow: 0px 0px 17px #e1e1e1;
+    border-radius: 10px;
+    margin-top: 30px;
+    max-width: 100%;
+    // width: 100% !important;
+    background-color: white;
+    padding: 0;
+    .separator_red{
+        border-top: 1px dashed red;
+    }
+}
+.title_content{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color:$text-dark;
+}
+

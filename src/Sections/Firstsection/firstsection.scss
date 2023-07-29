@@ -1,0 +1,128 @@
+@import "~/src/scss/index.scss";
+
+.first-block {
+  padding-top: 125px;
+  padding-bottom: 200px;
+  align-items: center;
+  color: $text-dark;
+  margin: 55px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  background-image: url("../../../public/images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:$text-light;
+
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(255, 255, 255, 1) 0%,
+  //   rgba(255, 255, 255, 1) 54%,
+  //   rgba(255, 255, 255, 1) 71%,
+  //   rgba(243, 247, 254, 1) 90%,
+  //   rgb(250 252 255) 100%
+  // );
+}
+.img_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .avatar_main{
+    // box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    animation: main_avatar_animation 2s linear infinite;
+  }
+}
+.avatar_main {
+
+  border: 3px solid $text-yellow;
+  padding: 2px;
+  border-radius: 50%;
+  /*Prueba*/
+  background-image: url("../../../public//images/sergiomercado.webp");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about_me_block {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px 0;
+  h2 {
+    color: $text-yellow;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  .dev_title .dev_title_span{
+    font-weight: 700;
+    font-size: 23px;
+  }
+  .typed-cursor{
+    font-size: 23px;
+  }
+
+  .summary_about_me {
+    width: 60%;
+    margin-top: 15px;
+  }
+}
+
+.main-button {
+  background: #eb455f;
+  border-radius: 999px;
+  box-shadow: #af394a 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+/* CSS */
+
+// Responsive
+@media (max-width: $responsive_small) {
+  .avatar_main {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: $responsive_media) {
+  .about_me_block .summary_about_me {
+    width: 80%;
+  }
+}
+
+
+// Animaciones
+@keyframes main_avatar_animation{
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,12 @@
+@import "~/src/scss/index.scss";
+
+.contact_section{
+    padding: $padding-section;
+    max-width: $max-width;
+    margin: 10px auto;
+
+    .contact_content{
+        background-color: red;
+        padding: 10px;
+    }
+}

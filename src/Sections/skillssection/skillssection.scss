@@ -1,0 +1,138 @@
+@import "~/src/scss/index.scss";
+
+.skills_section {
+  padding: 60px 10px 100px 10px;
+//   max-width: 900px;
+  margin: 10px auto;
+  background-color: #f7f7f7;
+
+  .skill_content {
+    display: flex;
+    gap: 3rem;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: $max-width;
+    margin: auto;
+
+    .skill_bar{
+        width: 45%;
+    }
+    .skill_img{
+        text-align: center;
+        width: 45%;
+        .skill_player{
+            width: $img_width;
+            text-align: center;
+        }
+    }
+  }
+}
+
+.bar_container {
+  margin-top: 10px;
+  span {
+    float: right;
+    font-size: 11px;
+    display: block;
+    margin-top: 7px;
+  }
+}
+.progress {
+  height: 8px;
+  background-color: #ebebeb;
+  border-radius: 2px;
+}
+
+// PHP
+.progress-barphp {
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+
+}
+
+.progress-moved .progress-barphp {
+  width: 85%;
+  background-color: $bar-color;
+  animation: progressAnimation 1s;
+}
+
+//Python
+.progress-barpython {
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-barpython {
+  width: 75%;
+  background-color: $bar-color;
+  animation: progressAnimation 1s;
+}
+// JavaScript
+.progress-barjs {
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-barjs {
+  width: 90%;
+  background-color: $bar-color;
+  animation: progressAnimation 1s;
+}
+
+// CSS / HTML
+.progress-barcss {
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-barcss {
+  width: 87%;
+  background-color: $bar-color;
+  animation: progressAnimation 1s;
+}
+
+// MYSQL
+.progress-barmysql {
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-barmysql {
+  width: 85%;
+  background-color: $bar-color;
+  animation: progressAnimation 1s;
+}
+
+// SEO
+.progress-barseo {
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-barseo {
+  width: 80%;
+  background-color: $bar-color;
+  animation: progressAnimation 1s;
+}
+
+
+
+@keyframes progressAnimation {
+  0% {
+    width: 0%;
+  }
+}
+
+@media (max-width: $responsive_media) {
+  .skills_section .skill_content{
+    flex-direction: column;
+    column-gap: 15px;
+    .skill_bar{
+      width: 80%;
+    }
+    .skill_img{
+      width: 70%;
+      .skill_player{
+         width:90%;
+      }
+    }
+
+  }
+}

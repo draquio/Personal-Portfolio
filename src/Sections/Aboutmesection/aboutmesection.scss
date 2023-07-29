@@ -1,0 +1,37 @@
+@import "~/src/scss/index.scss";
+.about_me_section {
+  padding: $padding-section;
+  max-width: $max-width;
+  margin: 10px auto;
+
+  .about_me_content {
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+    .about_me_img .about_me_player {
+      width: $img_width;
+    }
+    .about_me_info {
+      width: 45%;
+    }
+  }
+}
+
+@media (max-width: $responsive_media) {
+  .about_me_section .about_me_content {
+    flex-direction: column;
+    .about_me_info {
+      width: 80%;
+    }
+    .about_me_img{
+      text-align: center;
+      .about_me_player {
+        width: 70%;
+      }
+    }
+  }
+}
