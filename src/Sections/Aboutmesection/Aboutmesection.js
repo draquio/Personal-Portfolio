@@ -1,7 +1,6 @@
 import React from "react";
-// import { Image } from "semantic-ui-react";
 import "./aboutmesection.scss";
-import { Player } from '@lottiefiles/react-lottie-player';
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export function Aboutmesection() {
   return (
@@ -9,22 +8,28 @@ export function Aboutmesection() {
       <h2 className="title_content">Sobre mi</h2>
       <div className="about_me_content">
         <div className="about_me_img">
-          {/* <Image src="/images/programmer.png" /> */}
-
-          <Player className="about_me_player" src="https://lottie.host/98a36679-a4fe-4383-ba30-324b95640f52/belvPl3QLO.json" background="transparent" speed="1" loop controls autoplay direction="1" mode="normal"></Player>
-
-
+          <Player
+            className="about_me_player"
+            src="https://lottie.host/98a36679-a4fe-4383-ba30-324b95640f52/belvPl3QLO.json"
+            background="transparent"
+            speed="1"
+            loop
+            controls
+            autoplay
+            direction="1"
+            mode="normal"
+          ></Player>
         </div>
         <div className="about_me_info">
-          Soy Sergio Fernando Mercado Galarza, tengo 26 años y soy de Bolivia, estudié Ingeniería en Sistemas en
-          la Universidad Privada Domingo Savio y también inglés en el Centro
-          Boliviano Americano (CBA). <br /><br />
-          A lo largo de los años he trabajo con
-          diferentes tecnologías, la mayoría en proyectos personales
-          monetizados, también trabajé haciendo SEO para blogs y canales de
-          Youtube. <br/>
-          Una de mis metas es poder dedicarme a tiempo completo a mi
-          más grande pasión el "Desarrollo web".
+          Soy Sergio Fernando Mercado Galarza, tengo 26 años y soy de Bolivia,
+          estudié Ingeniería en Sistemas en la Universidad Privada Domingo Savio
+          y también inglés en el Centro Boliviano Americano (CBA). <br />
+          <br />
+          A lo largo de los años he trabajo con diferentes tecnologías, la
+          mayoría en proyectos personales monetizados, también trabajé haciendo
+          SEO para blogs y canales de Youtube. <br />
+          Una de mis metas es poder dedicarme a tiempo completo a mi más grande
+          pasión el "Desarrollo web".
         </div>
       </div>
     </div>

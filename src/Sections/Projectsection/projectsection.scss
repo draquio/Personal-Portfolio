@@ -7,19 +7,20 @@
   .project_content {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
     .card_project {
-      padding-top: 10px;
       border-radius: 3px;
       box-shadow: 0px 0px 8px 0px #e3e3e3;
       min-width: 300px;
-      width: 40%;
+      width: 48%;
       transition: 0.5s;
-
+      h4{
+        margin: 10px;
+      }
       // Prueba
       .card_img {
         background-repeat: no-repeat;
@@ -41,10 +42,8 @@
           color: $text-dark;
           font-size: 15px;
           position: relative;
-          top: 10px;
           transition: all 0.2s ease;
-          // padding: 35px 20px 10px 20px;
-          padding: 15px;
+          gap: 10px;
           .project_button {
             background-color: $text-red;
             position: relative;
@@ -56,11 +55,14 @@
           }
         }
       }
+      .card_img{
+        border-top: 1px solid lightgrey;
+      }
       .damefans_img {
         background-image: url("../../../public/projects/damefans.png");
       }
-      .stock_img {
-        background-image: url("../../../public/projects/stock.png");
+      .blog-wordpress_img {
+        background-image: url("../../../public/projects/blog-wordpress.png");
       }
       .portfolio_img {
         background-image: url("../../../public/projects/draquio-portfolio.png");
@@ -72,7 +74,7 @@
       h4 {
         margin-left: 10px;
         font-size: 16px;
-        color:$text-dark;
+        color: $text-dark;
       }
       img {
         width: 100%;
@@ -113,8 +115,6 @@
 //Prueba Hover
 .project_section .project_content .card_project:hover .card_img_content {
   opacity: 1;
-  // transition: all 0.3s ease;
-  top: 0px;
 }
 .project_section .project_content .card_project:hover {
   transition: 0.5s;
@@ -142,6 +142,10 @@
   background-color: #374259;
   color: $text-light;
 }
+.tag_wordpress {
+  background-color: #374259;
+  color: $text-light;
+}
 .tag_mysql {
   background-color: #f29111;
   color: $text-light;
@@ -156,22 +160,17 @@
   color: $text-light;
 }
 
-// Responsive
-// @media (max-width: $responsive_media) {
-//   .project_section .project_content {
-//     flex-direction: column;
-//     .card_project {
-//       width: 60%;
-//     }
-//   }
-// }
 
-@media (max-width: $responsive_small) {
-  .project_section .project_content .card_project {
-    width: 100%;
-    min-width: 0;
-  }
-  .footer_tag {
-    font-size: 8px !important;
+@media (max-width: $responsive_media) {
+  .project_section .project_content {
+    flex-direction: column;
+    .card_project {
+      width: 85%;
+      min-width: 0;
+      // justify-content: center;
+    }
+    .footer_tag {
+      font-size: 8px !important;
+    }
   }
 }

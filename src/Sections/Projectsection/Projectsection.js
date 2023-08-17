@@ -17,10 +17,10 @@ export function Projectsection() {
               <b>+120k Usuarios</b> <b>+1 millón de visitas/mes</b>
               <Link
                 to="https://web.archive.org/web/20190914214728/https://damefans.com/"
-                className="project_button"
+                className="btn btn_red"
                 target="_blank"
               >
-                <Icon name="code"/> Ver proyecto
+                <Icon name="code"/>Ver demo
               </Link>
             </div>
           </div>
@@ -38,8 +38,8 @@ export function Projectsection() {
           <div className="card_img reactblog_img">
             <div className="card_img_content">
               Un blog con Front y Backend creado con el MERN stack.
-              <Link to="#" className="project_button" target="_blank">
-              <Icon name="code"/> Ver proyecto
+              <Link to="#" className="btn btn_red" target="_blank">
+              <Icon name="code"/>Ver demo
               </Link>
             </div>
           </div>
@@ -52,20 +52,17 @@ export function Projectsection() {
 
         {/* Tercer */}
         <div className="card_project">
-          <h4><Icon name="shop" /> Gestión de Stock</h4>
-          <div className="card_img stock_img">
+          <h4><Icon name="shop" />Draquio Blog Wordpress</h4>
+          <div className="card_img blog-wordpress_img">
             <div className="card_img_content">
-              Sistema de gestión de Stock para restaurante Super Ricard
-              <Link to="#" className="project_button" target="_blank">
-              <Icon name="code"/> Ver proyecto
+              Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave.
+              <Link to="#" className="btn btn_red" target="_blank">
+              <Icon name="code"/>Ver demo
               </Link>
             </div>
           </div>
           <div className="footer_card">
-            <span className="footer_tag tag_flask">Flask</span>
-            <span className="footer_tag tag_python">Python</span>
-            <span className="footer_tag tag_mysql">MySQL</span>
-            <span className="footer_tag tag_bootstrap">Bootstrap</span>
+            <span className="footer_tag tag_wordpress">Wordpress</span>
           </div>
         </div>
         {/* Cuarto */}
@@ -74,8 +71,8 @@ export function Projectsection() {
           <div className="card_img portfolio_img">
             <div className="card_img_content">
               Portfolio personal
-              <Link to="#" className="project_button" target="_blank">
-              <Icon name="code"/> Ver proyecto
+              <Link to="#" className="btn btn_red mtop" target="_blank">
+              <Icon name="code"/>Ver demo
               </Link>
             </div>
           </div>

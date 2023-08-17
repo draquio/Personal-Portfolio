@@ -4,6 +4,11 @@
 body{
     background-color: white;
     font-family: 'Noto Sans KR', sans-serif;
+    min-width: 0;
+    font-size: 16px;
+    background: none;
+    margin: 0;
+    padding: 0;
 }
 
 body::-webkit-scrollbar{

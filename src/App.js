@@ -1,6 +1,5 @@
-import './App.css';
 import { Home } from "./Home";
-// import 'semantic-ui-css/semantic.min.css';
+
 
 
 

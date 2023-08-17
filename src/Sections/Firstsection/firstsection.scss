@@ -5,7 +5,7 @@
   padding-bottom: 200px;
   align-items: center;
   color: $text-dark;
-  margin: 55px auto 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 15px 0;
@@ -14,22 +14,12 @@
   background-size: cover;
   background-position: center;
   color:$text-light;
-
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(255, 255, 255, 1) 0%,
-  //   rgba(255, 255, 255, 1) 54%,
-  //   rgba(255, 255, 255, 1) 71%,
-  //   rgba(243, 247, 254, 1) 90%,
-  //   rgb(250 252 255) 100%
-  // );
 }
 .img_block {
   width: 100%;
   display: flex;
   justify-content: center;
   .avatar_main{
-    // box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     animation: main_avatar_animation 2s linear infinite;
   }
@@ -72,33 +62,21 @@
     width: 60%;
     margin-top: 15px;
   }
+  .icons_profile a {
+    text-decoration: none;
+    color:$text-light;
+    i{
+      transition: 0.3s ease all;
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+  }
+  .download_button{
+    margin-top: 15px;
+  }
 }
 
-.main-button {
-  background: #eb455f;
-  border-radius: 999px;
-  box-shadow: #af394a 0 10px 20px -10px;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
-    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
-    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
-    "Noto Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  opacity: 1;
-  outline: 0 solid transparent;
-  padding: 8px 18px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
-  word-break: break-word;
-  border: 0;
-}
-/* CSS */
 
 // Responsive
 @media (max-width: $responsive_small) {

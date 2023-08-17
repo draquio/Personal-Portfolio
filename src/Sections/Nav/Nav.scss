@@ -1,11 +1,11 @@
 @import "~/src/scss/index.scss";
 
 .nav_section {
+  scroll-behavior: smooth;
   width: 100%;
-  backdrop-filter: blur(5px);
+  background-color: white;
   position: fixed;
   top: 0;
-  height: 55px;
   border-bottom: 2px solid #f1f1f1;
   z-index: 1;
   .nav_content {
@@ -15,20 +15,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0px;
     height: 55px;
-    // background-color: red;
 
-    .logo a img {
-      // float: left;
-      // font-size: 25px;
+    .logo a {
+      margin-left: 10px;
       cursor: pointer;
-      width: 175px;
     }
     button {
       background: none;
       border: 0;
       display: none;
+      margin-right: 10px;
       svg {
         width: 100%;
         display: block;
@@ -37,26 +34,48 @@
       }
     }
     .menu_list {
-      // opacity: 1;
       ul {
         list-style: none;
-        // overflow: hidden;
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-end;
         align-items: center;
-        // background-color: red;
+        padding-left: 0;
         gap: 15px;
-        padding: 10px 0;
         li {
           a {
             display: block;
-            // padding: 15px 10px;
             color: $text-dark;
             text-decoration: none;
             cursor: pointer;
             font-size: 14px;
+            font-weight: bold;
           }
+        }
+      }
+    }
+
+    .menu_list_movil {
+      display: none;
+      position: absolute;
+      width: 100%;
+      top: 55px;
+      right: 500px;
+      background: rgb(255 255 255 / 90%);
+      backdrop-filter: blur(10px);
+      transition: 0.3s ease-in-out all;
+      ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 40px 0px;
+        justify-content: flex-start;
+        align-items: center;
+        height: 900px;
+        li {
+          list-style: none;
+          cursor: pointer;
+          font-weight: bold;
         }
       }
     }
@@ -64,66 +83,40 @@
 }
 
 // Nav movil
-@media (max-width: 500px) {
-  .nav_section {
-    backdrop-filter: none;
-    background-color: #f1f1f1;
-    .nav_content {
-      flex-wrap: wrap;
-      .responsive_menu_button {
-        display: block;
-        span {
-          width: 20px;
-          height: 3px;
-          display: block;
-          background: $text-dark;
-          transform-origin: 5px 0px;
-          transition: all 0.2s linear;
-          margin-bottom: 3px;
-          border-radius: 2px;
-          &:nth-child(2) {
-            height: 1.5px;
-          }
-        }
-        &.active > span:nth-child(1) {
-          // opacity: 0;
-          transform: rotate(45deg) translate(0, 1px);
-        }
-        &.active span:nth-child(2) {
-          opacity: 0;
-        }
-        &.active > span:nth-child(3) {
-          transform: rotate(-45deg) translate(0px, -5px);
-        }
+@media (max-width: $responsive_nav) {
+  .nav_section .nav_content .menu_list {
+    display: none;
+  }
+  .nav_section .nav_content .menu_list_movil{
+    display: block;
+    &.active{
+      right: 0px !important;
+    }
+  }
+  .nav_section .nav_content .responsive_menu_button {
+    display: block;
+    span {
+      width: 20px;
+      height: 3px;
+      display: block;
+      background: $text-dark;
+      transform-origin: 5px 0px;
+      transition: all 0.2s linear;
+      margin-bottom: 3px;
+      border-radius: 2px;
+      &:nth-child(2) {
+        height: 1.5px;
       }
-
-      .menu_list {
-        width: 100%;
-        position: relative;
-        right: 500px;
-        transition: all 0.3s linear;
-        &.active {
-          right: 0;
-          // transition: all 1s linear;
-        }
-        ul {
-          // display: none;
-          flex-flow: column;
-          margin-top: 10px;
-          height: 1500px;
-          gap: 30px;
-          justify-content: start;
-          backdrop-filter: blur(15px);
-          background-color: rgb(255 255 255 / 78%);
-          li {
-            margin-top: 10px;
-            a {
-              color: $text-dark;
-              font-weight: 500;
-            }
-          }
-        }
-      }
+    }
+    &.active > span:nth-child(1) {
+      // opacity: 0;
+      transform: rotate(45deg) translate(0, 1px);
+    }
+    &.active span:nth-child(2) {
+      opacity: 0;
+    }
+    &.active > span:nth-child(3) {
+      transform: rotate(-45deg) translate(0px, -5px);
     }
   }
 }

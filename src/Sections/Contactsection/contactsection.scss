@@ -1,12 +1,141 @@
 @import "~/src/scss/index.scss";
 
-.contact_section{
-    padding: $padding-section;
-    max-width: $max-width;
-    margin: 10px auto;
-
-    .contact_content{
-        background-color: red;
-        padding: 10px;
+.contact_section {
+  // padding: $padding-section;
+  padding: 0 10px 100px 10px;
+  max-width: $max-width;
+  margin: 10px auto;
+  .contact_content {
+    min-height: 275px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    form {
+      width: 65%;
+      input {
+        width: 60%;
+        padding: 15px 10px;
+        background: #f7f7f7;
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 3px #c7c5c5;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        transition: 0.5s ease all;
+        &::placeholder {
+          opacity: 0.5;
+        }
+      }
+      textarea {
+        width: 85%;
+        resize: none;
+        padding: 15px 10px;
+        background: #f7f7f7;
+        border: 0;
+        border-radius: 5px;
+        min-height: 100px;
+        box-shadow: 0px 0px 3px #c7c5c5;
+        margin-bottom: 5px;
+        &::placeholder {
+          opacity: 0.5;
+        }
+        &:focus-visible {
+          outline: none !important;
+        }
+      }
+      .recaptcha_class {
+        margin-bottom: 5px;
+      }
     }
+  }
+  .contact_info {
+    width: 35%;
+    // text-align: center;
+    .contact_player {
+      max-width: 300px;
+    }
+  }
+  .alert {
+    position: relative;
+    top: 10;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0;
+    line-height: 1.8;
+    border-radius: 5px;
+    cursor: hand;
+    cursor: pointer;
+    transition: 0.5s ease all;
+  }
+  .alertCheckbox {
+    display: none;
+  }
+  :checked + .alert {
+    opacity: 0;
+    display: none;
+  }
+  .alertText {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+  }
+  .alertClose {
+    float: right;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .clear {
+    clear: both;
+  }
+  .success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+  }
+  .error {
+    background-color: #fee;
+    border: 1px solid #edd;
+    color: #a66;
+  }
+}
+
+@media (max-width: $responsive_media) {
+  .contact_section .contact_content {
+    flex-direction: column;
+    gap: 20px;
+    form {
+      width: 100%;
+      input,
+      textarea {
+        width: 95%;
+      }
+      // .recaptcha_class > div > div{
+      //   margin: auto;
+      // }
+    }
+    .contact_info {
+      width: 100%;
+      .contact_player {
+        max-width: 350px;
+      }
+    }
+  }
+}
+@media (max-width: $responsive_small) {
+  .contact_section .contact_content form {
+    button{
+      width: 100%;
+    }
+    .recaptcha_class {
+      transform: scale(0.67);
+      transform-origin: 0 0;
+      margin:0px;
+    }
+  }
 }
