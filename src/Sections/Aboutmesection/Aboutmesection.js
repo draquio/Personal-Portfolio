@@ -26,10 +26,10 @@ export function Aboutmesection() {
           y también <b>inglés</b> en el Centro Boliviano Americano (CBA). <br />
           <br />
           A lo largo de los años he trabajado con diferentes tecnologías, la
-          mayoría en proyectos personales monetizados, también trabajé haciendo
+          mayoría en proyectos personales monetizados, también trabajé haciendo 
           <b>SEO para blogs </b> y canales de Youtube. <br />
           Una de mis metas es poder dedicarme a tiempo completo a mi más grande
-          pasión el "Desarrollo web".
+          pasión el <b>"Desarrollo web".</b>
         </div>
       </div>
     </div>
