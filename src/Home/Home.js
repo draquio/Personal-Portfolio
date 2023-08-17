@@ -1,6 +1,6 @@
 import React from "react";
 // import { , Main } from "semantic-ui-react";
-import { Firstsection, Nav, Aboutmesection, Skillssection, Projectsection, Contactsection  } from "../Sections";
+import { Firstsection, Nav, Aboutmesection, Skillssection, Projectsection, Contactsection, Footer  } from "../Sections";
 import "./home.scss";
 
 
@@ -17,7 +17,9 @@ export function Home() {
         <Projectsection />
         <Contactsection />
       </main>
-      <footer>Footer</footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

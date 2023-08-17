@@ -1,8 +1,8 @@
 @import "~/src/scss/index.scss";
 
 .contact_section {
-  // padding: $padding-section;
-  padding: 0 10px 100px 10px;
+  padding: $padding-section;
+  // padding: 0 10px 100px 10px;
   max-width: $max-width;
   margin: 10px auto;
   .contact_content {

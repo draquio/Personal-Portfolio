@@ -45,7 +45,7 @@ export function Contactsection() {
     }
   };
   return (
-    <div className="contact_section">
+    <div id="contact" className="contact_section">
       <h4 className="title_content">Formulario de contacto</h4>
       {/* <div className="contact_content"> */}
       <div className="contact_content">

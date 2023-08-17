@@ -1,0 +1,13 @@
+@import "~/src/scss/index.scss";
+
+.footer_section{
+    background-color: white;
+    color:$text-dark;
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+    padding: 25px 0;
+    p{
+        margin: 0 auto;
+        width: 90%;
+    }
+}

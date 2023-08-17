@@ -20,20 +20,17 @@
     .logo a {
       margin-left: 10px;
       cursor: pointer;
+      font-weight: bold;
+      font-size: 20px;
     }
     button {
       background: none;
       border: 0;
       display: none;
       margin-right: 10px;
-      svg {
-        width: 100%;
-        display: block;
-        height: 20px;
-        fill: currentColor;
-      }
     }
     .menu_list {
+      margin-right: 10px;
       ul {
         list-style: none;
         display: flex;
@@ -50,7 +47,13 @@
             cursor: pointer;
             font-size: 14px;
             font-weight: bold;
+            padding: 5px;
+            transition: 0.3s ease-in-out all;
           }
+          // .active {
+          //   border-radius: 5px;
+          //   background-color: #f3cc03;
+          // }
         }
       }
     }
@@ -87,9 +90,9 @@
   .nav_section .nav_content .menu_list {
     display: none;
   }
-  .nav_section .nav_content .menu_list_movil{
+  .nav_section .nav_content .menu_list_movil {
     display: block;
-    &.active{
+    &.active {
       right: 0px !important;
     }
   }

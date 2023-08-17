@@ -5,7 +5,6 @@ import { Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import 'semantic-ui-css/components/icon.min.css';
 
-
 export function Firstsection() {
   const el = useRef(null);
   useEffect(() => {
@@ -18,7 +17,6 @@ export function Firstsection() {
       loop: true,
     });
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
   }, []);
