@@ -10,8 +10,7 @@ export function Nav() {
     <div className="nav_section">
       <div className="nav_content">
         <div className="logo">
-          <Link to="draquio" offset={-100} duration={500}>
-            {/* <Image src="/logo.png" /> */}
+          <Link to="draquio" spy={true} smooth={true} offset={-100} duration={500}>
             &lt;Draquio/&gt;
           </Link>
         </div>
