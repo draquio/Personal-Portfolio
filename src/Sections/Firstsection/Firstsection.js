@@ -33,7 +33,7 @@ export function Firstsection() {
         </div>
         <span className="summary_about_me">
           Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de{" "}
-          <b>inglés B2</b>, me dedico al desarrollo web enfocado en las buenas
+          <b>inglés B2</b>, me dedico al <b>desarrollo web</b> enfocado en las buenas
           prácticas y metodologías ágiles para brindar resultados de calidad.
         </span>
         <div className="icons_profile">

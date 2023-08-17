@@ -22,12 +22,12 @@ export function Aboutmesection() {
         </div>
         <div className="about_me_info">
           Soy Sergio Fernando Mercado Galarza, tengo 26 años y soy de Bolivia,
-          estudié Ingeniería en Sistemas en la Universidad Privada Domingo Savio
-          y también inglés en el Centro Boliviano Americano (CBA). <br />
+          estudié <b>Ingeniería en Sistemas</b> en la Universidad Privada Domingo Savio
+          y también <b>inglés</b> en el Centro Boliviano Americano (CBA). <br />
           <br />
-          A lo largo de los años he trabajo con diferentes tecnologías, la
+          A lo largo de los años he trabajado con diferentes tecnologías, la
           mayoría en proyectos personales monetizados, también trabajé haciendo
-          SEO para blogs y canales de Youtube. <br />
+          <b>SEO para blogs</b> y canales de Youtube. <br />
           Una de mis metas es poder dedicarme a tiempo completo a mi más grande
           pasión el "Desarrollo web".
         </div>
