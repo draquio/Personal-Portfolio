@@ -52,7 +52,7 @@ export function Projectsection() {
 
         {/* Tercer */}
         <div className="card_project">
-          <h4><Icon name="shop" />Draquio Blog Wordpress</h4>
+          <h4><Icon name="microphone" />Draquio Blog Wordpress</h4>
           <div className="card_img blog-wordpress_img">
             <div className="card_img_content">
               Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave.
