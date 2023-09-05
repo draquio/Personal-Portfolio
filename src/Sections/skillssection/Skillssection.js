@@ -11,7 +11,7 @@ export function Skillssection() {
       <div className="skill_content">
         <div className="skill_icons_section">
           <h4>FrontEnd</h4>
-          <div className="tecnology_content_frontend">
+          <div className="tecnology_content">
             <div className="icon_container">
               <Image className="icon_skill" src="/tecnologies/html.png" />
               HTML

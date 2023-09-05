@@ -2,7 +2,6 @@
 
 .skills_section {
   padding: 60px 10px 100px 10px;
-  //   max-width: 900px;
   margin: 10px auto;
   background-color: #f7f7f7;
 
@@ -16,11 +15,10 @@
     margin: auto;
     .skill_icons_section {
       width: 55%;
-      .tecnology_content_frontend {
+      .tecnology_content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0px;
+        grid-template-rows: 1fr;
         grid-row-gap: 20px;
         .icon_container {
           display: flex;
@@ -32,25 +30,10 @@
           .icon_skill {
             width: 50px;
             height: auto;
-          }
-        }
-      }
-      .tecnology_content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        .icon_container {
-          display: flex;
-          flex-direction: column;
-          text-align: center;
-          justify-content: center;
-          align-items: center;
-          gap: 5px;
-          .icon_skill {
-            width: 50px;
-            height: auto;
+            transition: 0.3s ease all;
+            &:hover{
+              transform: scale(1.2);
+            }
           }
         }
       }
