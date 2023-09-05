@@ -25,7 +25,7 @@ export function Nav() {
         <nav className='menu_list'>
           <ul>
             <li>
-              <Link activeClass="active" to="about_me" spy={true} smooth={true} offset={0} duration={500}>
+              <Link activeClass="active"  to="about_me" spy={true} smooth={true} offset={0} duration={500}>
                 ¿Quién soy?
               </Link>
             </li>
@@ -51,23 +51,23 @@ export function Nav() {
         <nav className={`menu_list_movil ${isActive ? "active" : ""}`}>
           <ul>
             <li>
-              <Link activeClass="active" to="about_me" spy={true} smooth={true} offset={0} duration={500}>
+              <Link activeClass="active" onClick={onActive} to="about_me" spy={true} smooth={true} offset={0} duration={500}>
                 ¿Quién soy?
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={500}>
+              <Link activeClass="active" onClick={onActive} to="skills" spy={true} smooth={true} offset={0} duration={500}>
                 Habilidades
               </Link>
             </li>
 
             <li>
-              <Link activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}>
+              <Link activeClass="active" onClick={onActive} to="projects" spy={true} smooth={true} offset={0} duration={500}>
                 Proyectos
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>
+              <Link activeClass="active" onClick={onActive} to="contact" spy={true} smooth={true} offset={0} duration={500}>
                 Contacto
               </Link>
             </li>

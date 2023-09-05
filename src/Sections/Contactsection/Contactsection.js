@@ -49,6 +49,7 @@ export function Contactsection() {
       <h4 className="title_content">Formulario de contacto</h4>
       {/* <div className="contact_content"> */}
       <div className="contact_content">
+        <div className="form_contact">
         <form onSubmit={sendContactForm}>
           <input
             type="text"
@@ -82,6 +83,19 @@ export function Contactsection() {
             Enviar
           </button>
         </form>
+        {messagealert && (
+        <label>
+          <input type="checkbox" className="alertCheckbox" />
+          <div className={typeclass}>
+            <span className="alertClose">X</span>
+            <span className="alertText">
+              {messagealert}
+              <br className="clear" />
+            </span>
+          </div>
+        </label>
+      )}
+        </div>
         <div className="contact_info">
           {/* <h4>¿Hablamos?</h4> */}
           <Player
@@ -97,19 +111,7 @@ export function Contactsection() {
           ></Player>
         </div>
       </div>
-      {messagealert && (
-        <label>
-          <input type="checkbox" className="alertCheckbox" />
-          <div className={typeclass}>
-            <span className="alertClose">X</span>
-            <span className="alertText">
-              {messagealert}
-              <br className="clear" />
-            </span>
-          </div>
-        </label>
-      )}
-      {/* </div> */}
+
     </div>
   );
 }

@@ -63,7 +63,8 @@
       position: absolute;
       width: 100%;
       top: 55px;
-      right: 500px;
+      // right: 500px;
+      right: 100%;
       background: rgb(255 255 255 / 90%);
       backdrop-filter: blur(10px);
       transition: 0.3s ease-in-out all;
@@ -86,14 +87,14 @@
 }
 
 // Nav movil
-@media (max-width: $responsive_nav) {
+@media (max-width: $responsive_media) {
   .nav_section .nav_content .menu_list {
     display: none;
   }
   .nav_section .nav_content .menu_list_movil {
     display: block;
     &.active {
-      right: 0px !important;
+      right: 0%;
     }
   }
   .nav_section .nav_content .responsive_menu_button {

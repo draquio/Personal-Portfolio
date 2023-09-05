@@ -32,8 +32,8 @@ export function Firstsection() {
           <span ref={el} className="dev_title_span"></span>
         </div>
         <span className="summary_about_me">
-          Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de{" "}
-          <b>inglés B2</b>, me dedico al <b>desarrollo web</b> enfocado en las buenas
+          Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de 
+          <b> inglés B2</b>, me dedico al <b>desarrollo web</b> enfocado en las buenas
           prácticas y metodologías ágiles para brindar resultados de calidad.
         </span>
         <div className="icons_profile">

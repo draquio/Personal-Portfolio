@@ -38,7 +38,7 @@ export function Projectsection() {
           <div className="card_img reactblog_img">
             <div className="card_img_content">
               Un blog con Front y Backend creado con el MERN stack.
-              <Link to="#" className="btn btn_red" target="_blank">
+              <Link to="https://draquioblog.vercel.app/" className="btn btn_red" target="_blank">
               <Icon name="code"/>Ver demo
               </Link>
             </div>
@@ -56,7 +56,7 @@ export function Projectsection() {
           <div className="card_img blog-wordpress_img">
             <div className="card_img_content">
               Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave.
-              <Link to="#" className="btn btn_red" target="_blank">
+              <Link to="https://www.draquio.com/" className="btn btn_red" target="_blank">
               <Icon name="code"/>Ver demo
               </Link>
             </div>

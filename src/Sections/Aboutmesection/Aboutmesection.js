@@ -27,7 +27,7 @@ export function Aboutmesection() {
           <br />
           A lo largo de los años he trabajado con diferentes tecnologías, la
           mayoría en proyectos personales monetizados, también trabajé haciendo 
-          <b>SEO para blogs </b> y canales de Youtube. <br />
+          <b> SEO para blogs </b> y canales de Youtube. <br />
           Una de mis metas es poder dedicarme a tiempo completo a mi más grande
           pasión el <b>"Desarrollo web".</b>
         </div>

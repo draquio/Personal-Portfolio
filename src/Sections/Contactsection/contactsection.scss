@@ -12,7 +12,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    flex-wrap: wrap;
     form {
       width: 65%;
       input {
@@ -109,15 +108,15 @@
   .contact_section .contact_content {
     flex-direction: column;
     gap: 20px;
-    form {
+    .form_contact {
       width: 100%;
-      input,
-      textarea {
-        width: 95%;
+      form {
+        width: 100%;
+        input,
+        textarea {
+          width: 94%;
+        }
       }
-      // .recaptcha_class > div > div{
-      //   margin: auto;
-      // }
     }
     .contact_info {
       width: 100%;
@@ -128,14 +127,18 @@
   }
 }
 @media (max-width: $responsive_small) {
-  .contact_section .contact_content form {
-    button{
+  .contact_section .contact_content .form_contact form {
+    input,
+    textarea {
+      width: 92%;
+    }
+    button {
       width: 100%;
     }
     .recaptcha_class {
       transform: scale(0.67);
       transform-origin: 0 0;
-      margin:0px;
+      margin: 0px;
     }
   }
 }
