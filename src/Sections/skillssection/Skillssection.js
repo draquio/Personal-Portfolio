@@ -130,7 +130,7 @@ export function Skillssection() {
               <Image
                 alt="Seo"
                 className="icon_skill"
-                src="/tecnologies/SEO.png"
+                src="/tecnologies/seo.png"
               />
               Seo
             </div>
@@ -146,7 +146,7 @@ export function Skillssection() {
               <Image
                 alt="tecnología Photoshop"
                 className="icon_skill"
-                src="/tecnologies/Photoshop.png"
+                src="/tecnologies/photoshop.png"
               />
               Photoshop
             </div>
