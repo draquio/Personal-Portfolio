@@ -6,6 +6,8 @@ import "./home.scss";
 import { useSelector } from "react-redux";
 import EN from "../Lenguages/EN.json";
 import ES from "../Lenguages/ES.json";
+
+
 export function Home() {
   var language;
   const languageglobal = useSelector(state => state.language.type);

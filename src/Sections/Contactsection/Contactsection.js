@@ -3,10 +3,13 @@ import "./contactsection.scss";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Player } from "@lottiefiles/react-lottie-player";
-import { Icon } from "semantic-ui-react";
+import { Icon, Button } from "semantic-ui-react";
+import 'semantic-ui-css/components/button.min.css';
+// import 'semantic-ui-css/components/icon.min.css';
 
 export function Contactsection(props) {
   const { language } = props
+  const [isLoading, setIsLoading] = useState(false);
   const captcha = useRef(null);
   const [messagealert, SetMessageAlert] = useState("");
   const [typeclass, SetTypeClass] = useState("alert error");
@@ -21,6 +24,7 @@ export function Contactsection(props) {
   };
   const sendContactForm = (e) => {
     e.preventDefault();
+    setIsLoading(true)
     emailjs.init("w_AaTYYpc9CxEFaVP");
     let templateParams = {
       user_name: e.target.email.value,
@@ -35,6 +39,7 @@ export function Contactsection(props) {
           .then(function () {
             SetTypeClass("alert success");
             SetMessageAlert("Tu correo fue enviado");
+            setIsLoading(false)
           });
       } else {
         SetTypeClass("alert error");
@@ -79,10 +84,10 @@ export function Contactsection(props) {
             onChange={handleCaptchaChange}
           />
 
-          <button type="submit" className="btn btn_purple">
+          <Button loading={isLoading} type="submit" color='violet'>
             <Icon name="send"/>
             {language.button}
-          </button>
+          </Button>
         </form>
         {messagealert && (
         <label>
@@ -98,7 +103,6 @@ export function Contactsection(props) {
       )}
         </div>
         <div className="contact_info">
-          {/* <h4>¿Hablamos?</h4> */}
           <Player
             className="contact_player"
             src="https://lottie.host/1d4a413a-a510-4b26-a63f-0aeeb8e0f561/MPkHLJM8qN.json"

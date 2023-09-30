@@ -46,6 +46,13 @@
       .recaptcha_class {
         margin-bottom: 5px;
       }
+      .ui.loading.button {
+        &:before,
+        &:after {
+          top: 44%;
+          left: 47%;
+        }
+      }
     }
   }
   .contact_info {
