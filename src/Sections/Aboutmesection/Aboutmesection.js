@@ -2,10 +2,11 @@ import React from "react";
 import "./aboutmesection.scss";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export function Aboutmesection() {
+export function Aboutmesection(props) {
+  const {language} = props
   return (
-    <div id="about_me" className="about_me_section">
-      <h2 className="title_content">Sobre mi</h2>
+    <div data-aos="fade-right"  id="about_me" className="about_me_section">
+      <h2 className="title_content">{language.title}</h2>
       <div className="about_me_content">
         <div className="about_me_img">
           <Player
@@ -21,15 +22,9 @@ export function Aboutmesection() {
           ></Player>
         </div>
         <div className="about_me_info">
-          Soy Sergio Fernando Mercado Galarza, tengo 26 años y soy de Bolivia,
-          estudié <b>Ingeniería en Sistemas</b> en la Universidad Privada Domingo Savio
-          y también <b>inglés</b> en el Centro Boliviano Americano (CBA). <br />
-          <br />
-          A lo largo de los años he trabajado con diferentes tecnologías, la
-          mayoría en proyectos personales monetizados, también trabajé haciendo 
-          <b> SEO para blogs </b> y canales de Youtube. <br />
-          Una de mis metas es poder dedicarme a tiempo completo a mi más grande
-          pasión el <b>"Desarrollo web".</b>
+          <p dangerouslySetInnerHTML={{ __html: language.content_One }}></p>
+          <p dangerouslySetInnerHTML={{ __html: language.content_Two }}></p>
+          <p dangerouslySetInnerHTML={{ __html: language.content_Three }}></p>
         </div>
       </div>
     </div>

@@ -4,42 +4,37 @@ import { Link } from "react-router-dom";
 import { Icon } from "semantic-ui-react"
 
 
-export function Projectsection() {
+export function Projectsection(props) {
+  const {language} = props
   return (
-    <div id="projects" className="project_section">
-      <h2 className="title_content">Proyectos</h2>
+    <div data-aos="zoom-in" id="projects" className="project_section">
+      <h2 className="title_content">{language.title}</h2>
       <div className="project_content">
-        <div className="card_project">
-          <h4><Icon name="fire"/> DameFans</h4>
-          <div className="card_img damefans_img">
+      <div className="card_project">
+          <h4><Icon name="blogger" /> {language.projects.projectQR.title}</h4>
+          <div className="card_img qrweb_img">
             <div className="card_img_content">
-              DameFans fue una web de intercambios sociales con{" "}
-              <b>+120k Usuarios</b> <b>+1 millón de visitas/mes</b>
-              <Link
-                to="https://web.archive.org/web/20190914214728/https://damefans.com/"
-                className="btn btn_red"
-                target="_blank"
-              >
-                <Icon name="code"/>Ver demo
+            {language.projects.projectQR.content}
+              <Link to="https://qrg.draquio.vercel.app/" className="btn btn_red" target="_blank">
+              <Icon name="code"/> {language.demo}
               </Link>
             </div>
           </div>
           <div className="footer_card">
-            <span className="footer_tag tag_php">PHP</span>
-            <span className="footer_tag tag_bootstrap">Bootstrap</span>
-            <span className="footer_tag tag_mysql">MySQL</span>
+            <span className="footer_tag tag_react">React</span>
+            <span className="footer_tag tag_redux">Redux Toolkit</span>
           </div>
         </div>
 
         {/* Segunda */}
 
         <div className="card_project">
-          <h4><Icon name="blogger" /> Blog React</h4>
+          <h4><Icon name="blogger" /> {language.projects.projectBlog.title}</h4>
           <div className="card_img reactblog_img">
             <div className="card_img_content">
-              Un blog con Front y Backend creado con el MERN stack.
+            {language.projects.projectBlog.content}
               <Link to="https://draquioblog.vercel.app/" className="btn btn_red" target="_blank">
-              <Icon name="code"/>Ver demo
+              <Icon name="code"/> {language.demo}
               </Link>
             </div>
           </div>
@@ -50,14 +45,58 @@ export function Projectsection() {
           </div>
         </div>
 
-        {/* Tercer */}
+
+        {/* Tercero */}
+
         <div className="card_project">
-          <h4><Icon name="microphone" />Draquio Blog Wordpress</h4>
+          <h4><Icon name="address card" /> {language.projects.projectPortfolio.title}</h4>
+          <div className="card_img portfolio_img">
+            <div className="card_img_content">
+            {language.projects.projectPortfolio.content}
+              <Link to="#" className="btn btn_red mtop" target="_blank">
+              <Icon name="code"/> {language.demo}
+              </Link>
+            </div>
+          </div>
+          <div className="footer_card">
+            <span className="footer_tag tag_react">React</span>
+            <span className="footer_tag tag_redux">Redux Toolkit</span>
+          </div>
+        </div>
+        {/* Cuarto */}
+
+        <div className="card_project">
+          <h4><Icon name="fire"/> {language.projects.projectDameFans.title}</h4>
+          <div className="card_img damefans_img">
+            <div className="card_img_content">
+              {/* DameFans fue una web de intercambios sociales con{" "}
+              <b>+120k Usuarios</b> <b>+1 millón de visitas/mes</b> */}
+              {language.projects.projectDameFans.content.info}<br/>
+              <b>{language.projects.projectDameFans.content.users}<br/>
+              {language.projects.projectDameFans.content.visits}</b>
+              <Link
+                to="https://web.archive.org/web/20190914214728/https://damefans.com/"
+                className="btn btn_red"
+                target="_blank"
+              >
+                <Icon name="code"/> {language.demo}
+              </Link>
+            </div>
+          </div>
+          <div className="footer_card">
+            <span className="footer_tag tag_php">PHP</span>
+            <span className="footer_tag tag_bootstrap">Bootstrap</span>
+            <span className="footer_tag tag_mysql">MySQL</span>
+          </div>
+        </div>
+        {/* Quinto */}
+        <div className="card_project">
+          <h4><Icon name="microphone" />{language.projects.projectDraquio.title}</h4>
           <div className="card_img blog-wordpress_img">
             <div className="card_img_content">
-              Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave.
+            {language.projects.projectDraquio.content}
               <Link to="https://www.draquio.com/" className="btn btn_red" target="_blank">
-              <Icon name="code"/>Ver demo
+              <Icon name="code"/> {language.demo}
               </Link>
             </div>
           </div>
@@ -65,21 +104,7 @@ export function Projectsection() {
             <span className="footer_tag tag_wordpress">Wordpress</span>
           </div>
         </div>
-        {/* Cuarto */}
-        <div className="card_project">
-          <h4><Icon name="address card" /> Portfolio</h4>
-          <div className="card_img portfolio_img">
-            <div className="card_img_content">
-              Portfolio personal
-              <Link to="#" className="btn btn_red mtop" target="_blank">
-              <Icon name="code"/>Ver demo
-              </Link>
-            </div>
-          </div>
-          <div className="footer_card">
-            <span className="footer_tag tag_react">React</span>
-          </div>
-        </div>
+
       </div>
     </div>
   );

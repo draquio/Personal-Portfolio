@@ -1,0 +1,66 @@
+{
+  "Menu":{
+    "aboutme": "Who I am?",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "FS": {
+    "title": "Eng. Sergio Mercado",
+    "rol": {
+      "dev": "Web Developer",
+      "ing": "System Engineer"
+    },
+    "content": "I am Sergio Mercado, <b>System Engineer</b> with <b>english B2</b> level, i work as <b>web developer</b> focused on good practices and agile methodologies to provide quality results.",
+    "button": "Download CV"
+  },
+  "AM": {
+    "title": "About me",
+    "content_One": "Here Sergio Fernando Mercado Galarza, I am 26 years old and i am from Bolivia, i studied <b>System Engineer</b> at the Universiti Domingo Savio and also <b>english</b> at Centro Boliviano Americano (CBA).",
+    "content_Two": "Over the years I had worked with different tecnologies, most on personal monetized projects, also I worked doing <b>SEO for blogs</b> and Youtube channels.",
+    "content_Three": "One of my biggest goals is to be able to dedicate myself full time to my freatest passion <b>'Web development</b>."
+  },
+  "SK": {
+    "title": "Skills",
+    "bd": "Database",
+    "tools": "Other Tools",
+    "english": "English B2"
+  },
+  "PJ": {
+    "title": "Projects",
+    "projects":{
+      "projectQR":{
+        "title": "QR generator",
+        "content": "Easily generate and download QRs as images for Whatsapp, URLs, Wifi, Emails, etc"
+      },
+      "projectBlog":{
+        "title": "Blog React - Node",
+        "content": "A blog with Front y Backend made with MERN stack."
+      },
+      "projectPortfolio":{
+        "title": "Personal portfolio",
+        "content": "Personal portfolio made with React and Redux Toolkit"
+      },
+      "projectDameFans":{
+        "title": "DameFans",
+        "content": {
+          "info": "DameFans was a social exchange website with",
+          "users": "+120k Users",
+          "visits": "+1 million visits/month"
+        }
+      },
+      "projectDraquio":{
+        "title": "Draquio Blog Wordpress",
+        "content": "Blog made with Wordpress with SEO done to position some keywords"
+      }
+    },
+    "demo": "View demo"
+  },
+  "CF":{
+    "title": "Contact Form",
+    "name": "Your name",
+    "mail": "yourmail@mail.com",
+    "content": "I want to talk to you",
+    "button": "Send"
+  }
+}

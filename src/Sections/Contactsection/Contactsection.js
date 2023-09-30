@@ -5,7 +5,8 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Icon } from "semantic-ui-react";
 
-export function Contactsection() {
+export function Contactsection(props) {
+  const { language } = props
   const captcha = useRef(null);
   const [messagealert, SetMessageAlert] = useState("");
   const [typeclass, SetTypeClass] = useState("alert error");
@@ -45,22 +46,22 @@ export function Contactsection() {
     }
   };
   return (
-    <div id="contact" className="contact_section">
-      <h4 className="title_content">Formulario de contacto</h4>
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" id="contact" className="contact_section">
+      <h4 className="title_content">{language.title}</h4>
       {/* <div className="contact_content"> */}
       <div className="contact_content">
         <div className="form_contact">
         <form onSubmit={sendContactForm}>
           <input
             type="text"
-            placeholder="Tu nombre"
+            placeholder={language.name}
             className="contact_input"
             name="user"
             required
           />
           <input
             type="email"
-            placeholder="correo@mail.com"
+            placeholder={language.mail}
             className="contact_input"
             name="email"
             required
@@ -68,7 +69,7 @@ export function Contactsection() {
           <textarea
             name="message"
             className="contact_textarea"
-            placeholder="Quiero hablar contigo"
+            placeholder={language.content}
             required
           ></textarea>
           <ReCAPTCHA
@@ -80,7 +81,7 @@ export function Contactsection() {
 
           <button type="submit" className="btn btn_purple">
             <Icon name="send"/>
-            Enviar
+            {language.button}
           </button>
         </form>
         {messagealert && (

@@ -1,11 +1,27 @@
 import React, { useState } from "react";
 import "./Nav.scss";
+import { useDispatch, useSelector } from "react-redux";
+import { changelanguage } from "../../feactures/languages/languageSlice";
 import { Link } from "react-scroll";
-export function Nav() {
+export function Nav(props) {
+  const {len} = props;
+  const disaptch = useDispatch();
   const [isActive, SetIsActive] = useState(false);
+  const [language, Setlanguage] = useState(useSelector(state => state.language.type));
   const onActive = () => {
     SetIsActive(!isActive);
   };
+  const selectLenguage = () => {
+    if (language === "ES") {
+      disaptch(changelanguage("EN"));
+      Setlanguage("EN")
+    } else {
+      disaptch(changelanguage("ES"));
+      Setlanguage("ES")
+    }
+
+  }
+
   return (
     <div className="nav_section">
       <div className="nav_content">
@@ -23,26 +39,30 @@ export function Nav() {
           <span></span>
         </button>
         <nav className='menu_list'>
+
           <ul>
             <li>
               <Link activeClass="active"  to="about_me" spy={true} smooth={true} offset={0} duration={500}>
-                ¿Quién soy?
+                {len.aboutme}
               </Link>
             </li>
             <li>
               <Link activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={500}>
-                Habilidades
+              {len.skills}
               </Link>
             </li>
             <li>
               <Link activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}>
-                Proyectos
+              {len.projects}
               </Link>
             </li>
             <li>
               <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>
-                Contacto
+              {len.contact}
               </Link>
+            </li>
+            <li>
+              <img onClick={selectLenguage} className="flag_lenguage" src={`/flag/${language}.png`} alt="Cambiar Idioma"/>
             </li>
           </ul>
         </nav>
@@ -52,24 +72,27 @@ export function Nav() {
           <ul>
             <li>
               <Link activeClass="active" onClick={onActive} to="about_me" spy={true} smooth={true} offset={0} duration={500}>
-                ¿Quién soy?
+              {len.aboutme}
               </Link>
             </li>
             <li>
               <Link activeClass="active" onClick={onActive} to="skills" spy={true} smooth={true} offset={0} duration={500}>
-                Habilidades
+              {len.skills}
               </Link>
             </li>
 
             <li>
               <Link activeClass="active" onClick={onActive} to="projects" spy={true} smooth={true} offset={0} duration={500}>
-                Proyectos
+              {len.projects}
               </Link>
             </li>
             <li>
               <Link activeClass="active" onClick={onActive} to="contact" spy={true} smooth={true} offset={0} duration={500}>
-                Contacto
+              {len.contact}
               </Link>
+            </li>
+            <li>
+              <img onClick={selectLenguage} className="flag_lenguage" src={`/flag/${language}.png`} alt="Cambiar Idioma"/>
             </li>
           </ul>
         </nav>

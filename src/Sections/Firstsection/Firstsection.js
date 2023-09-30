@@ -5,36 +5,33 @@ import { Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import 'semantic-ui-css/components/icon.min.css';
 
-export function Firstsection() {
+export function Firstsection(props) {
+  const { language } = props;
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["&lt;Desarrollador Web/&gt;", "&lt;Ingeniero de Sistemas/&gt;"],
+      // strings: ["&lt;Desarrollador Web/&gt;", "&lt;Ingeniero de Sistemas/&gt;"],
+      strings: [`&lt;${language.FS.rol.dev}/&gt;`, `&lt;${language.FS.rol.ing}/&gt;`],
       typeSpeed: 100,
       backSpeed: 50,
-      // backDelay: 1050,
       startDelay: 200,
       loop: true,
     });
     return () => {
       typed.destroy();
     };
-  }, []);
+  }, [language]);
   return (
-    <div id="draquio" className="first-block">
+    <div data-aos="fade-down" id="draquio" className="first-block">
       <div className="img_block">
         <div className="avatar_main"></div>
       </div>
       <div className="about_me_block">
-        <h2>Ing. Sergio Mercado</h2>
-        {/* <span className="dev_title">&lt; Desarrollador Full Stack /&gt;</span> */}
+        <h2>{language.FS.title}</h2>
         <div className="dev_title">
           <span ref={el} className="dev_title_span"></span>
         </div>
-        <span className="summary_about_me">
-          Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de 
-          <b> inglés B2</b>, me dedico al <b>desarrollo web</b> enfocado en las buenas
-          prácticas y metodologías ágiles para brindar resultados de calidad.
+        <span className="summary_about_me" dangerouslySetInnerHTML={{__html:language.FS.content}}>
         </span>
         <div className="icons_profile">
           <Link target="_blank" to='https://www.linkedin.com/in/sergio-mercado-galarza-4a4b42274/'>
@@ -53,7 +50,7 @@ export function Firstsection() {
           
         </div>
         <div className="download_button">
-          <a className="btn btn_yellow" href="/public/document/Ing. Sergio Mercado CV.pdf" download>Descargar CV <Icon  name="download" /></a>
+          <a className="btn btn_yellow" href="/public/document/Ing. Sergio Mercado CV.pdf" download>{language.FS.button} <Icon  name="download" /></a>
         </div>
       </div>
     </div>

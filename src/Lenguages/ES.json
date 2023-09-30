@@ -1,0 +1,66 @@
+{
+  "Menu":{
+    "aboutme": "¿Quién soy?",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "FS": {
+    "title": "Ing. Sergio Mercado",
+    "rol": {
+      "dev": "Desarrollador Web",
+      "ing": "Ingeniero de Sistemas"
+    },
+    "content": "Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de <b>inglés B2</b>, me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
+    "button": "Descargar CV"
+  },
+  "AM": {
+    "title": "Sobre mi",
+    "content_One": "Aquí Sergio Fernando Mercado Galarza, tengo 26 años y soy de Bolivia, estudié <b>Ingeniería en Sistemas</b> en la Universidad Privada Domingo Savio y también <b>inglés</b> en el Centro Boliviano Americano (CBA).",
+    "content_Two": "A lo largo de los años he trabajado con diferentes tecnologías, la mayoría en proyectos personales monetizados, también trabajé haciendo <b>SEO para blogs</b> y canales de Youtube.",
+    "content_Three": "Una de mis mayores metas es poder dedicarme a tiempo completo a mi más grande pasión el <b>'Desarrollo web'</b>."
+  },
+  "SK": {
+    "title": "Habilidades",
+    "bd": "Base de datos",
+    "tools": "Otras Herramientas",
+    "english": "Inglés B2"
+  },
+  "PJ": {
+    "title": "Proyectos",
+    "projects":{
+      "projectQR":{
+        "title": "Generador de QR",
+        "content": "Genera y descargar QRs como imagen fácilmente para Whatsapp, URLs, Wifi, Email, etc"
+      },
+      "projectBlog":{
+        "title": "Blog React - Node",
+        "content": "Un blog con Front y Backend creado con el MERN stack."
+      },
+      "projectPortfolio":{
+        "title": "Portfolio personal",
+        "content": "Portfolio personal realizado con React y Redux Toolkit"
+      },
+      "projectDameFans":{
+        "title": "DameFans",
+        "content": {
+          "info": "DameFans fue una web de intercambios sociales con",
+          "users": "+120k Usuarios",
+          "visits": "+1 millón de visitas/mes"
+        }
+      },
+      "projectDraquio":{
+        "title": "Draquio Blog Wordpress",
+        "content": "Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave"
+      }
+    },
+    "demo": "Ver demo"
+  },
+  "CF":{
+    "title": "Formulario de contacto",
+    "name": "Tu nombre",
+    "mail": "tucorreo@mail.com",
+    "content": "Quiero hablar contigo",
+    "button": "Enviar"
+  }
+}

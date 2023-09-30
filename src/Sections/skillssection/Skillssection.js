@@ -4,10 +4,11 @@ import { Image } from "semantic-ui-react";
 
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export function Skillssection() {
+export function Skillssection(props) {
+  const {language} = props;
   return (
-    <div id="skills" className="skills_section">
-      <h2 className="title_content">Habilidades</h2>
+    <div data-aos="fade-up" id="skills" className="skills_section">
+      <h2 className="title_content">{language.title}</h2>
       <div className="skill_content">
         <div className="skill_icons_section">
           <h4>FrontEnd</h4>
@@ -89,7 +90,7 @@ export function Skillssection() {
               Python
             </div>
           </div>
-          <h4>Base de datos</h4>
+          <h4>{language.bd}</h4>
           <div className="tecnology_content">
             <div className="icon_container">
               <Image
@@ -116,7 +117,7 @@ export function Skillssection() {
               SQLServer
             </div>
           </div>
-          <h4>Otras Herramientas</h4>
+          <h4>{language.tools}</h4>
           <div className="tecnology_content">
             <div className="icon_container">
               <Image
@@ -156,7 +157,7 @@ export function Skillssection() {
                 className="icon_skill"
                 src="/tecnologies/english.png"
               />
-              Inglés B2
+              {language.english}
             </div>
           </div>
         </div>
