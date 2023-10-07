@@ -52,6 +52,10 @@
       "projectDraquio":{
         "title": "Draquio Blog Wordpress",
         "content": "Blog made with Wordpress with SEO done to position some keywords"
+      },
+      "projectTranslate":{
+        "title": "Translate",
+        "content": "Multi-language translator"
       }
     },
     "demo": "View demo"

@@ -48,6 +48,22 @@ export function Skillssection(props) {
             </div>
             <div className="icon_container">
               <Image
+                alt="tecnología frontend Typescript"
+                className="icon_skill"
+                src="/tecnologies/typescript.png"
+              />
+              TypeScript
+            </div>
+            <div className="icon_container">
+              <Image
+                alt="tecnología frontend Tailwind"
+                className="icon_skill"
+                src="/tecnologies/tailwind.png"
+              />
+              Tailwind
+            </div>
+            <div className="icon_container">
+              <Image
                 alt="tecnología frontend Bootstrap"
                 className="icon_skill"
                 src="/tecnologies/bootstrap.png"

@@ -73,6 +73,9 @@
       .qrweb_img {
         background-image: url("../../../public/projects/qrgeneratorweb.webp");
       }
+      .translate_web {
+        background-image: url("../../../public/projects/traductor.webp");
+      }
       // Fin prueba
       h4 {
         margin-left: 10px;
@@ -164,6 +167,10 @@
 }
 .tag_redux {
   background-color: #764abc;
+  color: $text-light;
+}
+.tag_typescript {
+  background-color: #3178c6;
   color: $text-light;
 }
 

@@ -10,7 +10,6 @@ export function Firstsection(props) {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      // strings: ["&lt;Desarrollador Web/&gt;", "&lt;Ingeniero de Sistemas/&gt;"],
       strings: [`&lt;${language.FS.rol.dev}/&gt;`, `&lt;${language.FS.rol.ing}/&gt;`],
       typeSpeed: 100,
       backSpeed: 50,

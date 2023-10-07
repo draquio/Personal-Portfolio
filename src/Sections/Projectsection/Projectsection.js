@@ -10,8 +10,9 @@ export function Projectsection(props) {
     <div data-aos="zoom-in" id="projects" className="project_section">
       <h2 className="title_content">{language.title}</h2>
       <div className="project_content">
+
       <div className="card_project">
-          <h4><Icon name="blogger" /> {language.projects.projectQR.title}</h4>
+          <h4><Icon name="qrcode" /> {language.projects.projectQR.title}</h4>
           <div className="card_img qrweb_img">
             <div className="card_img_content">
             {language.projects.projectQR.content}
@@ -27,6 +28,24 @@ export function Projectsection(props) {
         </div>
 
         {/* Segunda */}
+
+        <div className="card_project">
+          <h4><Icon name="translate" /> {language.projects.projectTranslate.title}</h4>
+          <div className="card_img translate_web">
+            <div className="card_img_content">
+            {language.projects.projectTranslate.content}
+              <Link to="https://traductor-bice.vercel.app/" className="btn btn_red" target="_blank">
+              <Icon name="code"/> {language.demo}
+              </Link>
+            </div>
+          </div>
+          <div className="footer_card">
+            <span className="footer_tag tag_react">React</span>
+            <span className="footer_tag tag_typescript">TypeScript</span>
+          </div>
+        </div>
+
+        {/* Tercera */}
 
         <div className="card_project">
           <h4><Icon name="blogger" /> {language.projects.projectBlog.title}</h4>
@@ -46,7 +65,7 @@ export function Projectsection(props) {
         </div>
 
 
-        {/* Tercero */}
+        {/* Cuarta */}
 
         <div className="card_project">
           <h4><Icon name="address card" /> {language.projects.projectPortfolio.title}</h4>
@@ -63,7 +82,8 @@ export function Projectsection(props) {
             <span className="footer_tag tag_redux">Redux Toolkit</span>
           </div>
         </div>
-        {/* Cuarto */}
+
+        {/* Quinta */}
 
         <div className="card_project">
           <h4><Icon name="fire"/> {language.projects.projectDameFans.title}</h4>
@@ -89,7 +109,9 @@ export function Projectsection(props) {
             <span className="footer_tag tag_mysql">MySQL</span>
           </div>
         </div>
-        {/* Quinto */}
+
+        {/* Sexta */}
+
         <div className="card_project">
           <h4><Icon name="microphone" />{language.projects.projectDraquio.title}</h4>
           <div className="card_img blog-wordpress_img">

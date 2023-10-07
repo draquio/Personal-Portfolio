@@ -44,16 +44,17 @@ export function Contactsection(props) {
       } else {
         SetTypeClass("alert error");
         SetMessageAlert("Tu correo ya fue enviado");
+        setIsLoading(false)
       }
     } else {
       SetTypeClass("alert error");
       SetMessageAlert("Completa el captcha por favor");
+      setIsLoading(false)
     }
   };
   return (
     <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" id="contact" className="contact_section">
       <h4 className="title_content">{language.title}</h4>
-      {/* <div className="contact_content"> */}
       <div className="contact_content">
         <div className="form_contact">
         <form onSubmit={sendContactForm}>

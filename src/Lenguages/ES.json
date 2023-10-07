@@ -52,6 +52,10 @@
       "projectDraquio":{
         "title": "Draquio Blog Wordpress",
         "content": "Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave"
+      },
+      "projectTranslate":{
+        "title": "Traductor",
+        "content": "Traductor de varios idiomas"
       }
     },
     "demo": "Ver demo"
