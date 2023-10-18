@@ -3,7 +3,6 @@ import "./Nav.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { changelanguage } from "../../feactures/languages/languageSlice";
 import { Link } from "react-scroll";
-import { Transition } from "semantic-ui-react";
 import "semantic-ui-css/components/transition.min.css";
 export function Nav(props) {
   const { len } = props;
