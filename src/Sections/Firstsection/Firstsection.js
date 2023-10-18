@@ -49,7 +49,7 @@ export function Firstsection(props) {
           
         </div>
         <div className="download_button">
-          <a className="btn btn_yellow" href="/public/document/Ing_Sergio_Mercado_CV.pdf" download>{language.FS.button} <Icon  name="download" /></a>
+          <a className="btn btn_yellow" download="Ing_Sergio_Mercado_CV.pdf" href={`${process.env.PUBLIC_URL}/document/Ing_Sergio_Mercado_CV.pdf`} download>{language.FS.button} <Icon  name="download" /></a>
         </div>
       </div>
     </div>
