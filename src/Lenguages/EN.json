@@ -57,6 +57,10 @@
       "projectTranslate":{
         "title": "Translate",
         "content": "Multi-language translator"
+      },
+      "projectMovie":{
+        "title": "TheMovie",
+        "content": "Website of Movies and series, also with the trending on both sections"
       }
     },
     "demo": "View demo"

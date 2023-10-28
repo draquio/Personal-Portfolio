@@ -57,6 +57,10 @@
       "projectTranslate":{
         "title": "Traductor",
         "content": "Traductor de varios idiomas"
+      },
+      "projectMovie":{
+        "title": "TheMovie",
+        "content": "Página web de películas y series, así como las tendencias en ambas secciones."
       }
     },
     "demo": "Ver demo"
