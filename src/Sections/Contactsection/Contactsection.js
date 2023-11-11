@@ -53,7 +53,9 @@ export function Contactsection(props) {
     }
   };
   return (
-    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" id="contact" className="contact_section">
+    <>
+    <div id="contact" ></div>
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className="contact_section">
       <h4 className="title_content">{language.title}</h4>
       <div className="contact_content">
         <div className="form_contact">
@@ -117,7 +119,7 @@ export function Contactsection(props) {
           ></Player>
         </div>
       </div>
-
     </div>
+    </>
   );
 }

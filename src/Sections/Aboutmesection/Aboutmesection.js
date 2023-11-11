@@ -5,7 +5,9 @@ import { Player } from "@lottiefiles/react-lottie-player";
 export function Aboutmesection(props) {
   const {language} = props
   return (
-    <div data-aos="fade-right"  id="about_me" className="about_me_section">
+    <>
+    <div id="about_me"></div>
+    <div data-aos="fade-right" className="about_me_section">
       <h2 className="title_content">{language.title}</h2>
       <div className="about_me_content">
         <div className="about_me_img">
@@ -28,5 +30,6 @@ export function Aboutmesection(props) {
         </div>
       </div>
     </div>
+    </>
   );
 }

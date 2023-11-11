@@ -7,7 +7,9 @@ import { Player } from "@lottiefiles/react-lottie-player";
 export function Skillssection(props) {
   const {language} = props;
   return (
-    <div data-aos="fade-up" id="skills" className="skills_section">
+    <>
+    <div id="skills"></div>
+    <div data-aos="fade-up" className="skills_section">
       <h2 className="title_content">{language.title}</h2>
       <div className="skill_content">
         <div className="skill_icons_section">
@@ -193,5 +195,6 @@ export function Skillssection(props) {
         </div>
       </div>
     </div>
+    </>
   );
 }

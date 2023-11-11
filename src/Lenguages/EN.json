@@ -27,42 +27,82 @@
     "tools": "Other Tools",
     "english": "English B2"
   },
-  "PJ": {
+  "PJS": {
     "title": "Projects",
-    "projects":{
-      "projectQR":{
-        "title": "QR generator",
-        "content": "Easily generate and download QRs as images for Whatsapp, URLs, Wifi, Emails, etc"
-      },
-      "projectBlog":{
-        "title": "Blog React - Node",
-        "content": "A blog with Front y Backend made with MERN stack."
-      },
-      "projectPortfolio":{
-        "title": "Personal portfolio",
-        "content": "Personal portfolio made with React and Redux Toolkit"
-      },
-      "projectDameFans":{
-        "title": "DameFans",
-        "content": {
-          "info": "DameFans was a social exchange website with",
-          "users": "+120k Users",
-          "visits": "+1 million visits/month"
-        }
-      },
-      "projectDraquio":{
-        "title": "Draquio Blog Wordpress",
-        "content": "Blog made with Wordpress with SEO done to position some keywords"
-      },
-      "projectTranslate":{
-        "title": "Translate",
-        "content": "Multi-language translator"
-      },
-      "projectMovie":{
+    "projects":[
+      {
         "title": "TheMovie",
-        "content": "Website of Movies and series, also with the trending on both sections"
-      }
-    },
+        "content": "Website of Movies and series, also with the trending on both sections.",
+        "img": "/projects/themovie.webp",
+        "tecnology": ["React", "Sass"],
+        "tag": ["react", "sass"],
+        "icon": "tv",
+        "link": "https://themovie-draquio.vercel.app/"
+      },
+      {
+        "title": "QR Generator",
+        "content": "Easily generate and download QRs as images for Whatsapp, URLs, Wifi, Emails, etc.",
+        "img": "/projects/qrgeneratorweb.webp",
+        "tecnology": ["React", "Redux Toolkit", "Sass"],
+        "tag": ["react", "redux", "sass"],
+        "icon": "qrcode",
+        "link": "https://qrg.draquio.vercel.app/"
+      },
+      {
+        "title": "Translate",
+        "content": "Multi-language translator",
+        "img": "/projects/traductor.webp",
+        "tecnology": ["React", "TypeScript", "Sass"],
+        "tag": ["react", "typescript", "sass"],
+        "icon": "translate",
+        "link": "https://traductor-bice.vercel.app/"
+      },
+      {
+        "title": "ThePics",
+        "content": "Gallery images website",
+        "img": "/projects/thepics.webp",
+        "tecnology": ["React", "Typescript", "Sass"],
+        "tag": ["react", "typescript", "sass"],
+        "icon": "image",
+        "link": "https://thepics-draquio.vercel.app/"
+      },
+      {
+        "title": "Blog React - Node",
+        "content": "A blog with Front y Backend made with MERN stack.",
+        "img": "/projects/reactblog.webp",
+        "tecnology": ["React", "Node", "Sass"],
+        "tag": ["react", "node", "sass"],
+        "icon": "blogger",
+        "link": "https://draquioblog.vercel.app/"
+      },
+      {
+        "title": "Personal Portfolio",
+        "content": "Personal portfolio made with React and Redux Toolkit",
+        "img": "/projects/draquio-portfolio.webp",
+        "tecnology": ["React", "Redux Toolkit", "Sass"],
+        "tag": ["react", "redux", "sass"],
+        "icon": "address card",
+        "link": "https://draquioportfolio.vercel.app/"
+      },
+      {
+        "title": "DameFans",
+        "content": "DameFans was a social exchange website with +120k Users and +1 million visits/month",
+        "img": "/projects/damefans.webp",
+        "tecnology": ["Php"],
+        "tag": ["php"],
+        "icon": "fire",
+        "link": "https://web.archive.org/web/20190914214728/https://damefans.com/"
+      },
+      {
+        "title": "Draquio Blog Wordpress",
+        "content": "Blog made with Wordpress with SEO done to position some keywords",
+        "img": "/projects/blog-wordpress.webp",
+        "tecnology": ["Wordpress"],
+        "tag": ["wordpress"],
+        "icon": "microphone",
+        "link": "https://www.draquio.com/"
+      } 
+    ],
     "demo": "View demo"
   },
   "CF":{

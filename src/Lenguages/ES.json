@@ -27,42 +27,82 @@
     "tools": "Otras Herramientas",
     "english": "Inglés B2"
   },
-  "PJ": {
+  "PJS": {
     "title": "Proyectos",
-    "projects":{
-      "projectQR":{
-        "title": "Generador de QR",
-        "content": "Genera y descargar QRs como imagen fácilmente para Whatsapp, URLs, Wifi, Email, etc"
-      },
-      "projectBlog":{
-        "title": "Blog React - Node",
-        "content": "Un blog con Front y Backend creado con el MERN stack."
-      },
-      "projectPortfolio":{
-        "title": "Portfolio personal",
-        "content": "Portfolio personal realizado con React y Redux Toolkit"
-      },
-      "projectDameFans":{
-        "title": "DameFans",
-        "content": {
-          "info": "DameFans fue una web de intercambios sociales con",
-          "users": "+120k Usuarios",
-          "visits": "+1 millón de visitas/mes"
-        }
-      },
-      "projectDraquio":{
-        "title": "Draquio Blog Wordpress",
-        "content": "Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave"
-      },
-      "projectTranslate":{
-        "title": "Traductor",
-        "content": "Traductor de varios idiomas"
-      },
-      "projectMovie":{
+    "projects":[
+      {
         "title": "TheMovie",
-        "content": "Página web de películas y series, así como las tendencias en ambas secciones."
-      }
-    },
+        "content": "Página web de películas y series, así como las tendencias en ambas secciones.",
+        "img": "/projects/themovie.webp",
+        "tecnology": ["React", "Sass"],
+        "tag": ["react", "sass"],
+        "icon": "tv",
+        "link": "https://themovie-draquio.vercel.app/"
+      },
+      {
+        "title": "Generador de QR",
+        "content": "Genera y descargar QRs como imagen fácilmente para Whatsapp, URLs, Wifi, Email, etc",
+        "img": "/projects/qrgeneratorweb.webp",
+        "tecnology": ["React", "Redux Toolkit", "Sass"],
+        "tag": ["react", "redux", "sass"],
+        "icon": "qrcode",
+        "link": "https://qrg.draquio.vercel.app/"
+      },
+      {
+        "title": "Traductor",
+        "content": "Traductor de varios idiomas",
+        "img": "/projects/traductor.webp",
+        "tecnology": ["React", "TypeScript", "Sass"],
+        "tag": ["react", "typescript", "sass"],
+        "icon": "translate",
+        "link": "https://traductor-bice.vercel.app/"
+      },
+      {
+        "title": "ThePics",
+        "content": "Página web de galería de imágenes",
+        "img": "/projects/thepics.webp",
+        "tecnology": ["React", "Typescript", "Sass"],
+        "tag": ["react", "typescript", "sass"],
+        "icon": "image",
+        "link": "https://thepics-draquio.vercel.app/"
+      },
+      {
+        "title": "Blog React - Node",
+        "content": "Un blog con Front y Backend creado con el MERN stack.",
+        "img": "/projects/reactblog.webp",
+        "tecnology": ["React", "Node", "Sass"],
+        "tag": ["react", "node", "sass"],
+        "icon": "blogger",
+        "link": "https://draquioblog.vercel.app/"
+      },
+      {
+        "title": "Portfolio personal",
+        "content": "Portfolio personal realizado con React y Redux Toolkit",
+        "img": "/projects/draquio-portfolio.webp",
+        "tecnology": ["React", "Redux Toolkit", "Sass"],
+        "tag": ["react", "redux", "sass"],
+        "icon": "address card",
+        "link": "https://draquioportfolio.vercel.app/"
+      },
+      {
+        "title": "DameFans",
+        "content": "DameFans fue una web de intercambios sociales con +120k Usuarios y +1 millón de visitas/mes",
+        "img": "/projects/damefans.webp",
+        "tecnology": ["Php"],
+        "tag": ["php"],
+        "icon": "fire",
+        "link": "https://web.archive.org/web/20190914214728/https://damefans.com/"
+      },
+      {
+        "title": "Draquio Blog Wordpress",
+        "content": "Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave",
+        "img": "/projects/blog-wordpress.webp",
+        "tecnology": ["Wordpress"],
+        "tag": ["wordpress"],
+        "icon": "microphone",
+        "link": "https://www.draquio.com/"
+      } 
+    ],
     "demo": "Ver demo"
   },
   "CF":{

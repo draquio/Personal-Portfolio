@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Firstsection, Nav, Aboutmesection, Skillssection, Projectsection, Contactsection, Footer  } from "../Sections";
+import { Firstsection, Nav, Aboutmesection, Skillssection, Contactsection, Footer, ProjectSections  } from "../Sections";
 import "./home.scss";
 import { useSelector } from "react-redux";
 import EN from "../Lenguages/EN.json";
@@ -33,7 +33,7 @@ export function Home() {
         <Firstsection language={language}/>
         <Aboutmesection language={language.AM}/>
         <Skillssection language={language.SK}/>
-        <Projectsection language={language.PJ}/>
+        <ProjectSections language={language.PJS}/>
         <Contactsection language={language.CF}/>
       </main>
       <footer>
