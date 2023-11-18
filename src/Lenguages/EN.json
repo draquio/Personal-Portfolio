@@ -40,6 +40,15 @@
         "link": "https://themovie-draquio.vercel.app/"
       },
       {
+        "title": "DownloadVideos",
+        "content": "Download videos free from Youtube and Tiktok",
+        "img": "/projects/descargavideos.webp",
+        "tecnology": ["React", "TypeScript", "Sass"],
+        "tag": ["react", "typescript", "sass"],
+        "icon": "cloud download",
+        "link": "https://descargavideos.vercel.app/"
+      },
+      {
         "title": "QR Generator",
         "content": "Easily generate and download QRs as images for Whatsapp, URLs, Wifi, Emails, etc.",
         "img": "/projects/qrgeneratorweb.webp",
