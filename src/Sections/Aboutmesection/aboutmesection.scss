@@ -17,9 +17,28 @@
     }
     .about_me_info {
       width: 45%;
-      // p{
-      //   margin: 0;
-      // }
+      line-height: 25px;
+      p{
+        .bg_text{
+          border-radius: 2px;
+          padding: 0 2px;
+        }
+        .bg_yellow{
+          background-color: #f3cc03;
+          color: #002C40;
+        }
+        .bg_purple{
+          background-color: #472562;
+          color:white;
+        }
+        .bg_red{
+          background-color: #f16767;
+          color:white;
+        }
+        .text_line_bottom{
+          border-bottom: 3px solid #f16767;
+        }
+      }
     }
   }
 }

@@ -17,9 +17,9 @@
   },
   "AM": {
     "title": "About me",
-    "content_One": "Here, Sergio Fernando Mercado Galarza, I am 26 years old and I am from Bolivia, i studied <b>Systems Engineer</b> at University Domingo Savio and also <b>english</b> at Centro Boliviano Americano (CBA).",
-    "content_Two": "Over the years I had worked with different tecnologies, most on personal monetized projects, also I worked doing <b>SEO for blogs</b> and Youtube channels.",
-    "content_Three": "One of my biggest goals is to be able to dedicate myself full time to my freatest passion, the <b>'Web Development'</b>."
+    "content_One": "Hi, I'm Sergio Fernando Mercado Galarza, 26 years old, and I'm from Bolivia, I studied <b class='bg_text bg_yellow'>Systems Engineering</b> at Domingo Savio Private University and also <b class='bg_text bg_purple'>English</b> at Bolivian American Center (CBA).",
+    "content_Two": "Over the years, I had worked with different tecnologies, mostly on monetized personal projects, I have also worked on <b class='text_line_bottom'>SEO for blogs</b> and Youtube channels.",
+    "content_Three": "One of my biggest goals is to be able to dedicate myself full-time to my greatest passion, <b class='bg_text bg_red'>'Web Development'</b>."
   },
   "SK": {
     "title": "Skills",
