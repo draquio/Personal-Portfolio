@@ -58,6 +58,15 @@
         "link": "https://qrg.draquio.vercel.app/"
       },
       {
+        "title": "TheStore - Tienda en Linea",
+        "content": "Tienda en linea con LocalStorage y useContext",
+        "img": "/projects/thestore.webp",
+        "tecnology": ["React", "Sass", "LocalStorage"],
+        "tag": ["react", "sass", "localstorage"],
+        "icon": "shopping cart",
+        "link": "https://thestoreweb.vercel.app/"
+      },
+      {
         "title": "Traductor",
         "content": "Traductor de varios idiomas",
         "img": "/projects/traductor.webp",

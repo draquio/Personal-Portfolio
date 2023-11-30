@@ -58,6 +58,14 @@ export function Skillssection(props) {
             </div>
             <div className="icon_container">
               <Image
+                alt="tecnología frontend Redux"
+                className="icon_skill"
+                src="/tecnologies/redux.png"
+              />
+              Redux
+            </div>
+            <div className="icon_container">
+              <Image
                 alt="tecnología frontend Tailwind"
                 className="icon_skill"
                 src="/tecnologies/tailwind.png"
