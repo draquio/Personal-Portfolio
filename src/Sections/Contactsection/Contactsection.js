@@ -83,7 +83,7 @@ export function Contactsection(props) {
           <ReCAPTCHA
             ref={captcha}
             className="recaptcha_class"
-            sitekey=""
+            sitekey="6Lf4VrMnAAAAAAAUSnB9M0LyysUrpRDu_c5QdA_8"
             onChange={handleCaptchaChange}
           />
 
