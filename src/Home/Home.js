@@ -1,20 +1,29 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { Firstsection, Nav, Aboutmesection, Skillssection, Contactsection, Footer, ProjectSections  } from "../Sections";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
+import {
+  Firstsection,
+  Nav,
+  Aboutmesection,
+  Skillssection,
+  Contactsection,
+  Footer,
+  ProjectSections,
+} from "../Sections";
 import "./home.scss";
 import { useSelector } from "react-redux";
 import EN from "../Lenguages/EN.json";
 import ES from "../Lenguages/ES.json";
 
-
 export function Home() {
   var language;
-  const languageglobal = useSelector(state => state.language.type);
+  const languageglobal = useSelector((state) => state.language.type);
   if (languageglobal === "ES") {
-    language = {...ES};
+    language = { ...ES };
   } else {
-    language = {...EN}
+    language = { ...EN };
   }
   useEffect(() => {
     AOS.init({
@@ -27,14 +36,15 @@ export function Home() {
   return (
     <>
       <header>
-        <Nav len={language.Menu}/>
+        <Nav len={language.Menu} />
       </header>
       <main className="container-class">
-        <Firstsection language={language}/>
-        <Aboutmesection language={language.AM}/>
-        <Skillssection language={language.SK}/>
-        <ProjectSections language={language.PJS}/>
-        <Contactsection language={language.CF}/>
+        <SpeedInsights />
+        <Firstsection language={language} />
+        <Aboutmesection language={language.AM} />
+        <Skillssection language={language.SK} />
+        <ProjectSections language={language.PJS} />
+        <Contactsection language={language.CF} />
       </main>
       <footer>
         <Footer />

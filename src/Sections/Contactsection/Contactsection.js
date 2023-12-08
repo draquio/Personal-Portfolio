@@ -25,7 +25,7 @@ export function Contactsection(props) {
   const sendContactForm = (e) => {
     e.preventDefault();
     setIsLoading(true)
-    emailjs.init("");
+    emailjs.init("w_AaTYYpc9CxEFaVP");
     let templateParams = {
       user_name: e.target.email.value,
       user_email: e.target.user.value,
@@ -35,7 +35,7 @@ export function Contactsection(props) {
       if (isSent) {
         SetIsSent(false);
         emailjs
-          .send("", "", templateParams)
+          .send("service_57f4nyj", "template_my6qqr4", templateParams)
           .then(function () {
             SetTypeClass("alert success");
             SetMessageAlert("Tu correo fue enviado");
