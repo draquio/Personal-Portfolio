@@ -25,7 +25,7 @@ export function Contactsection(props) {
   const sendContactForm = (e) => {
     e.preventDefault();
     setIsLoading(true)
-    emailjs.init("w_AaTYYpc9CxEFaVP");
+    emailjs.init("");
     let templateParams = {
       user_name: e.target.email.value,
       user_email: e.target.user.value,
@@ -35,7 +35,7 @@ export function Contactsection(props) {
       if (isSent) {
         SetIsSent(false);
         emailjs
-          .send("service_57f4nyj", "template_my6qqr4", templateParams)
+          .send("", "", templateParams)
           .then(function () {
             SetTypeClass("alert success");
             SetMessageAlert("Tu correo fue enviado");
@@ -83,7 +83,7 @@ export function Contactsection(props) {
           <ReCAPTCHA
             ref={captcha}
             className="recaptcha_class"
-            sitekey="6Lf4VrMnAAAAAAAUSnB9M0LyysUrpRDu_c5QdA_8"
+            sitekey=""
             onChange={handleCaptchaChange}
           />
 
