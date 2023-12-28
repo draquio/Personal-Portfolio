@@ -40,6 +40,15 @@
         "link": "https://themovie-draquio.vercel.app/"
       },
       {
+        "title": "GifApp",
+        "content": "Website of Gifs through an API with searcher",
+        "img": "/projects/thegifs.webp",
+        "tecnology": ["Angular", "LocalStorage"],
+        "tag": ["angular", "localstorage"],
+        "icon": "folder open",
+        "link": "https://gifs-draquio.vercel.app/"
+      },
+      {
         "title": "DownloadVideos",
         "content": "Download videos free from Youtube and Tiktok",
         "img": "/projects/descargavideos.webp",
@@ -129,5 +138,99 @@
     "mail": "yourmail@mail.com",
     "content": "I want to talk to you",
     "button": "Send"
+  },
+  "SKILLS": {
+    "Frontend": [
+      {
+        "skill": "HTML5",
+        "icon": "/tecnologies/html.png"
+      },
+      {
+        "skill": "CSS3",
+        "icon": "/tecnologies/css.png"
+      },
+      {
+        "skill": "JavaScript",
+        "icon": "/tecnologies/javascript.png"
+      },
+      {
+        "skill": "React",
+        "icon": "/tecnologies/react.png"
+      },
+      {
+        "skill": "TypeScript",
+        "icon": "/tecnologies/typescript.png"
+      },
+      {
+        "skill": "Angular",
+        "icon": "/tecnologies/angular.png"
+      },
+      {
+        "skill": "Redux",
+        "icon": "/tecnologies/redux.png"
+      },
+      {
+        "skill": "Tailwind",
+        "icon": "/tecnologies/tailwind.png"
+      },
+      {
+        "skill": "Bootstrap",
+        "icon": "/tecnologies/bootstrap.png"
+      },
+      {
+        "skill": "Sass",
+        "icon": "/tecnologies/sass.png"
+      }
+    ],
+    "Backend":[
+      {
+        "skill": "PHP",
+        "icon": "/tecnologies/php.png"
+      },
+      {
+        "skill": "NodeJs",
+        "icon": "/tecnologies/node-js.png"
+      },
+      {
+        "skill": "Python",
+        "icon": "/tecnologies/python.png"
+      }
+    ],
+    "DB":[
+      {
+        "skill": "MongoDB",
+        "icon": "/tecnologies/mongodb.png"
+      },
+      {
+        "skill": "MySQL",
+        "icon": "/tecnologies/mysql.png"
+      },
+      {
+        "skill": "SQLServer",
+        "icon": "/tecnologies/sql-server.png"
+      }
+    ],
+    "Others":[
+      {
+        "skill": "Git",
+        "icon": "/tecnologies/git.png"
+      },
+      {
+        "skill": "SEO",
+        "icon": "/tecnologies/seo.png"
+      },
+      {
+        "skill": "Wordpress",
+        "icon": "/tecnologies/wordpress.png"
+      },
+      {
+        "skill": "Photoshop",
+        "icon": "/tecnologies/photoshop.png"
+      },
+      {
+        "skill": "English B2",
+        "icon": "/tecnologies/english.png"
+      }
+    ]
   }
 }

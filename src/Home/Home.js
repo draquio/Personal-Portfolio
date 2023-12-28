@@ -42,7 +42,7 @@ export function Home() {
         <SpeedInsights />
         <Firstsection language={language} />
         <Aboutmesection language={language.AM} />
-        <Skillssection language={language.SK} />
+        <Skillssection language={language.SK} skills={language.SKILLS} />
         <ProjectSections language={language.PJS} />
         <Contactsection language={language.CF} />
       </main>

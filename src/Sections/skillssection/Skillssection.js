@@ -5,204 +5,87 @@ import { Image } from "semantic-ui-react";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 export function Skillssection(props) {
-  const {language} = props;
+  const { language, skills } = props;
+  const frontend = skills.Frontend;
+  const backend = skills.Backend;
+  const db = skills.DB;
+  const others = skills.Others;
   return (
     <>
-    <div id="skills"></div>
-    <div data-aos="fade-up" className="skills_section">
-      <h2 className="title_content">{language.title}</h2>
-      <div className="skill_content">
-        <div className="skill_icons_section">
-          <h4>FrontEnd</h4>
-          <div className="tecnology_content">
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend HTML"
-                className="icon_skill"
-                src="/tecnologies/html.png"
-              />
-              HTML
+      <div id="skills"></div>
+      <div data-aos="fade-up" className="skills_section">
+        <h2 className="title_content">{language.title}</h2>
+        <div className="skill_content">
+          <div className="skill_icons_section">
+            <h4>FrontEnd</h4>
+            <div className="tecnology_content">
+              {frontend.map((language, index) => (
+                <div key={index} className="icon_container">
+                  <Image
+                    alt={language.skill}
+                    className="icon_skill"
+                    src={language.icon}
+                  />
+                  {language.skill}
+                </div>
+              ))}
             </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend CSS"
-                className="icon_skill"
-                src="/tecnologies/css.png"
-              />
-              CSS
+            <h4>Backend</h4>
+            <div className="tecnology_content">
+              {backend.map((language, index) => (
+                <div key={index} className="icon_container">
+                  <Image
+                    alt={language.skill}
+                    className="icon_skill"
+                    src={language.icon}
+                  />
+                  {language.skill}
+                </div>
+              ))}
             </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend Javascript"
-                className="icon_skill"
-                src="/tecnologies/javascript.png"
-              />
-              JavaScript
+            <h4>{language.bd}</h4>
+            <div className="tecnology_content">
+              {db.map((language, index) => (
+                <div key={index} className="icon_container">
+                  <Image
+                    alt={language.skill}
+                    className="icon_skill"
+                    src={language.icon}
+                  />
+                  {language.skill}
+                </div>
+              ))}
             </div>
-
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend React"
-                className="icon_skill"
-                src="/tecnologies/react.png"
-              />
-              React
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend Typescript"
-                className="icon_skill"
-                src="/tecnologies/typescript.png"
-              />
-              TypeScript
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend Redux"
-                className="icon_skill"
-                src="/tecnologies/redux.png"
-              />
-              Redux
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend Tailwind"
-                className="icon_skill"
-                src="/tecnologies/tailwind.png"
-              />
-              Tailwind
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend Bootstrap"
-                className="icon_skill"
-                src="/tecnologies/bootstrap.png"
-              />
-              Bootstrap
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología frontend Sass"
-                className="icon_skill"
-                src="/tecnologies/sass.png"
-              />
-              Sass
+            <h4>{language.tools}</h4>
+            <div className="tecnology_content">
+              {others.map((tool, index) => (
+                <div key={index} className="icon_container">
+                  <Image
+                    alt={tool.skill}
+                    className="icon_skill"
+                    src={tool.icon}
+                  />
+                  {tool.skill}
+                </div>
+              ))}
             </div>
           </div>
-          <h4>Backend</h4>
-          <div className="tecnology_content">
-            <div className="icon_container">
-              <Image
-                alt="tecnología backend PHP"
-                className="icon_skill"
-                src="/tecnologies/php.png"
-              />
-              PHP
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología backend NodeJS"
-                className="icon_skill"
-                src="/tecnologies/node-js.png"
-              />
-              NodeJS
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología backend Python"
-                className="icon_skill"
-                src="/tecnologies/python.png"
-              />
-              Python
-            </div>
+          {/* IMG */}
+          <div className="skill_img">
+            <Player
+              className="skill_player"
+              src="https://lottie.host/d529ee6e-4815-45b3-8ab6-98cba52a9c47/F3YatGd310.json"
+              background="transparent"
+              speed="1"
+              loop
+              controls
+              autoplay
+              direction="1"
+              mode="normal"
+            ></Player>
           </div>
-          <h4>{language.bd}</h4>
-          <div className="tecnology_content">
-            <div className="icon_container">
-              <Image
-                alt="tecnología base de datos MongoDB"
-                className="icon_skill"
-                src="/tecnologies/mongodb.png"
-              />
-              MongoDB
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología base de datos MySQL"
-                className="icon_skill"
-                src="/tecnologies/mysql.png"
-              />
-              MySQL
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología base de datos SQL Server"
-                className="icon_skill"
-                src="/tecnologies/sql-server.png"
-              />
-              SQLServer
-            </div>
-          </div>
-          <h4>{language.tools}</h4>
-          <div className="tecnology_content">
-            <div className="icon_container">
-              <Image
-                alt="tecnología Git"
-                className="icon_skill"
-                src="/tecnologies/git.png"
-              />
-              Git
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="Seo"
-                className="icon_skill"
-                src="/tecnologies/seo.png"
-              />
-              Seo
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología wordpress"
-                className="icon_skill"
-                src="/tecnologies/wordpress.png"
-              />
-              Wordpress
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="tecnología Photoshop"
-                className="icon_skill"
-                src="/tecnologies/photoshop.png"
-              />
-              Photoshop
-            </div>
-            <div className="icon_container">
-              <Image
-                alt="Inglés B2"
-                className="icon_skill"
-                src="/tecnologies/english.png"
-              />
-              {language.english}
-            </div>
-          </div>
-        </div>
-        {/* IMG */}
-        <div className="skill_img">
-          <Player
-            className="skill_player"
-            src="https://lottie.host/d529ee6e-4815-45b3-8ab6-98cba52a9c47/F3YatGd310.json"
-            background="transparent"
-            speed="1"
-            loop
-            controls
-            autoplay
-            direction="1"
-            mode="normal"
-          ></Player>
         </div>
       </div>
-    </div>
     </>
   );
 }
