@@ -38,14 +38,19 @@ export function Nav(props) {
             &lt;Draquio/&gt;
           </Link>
         </div>
-        <button
+        <input
           onClick={onActive}
-          className={`responsive_menu_button ${isActive ? "active" : ""}`}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+          hidden
+          className="check-icon"
+          id="check-icon"
+          name="check-icon"
+          type="checkbox"
+        />
+        <label className="icon-menu menu_mobile_icon" for="check-icon">
+          <div className="bar bar--1"></div>
+          <div className="bar bar--2"></div>
+          <div className="bar bar--3"></div>
+        </label>
         <nav className="menu_list">
           <ul>
             <li>

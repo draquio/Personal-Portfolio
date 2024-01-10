@@ -4,6 +4,10 @@
   padding: $padding-section;
   max-width: $max-width;
   margin: 10px auto;
+  p{
+    text-align: center;
+    margin-top: -30px;
+  }
   .contact_content {
     min-height: 275px;
     padding: 10px;
@@ -114,6 +118,7 @@
   .contact_section .contact_content {
     flex-direction: column;
     gap: 20px;
+
     .form_contact {
       width: 100%;
       form {

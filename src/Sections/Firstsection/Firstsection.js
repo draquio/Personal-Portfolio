@@ -46,18 +46,14 @@ export function Firstsection(props) {
           </Link>
           <Link
             target="_blank"
-            to="https://www.facebook.com/sergio.mercado.16568/"
+            to="https://github.com/draquio"
           >
-            <Icon size="large" name="facebook" />
-          </Link>
-          <Link target="_blank" to="https://www.instagram.com/draquio/">
-            <Icon size="large" name="instagram" />
+            <Icon size="large" name="github" />
           </Link>
           <Link
-            target="_blank"
-            to="https://www.youtube.com/channel/UCq1GwPQcE1fu8uE8up59JVQ"
+            to="mailto:draquio@gmail.com"
           >
-            <Icon size="large" name="youtube" />
+            <Icon size="large" name="mail" />
           </Link>
         </div>
         <div className="download_button">

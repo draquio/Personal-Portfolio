@@ -40,6 +40,15 @@
         "link": "https://themovie-draquio.vercel.app/"
       },
       {
+        "title": "Prueba técnica - Productos",
+        "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
+        "img": "/projects/pruebatecnica1.webp",
+        "tecnology": ["React", "Sass", "LocalStorage"],
+        "tag": ["react", "sass" ,"localstorage"],
+        "icon": "shopping basket",
+        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/"
+      },
+      {
         "title": "GifApp",
         "content": "Página web de Gifs mediante una API con buscador",
         "img": "/projects/thegifs.webp",
@@ -137,6 +146,8 @@
     "name": "Tu nombre",
     "mail": "tucorreo@mail.com",
     "content": "Quiero hablar contigo",
+    "info": "Háblame directamente a mi correo:",
+    "email": "draquio@gmail.com",
     "button": "Enviar"
   },
   "SKILLS": {
