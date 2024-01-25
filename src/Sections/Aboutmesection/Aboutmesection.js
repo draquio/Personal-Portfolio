@@ -2,8 +2,8 @@ import React from "react";
 import "./aboutmesection.scss";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export default function Aboutmesection(props) {
-  const {language} = props
+export function Aboutmesection(props) {
+  const {language} = props;
   return (
     <>
     <div id="about_me"></div>

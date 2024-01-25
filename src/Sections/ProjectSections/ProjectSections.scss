@@ -18,7 +18,7 @@
       border-radius: 5px;
       box-shadow: 0px 0px 8px 0px #e3e3e3;
       max-height: 350px;
-      min-width: 350px;
+      min-width: 310px;
       .item_card_title {
         margin: 10px;
       }
@@ -119,5 +119,19 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: $responsive_media) {
+  .project_sections .project_container {
+    flex-direction: column;
+    .item_card_project{
+      margin: auto;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .project_sections{
+    padding: 0px 10px 100px 10px;
   }
 }

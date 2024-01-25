@@ -5,7 +5,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import { Icon, Button } from "semantic-ui-react";
 import "semantic-ui-css/components/button.min.css";
 
-export default function Contactsection(props) {
+export function Contactsection(props) {
   const { language } = props;
   const [isLoading, setIsLoading] = useState(false);
   const [messagealert, SetMessageAlert] = useState("");

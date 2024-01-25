@@ -53,5 +53,3 @@ export function ProjectSections(props) {
     </>
   );
 }
-
-export default ProjectSections
