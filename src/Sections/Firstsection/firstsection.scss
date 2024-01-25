@@ -13,6 +13,7 @@
   background-size: cover;
   background-position: center;
   color:$text-light;
+  font-display: swap;
 }
 .img_block {
   width: 100%;
@@ -45,6 +46,7 @@
   gap: 7px 0;
   h2 {
     color: $text-yellow;
+    font-display: swap;
     font-weight: 900;
     margin-bottom: 0;
   }

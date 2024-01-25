@@ -25,6 +25,7 @@ export function Skillssection(props) {
                     alt={language.skill}
                     className="icon_skill"
                     src={language.icon}
+                    loading="lazy"
                   />
                   {language.skill}
                 </div>

@@ -17,7 +17,7 @@ export function ProjectSections(props) {
                 <Icon name={project.icon} /> {project.title}
               </h4>
               <div className="image_card">
-                <img src={project.img} alt={project.title} />
+                <img src={project.img} alt={project.title} loading="lazy" />
                 <div className="content_img">
                   {project.content}
                   <Link
