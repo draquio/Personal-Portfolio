@@ -37,7 +37,8 @@
         "tecnology": ["React", "Sass"],
         "tag": ["react", "sass"],
         "icon": "tv",
-        "link": "https://themovie-draquio.vercel.app/"
+        "link": "https://themovie-draquio.vercel.app/",
+        "code": "https://github.com/draquio/themovie"
       },
       {
         "title": "Prueba técnica - Productos",
@@ -46,7 +47,18 @@
         "tecnology": ["React", "Sass", "LocalStorage"],
         "tag": ["react", "sass" ,"localstorage"],
         "icon": "shopping basket",
-        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/"
+        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
+        "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
+      },
+      {
+        "title": "Prueba técnica Fullstack - Notas",
+        "content": "Página web para crear, editar, eliminar y archivar notas con Login por Usuario",
+        "img": "/projects/notas.webp",
+        "tecnology": ["React", "Sass", "Node"],
+        "tag": ["react", "sass" ,"node"],
+        "icon": "sticky note",
+        "link": "https://fullstack-frontend-nu.vercel.app/",
+        "code": "https://github.com/draquio/prueba-tecnica-tienda"
       },
       {
         "title": "GifApp",
@@ -55,7 +67,8 @@
         "tecnology": ["Angular", "LocalStorage"],
         "tag": ["angular", "localstorage"],
         "icon": "folder open",
-        "link": "https://gifs-draquio.vercel.app/"
+        "link": "https://gifs-draquio.vercel.app/",
+        "code": "https://github.com/draquio/GifsApp"
       },
       {
         "title": "DescargaVideos",
@@ -64,7 +77,8 @@
         "tecnology": ["React", "TypeScript", "Sass"],
         "tag": ["react", "typescript", "sass"],
         "icon": "cloud download",
-        "link": "https://descargavideos.vercel.app/"
+        "link": "https://descargavideos.vercel.app/",
+        "code": "https://github.com/draquio/VideoDonwloader"
       },
       {
         "title": "Generador de QR",
@@ -73,7 +87,8 @@
         "tecnology": ["React", "Redux Toolkit", "Sass"],
         "tag": ["react", "redux", "sass"],
         "icon": "qrcode",
-        "link": "https://qrg.draquio.vercel.app/"
+        "link": "https://qrg.draquio.vercel.app/",
+        "code": "https://github.com/draquio/qrgenerator"
       },
       {
         "title": "TheStore - Tienda en Linea",
@@ -82,7 +97,8 @@
         "tecnology": ["React", "Sass", "LocalStorage"],
         "tag": ["react", "sass", "localstorage"],
         "icon": "shopping cart",
-        "link": "https://thestoreweb.vercel.app/"
+        "link": "https://thestoreweb.vercel.app/",
+        "code": "https://github.com/draquio/thestore"
       },
       {
         "title": "Traductor",
@@ -91,7 +107,8 @@
         "tecnology": ["React", "TypeScript", "Sass"],
         "tag": ["react", "typescript", "sass"],
         "icon": "translate",
-        "link": "https://traductor-bice.vercel.app/"
+        "link": "https://traductor-bice.vercel.app/",
+        "code": "https://github.com/draquio/traductor"
       },
       {
         "title": "ThePics",
@@ -100,7 +117,8 @@
         "tecnology": ["React", "Typescript", "Sass"],
         "tag": ["react", "typescript", "sass"],
         "icon": "image",
-        "link": "https://thepics-draquio.vercel.app/"
+        "link": "https://thepics-draquio.vercel.app/",
+        "code": "https://github.com/draquio/thepics"
       },
       {
         "title": "Blog React - Node",
@@ -109,7 +127,8 @@
         "tecnology": ["React", "Node", "Sass"],
         "tag": ["react", "node", "sass"],
         "icon": "blogger",
-        "link": "https://draquioblog.vercel.app/"
+        "link": "https://draquioblog.vercel.app/",
+        "code": "https://github.com/draquio/frontendblog"
       },
       {
         "title": "Portfolio personal",
@@ -118,7 +137,8 @@
         "tecnology": ["React", "Redux Toolkit", "Sass"],
         "tag": ["react", "redux", "sass"],
         "icon": "address card",
-        "link": "https://draquioportfolio.vercel.app/"
+        "link": "https://draquioportfolio.vercel.app/",
+        "code": "https://github.com/draquio/portfolio"
       },
       {
         "title": "DameFans",
@@ -139,7 +159,8 @@
         "link": "https://www.draquio.com/"
       }
     ],
-    "demo": "Ver demo"
+    "demo": "Ver demo",
+    "code": "Ver código"
   },
   "CF": {
     "title": "Formulario de contacto",

@@ -17,7 +17,7 @@ export function ProjectSections(props) {
                 <Icon name={project.icon} /> {project.title}
               </h4>
               <div className="image_card">
-                <img src={project.img} alt="" />
+                <img src={project.img} alt={project.title} />
                 <div className="content_img">
                   {project.content}
                   <Link
@@ -25,8 +25,17 @@ export function ProjectSections(props) {
                     className="btn btn_yellow"
                     target="_blank"
                   >
-                    <Icon name="code" /> {language.demo}
+                    <Icon name="computer" /> {language.demo}
                   </Link>
+                  {project.code ? (<Link
+                    to={project.code}
+                    className="btn btn_red"
+                    target="_blank"
+                  >
+                    <Icon name="github" />{language.code}
+                  </Link>)
+                  : ""
+                  }
                 </div>
                 <div className="background_img"></div>
               </div>
