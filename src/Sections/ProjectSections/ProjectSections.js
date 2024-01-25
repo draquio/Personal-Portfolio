@@ -5,7 +5,6 @@ import { Icon } from "semantic-ui-react";
 
 export function ProjectSections(props) {
   const { language } = props;
-  console.log("este componente no debería cargar");
   return (
     <>
       <div id="projects"></div>

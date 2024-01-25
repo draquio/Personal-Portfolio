@@ -5,7 +5,6 @@ import { changelanguage } from "../../feactures/languages/languageSlice";
 import { Link } from "react-scroll";
 import "semantic-ui-css/components/transition.min.css";
 export function Nav(props) {
-  console.log("entra al nav");
   const { len } = props;
   const disaptch = useDispatch();
   const [isActive, SetIsActive] = useState(false);
