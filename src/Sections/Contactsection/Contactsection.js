@@ -18,7 +18,7 @@ export function Contactsection(props) {
   const sendContactForm = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    emailjs.init("w_AaTYYpc9CxEFaVP");
+    emailjs.init(process.env.REACT_APP_API_KEY_emailjs);
     let templateParams = {
       user_name: e.target.email.value,
       user_email: e.target.user.value,
