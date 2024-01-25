@@ -44,16 +44,16 @@ export function Home() {
       <header><Nav len={language.Menu} /></header>
       <main className="container-class">
         <Firstsection language={language} />
-        <Suspense fallback={<div>Cargando...</div>}>
+        <Suspense fallback={null}>
           <Aboutmesection language={language.AM} />
         </Suspense>
-        <Suspense fallback={<div>Cargando...</div>}>
+        <Suspense fallback={null}>
           <Skillssection language={language.SK} skills={language.SKILLS} />
         </Suspense>
-        <Suspense fallback={<div>Cargando...</div>}>
+        <Suspense fallback={null}>
           <ProjectSections language={language.PJS} />
         </Suspense>
-        <Suspense fallback={<div>Cargando...</div>}>
+        <Suspense fallback={null}>
           <Contactsection language={language.CF} />
         </Suspense>
         <SpeedInsights />
