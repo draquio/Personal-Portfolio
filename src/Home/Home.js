@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from '@vercel/analytics/react';
 
 import {
   Firstsection,
@@ -39,12 +40,13 @@ export function Home() {
         <Nav len={language.Menu} />
       </header>
       <main className="container-class">
-        <SpeedInsights />
         <Firstsection language={language} />
         <Aboutmesection language={language.AM} />
         <Skillssection language={language.SK} skills={language.SKILLS} />
         <ProjectSections language={language.PJS} />
         <Contactsection language={language.CF} />
+        <SpeedInsights />
+        <Analytics />
       </main>
       <footer>
         <Footer />
