@@ -13,8 +13,8 @@ import ES from "../Lenguages/ES.json";
 export function Home() {
   const [aboutheight, setAboutHeight] = useState(600);
   const [skillheight, setSkillHeight] = useState(1200);
-  const [projectheight, setProjectHeight] = useState(2560);
-  const [contactheight, setContactHeight] = useState(700);
+  const [projectheight, setProjectHeight] = useState(2700);
+  const [contactheight, setContactHeight] = useState(600);
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth <= 700) {
@@ -25,8 +25,8 @@ export function Home() {
       } else{
         setAboutHeight(600);
         setSkillHeight(1200)
-        setProjectHeight(2560)
-        setContactHeight(700)
+        setProjectHeight(2700)
+        setContactHeight(600)
       }
     }
     window.addEventListener('resize', handleResize);
