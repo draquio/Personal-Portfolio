@@ -1,20 +1,16 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./contactsection.scss";
 import emailjs from "@emailjs/browser";
-import ReCAPTCHA from "react-google-recaptcha";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Icon, Button } from "semantic-ui-react";
 import "semantic-ui-css/components/button.min.css";
-// import 'semantic-ui-css/components/icon.min.css';
 
 export function Contactsection(props) {
   const { language } = props;
   const [isLoading, setIsLoading] = useState(false);
-  const captcha = useRef(null);
   const [messagealert, SetMessageAlert] = useState("");
   const [typeclass, SetTypeClass] = useState("alert error");
   const [isSent, SetIsSent] = useState(true);
-
   const sendContactForm = (e) => {
     e.preventDefault();
     setIsLoading(true);
