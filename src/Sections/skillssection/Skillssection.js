@@ -4,7 +4,7 @@ import { Image } from "semantic-ui-react";
 
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export function Skillssection(props) {
+export default function Skillssection(props) {
   const { language, skills } = props;
   const frontend = skills.Frontend;
   const backend = skills.Backend;

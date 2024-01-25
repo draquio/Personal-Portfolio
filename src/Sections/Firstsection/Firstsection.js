@@ -24,7 +24,7 @@ export function Firstsection(props) {
     };
   }, [language]);
   return (
-    <div data-aos="fade-down" id="draquio" className="first-block">
+    <div id="draquio" data-aos="fade-down"  className="first-block">
       <div className="img_block">
         <div className="avatar_main"></div>
       </div>
@@ -68,3 +68,4 @@ export function Firstsection(props) {
     </div>
   );
 }
+
