@@ -2,12 +2,14 @@ import React from "react";
 import "./ProjectSections.scss";
 import { Link } from "react-router-dom";
 import { Icon } from "semantic-ui-react";
+import LazyLoad from "react-lazy-load";
 
 export function ProjectSections(props) {
   const { language } = props;
   return (
-    <>
+    <div style={{minHeight:'2700px', height:'100%'}}>
       <div id="projects"></div>
+      <LazyLoad offset={0}>
       <div className="project_sections" data-aos="zoom-in">
         <h2 className="title_content">{language.title}</h2>
         <div className="project_container">
@@ -50,6 +52,7 @@ export function ProjectSections(props) {
           ))}
         </div>
       </div>
-    </>
+      </LazyLoad>
+    </div>
   );
 }

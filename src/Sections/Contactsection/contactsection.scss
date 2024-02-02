@@ -49,9 +49,6 @@
           outline: none !important;
         }
       }
-      .recaptcha_class {
-        margin-bottom: 5px;
-      }
       .ui.loading.button {
         &:before,
         &:after {
@@ -141,9 +138,6 @@
   .contact_section .contact_content .form_contact form {
     button {
       width: 100%;
-    }
-    .recaptcha_class {
-      margin: 0 0 5px 0;
     }
   }
 }

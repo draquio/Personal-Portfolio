@@ -1,12 +1,14 @@
 import React from "react";
 import "./aboutmesection.scss";
 import { Player } from "@lottiefiles/react-lottie-player";
+import LazyLoad from 'react-lazy-load';
 
 export function Aboutmesection(props) {
   const {language} = props;
   return (
-    <>
+    <div style={{minHeight:'600px'}}>
     <div id="about_me"></div>
+    <LazyLoad offset={0}>
     <div data-aos="fade-right" className="about_me_section">
       <h2 className="title_content">{language.title}</h2>
       <div className="about_me_content">
@@ -30,6 +32,7 @@ export function Aboutmesection(props) {
         </div>
       </div>
     </div>
-    </>
+    </LazyLoad>
+    </div>
   );
 }

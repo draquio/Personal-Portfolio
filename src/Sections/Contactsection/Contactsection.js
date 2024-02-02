@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Icon, Button } from "semantic-ui-react";
 import "semantic-ui-css/components/button.min.css";
+import LazyLoad from "react-lazy-load";
 
 export function Contactsection(props) {
   const { language } = props;
@@ -34,8 +35,9 @@ export function Contactsection(props) {
     }
   };
   return (
-    <>
+    <div style={{minHeight:'600px', height:'100%'}}>
       <div id="contact"></div>
+      <LazyLoad offset={0}>
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
@@ -99,6 +101,7 @@ export function Contactsection(props) {
           </div>
         </div>
       </div>
-    </>
+    </LazyLoad>
+    </div>
   );
 }
