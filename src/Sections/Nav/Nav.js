@@ -45,6 +45,7 @@ export function Nav(props) {
           id="check-icon"
           name="check-icon"
           type="checkbox"
+          checked={isActive ? true : false}
         />
         <label className="icon-menu menu_mobile_icon" for="check-icon">
           <div className="bar bar--1"></div>

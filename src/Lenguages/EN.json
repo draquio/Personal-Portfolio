@@ -41,6 +41,16 @@
         "code": "https://github.com/draquio/themovie"
       },
       {
+        "title": "Weather Website",
+        "content": "Website where you can check the weather in your city with details by hour and day.",
+        "img": "/projects/clima.webp",
+        "tecnology": ["NextJs", "Tailwind"],
+        "tag": ["next", "tailwind"],
+        "icon": "cloud",
+        "link": "https://clima-draquio.vercel.app/",
+        "code": "https://github.com/draquio/weather"
+      },
+      {
         "title": "Technical test - Products",
         "content": "Technical test web page of a store to register product sales.",
         "img": "/projects/pruebatecnica1.webp",
@@ -176,93 +186,97 @@
     "Frontend": [
       {
         "skill": "HTML5",
-        "icon": "/tecnologies/html.png"
+        "icon": "/tecnologies/html.svg"
       },
       {
         "skill": "CSS3",
-        "icon": "/tecnologies/css.png"
+        "icon": "/tecnologies/css.svg"
       },
       {
         "skill": "JavaScript",
-        "icon": "/tecnologies/javascript.png"
+        "icon": "/tecnologies/javascript.svg"
       },
       {
         "skill": "React",
-        "icon": "/tecnologies/react.png"
+        "icon": "/tecnologies/react.svg"
+      },
+      {
+        "skill": "Next",
+        "icon": "/tecnologies/next.svg"
       },
       {
         "skill": "TypeScript",
-        "icon": "/tecnologies/typescript.png"
+        "icon": "/tecnologies/typescript.svg"
       },
       {
         "skill": "Angular",
-        "icon": "/tecnologies/angular.png"
+        "icon": "/tecnologies/angular.svg"
       },
       {
         "skill": "Redux",
-        "icon": "/tecnologies/redux.png"
+        "icon": "/tecnologies/redux.svg"
       },
       {
         "skill": "Tailwind",
-        "icon": "/tecnologies/tailwind.png"
+        "icon": "/tecnologies/tailwind.svg"
       },
       {
         "skill": "Bootstrap",
-        "icon": "/tecnologies/bootstrap.png"
+        "icon": "/tecnologies/bootstrap.svg"
       },
       {
         "skill": "Sass",
-        "icon": "/tecnologies/sass.png"
+        "icon": "/tecnologies/sass.svg"
       }
     ],
     "Backend":[
       {
         "skill": "PHP",
-        "icon": "/tecnologies/php.png"
+        "icon": "/tecnologies/php.svg"
       },
       {
         "skill": "NodeJs",
-        "icon": "/tecnologies/node-js.png"
+        "icon": "/tecnologies/node-js.svg"
       },
       {
         "skill": "Python",
-        "icon": "/tecnologies/python.png"
+        "icon": "/tecnologies/python.svg"
       }
     ],
     "DB":[
       {
         "skill": "MongoDB",
-        "icon": "/tecnologies/mongodb.png"
+        "icon": "/tecnologies/mongodb.svg"
       },
       {
         "skill": "MySQL",
-        "icon": "/tecnologies/mysql.png"
+        "icon": "/tecnologies/mysql.svg"
       },
       {
         "skill": "SQLServer",
-        "icon": "/tecnologies/sql-server.png"
+        "icon": "/tecnologies/sql-server.svg"
       }
     ],
     "Others":[
       {
         "skill": "Git",
-        "icon": "/tecnologies/git.png"
+        "icon": "/tecnologies/git.svg"
       },
       {
         "skill": "SEO",
-        "icon": "/tecnologies/seo.png"
+        "icon": "/tecnologies/seo.svg"
       },
       {
         "skill": "Wordpress",
-        "icon": "/tecnologies/wordpress.png"
+        "icon": "/tecnologies/wordpress.svg"
       },
       {
         "skill": "Photoshop",
-        "icon": "/tecnologies/photoshop.png"
+        "icon": "/tecnologies/photoshop.svg"
       },
       {
         "skill": "English B2",
-        "icon": "/tecnologies/english.png"
+        "icon": "/tecnologies/english.svg"
       }
     ]
   }
