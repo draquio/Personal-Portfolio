@@ -10,11 +10,11 @@ export function ProjectSections(props) {
     <div style={{minHeight:'2700px', height:'100%'}}>
       <div id="projects"></div>
       <LazyLoad offset={0}>
-      <div className="project_sections" data-aos="zoom-in">
+      <div className="project_sections">
         <h2 className="title_content">{language.title}</h2>
         <div className="project_container">
           {language.projects.map((project, index) => (
-            <div key={index} className="item_card_project">
+            <div key={index} className="item_card_project" data-aos="zoom-in">
               <h4 className="item_card_title">
                 <Icon name={project.icon} /> {project.title}
               </h4>
