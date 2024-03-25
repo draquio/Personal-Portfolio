@@ -41,44 +41,14 @@
         "code": "https://github.com/draquio/themovie"
       },
       {
-        "title": "Web del Clima",
-        "content": "Página web donde podrás consultar el clima de tu ciudad con detalles por hora y por día.",
-        "img": "/projects/clima.webp",
-        "tecnology": ["NextJs", "Tailwind"],
-        "tag": ["next", "tailwind"],
-        "icon": "cloud",
-        "link": "https://clima-draquio.vercel.app/",
-        "code": "https://github.com/draquio/weather"
-      },
-      {
-        "title": "Prueba técnica - Productos",
-        "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
-        "img": "/projects/pruebatecnica1.webp",
-        "tecnology": ["React", "Sass", "LocalStorage"],
-        "tag": ["react", "sass" ,"localstorage"],
-        "icon": "shopping basket",
-        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
-        "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
-      },
-      {
-        "title": "Prueba técnica Fullstack - Notas",
-        "content": "Página web para crear, editar, eliminar y archivar notas con Login por Usuario",
-        "img": "/projects/notas.webp",
-        "tecnology": ["React", "Sass", "Node"],
-        "tag": ["react", "sass" ,"node"],
-        "icon": "sticky note",
-        "link": "https://fullstack-frontend-nu.vercel.app/",
-        "code": "https://github.com/draquio/prueba-tecnica-tienda"
-      },
-      {
-        "title": "GifApp",
-        "content": "Página web de Gifs mediante una API con buscador",
-        "img": "/projects/thegifs.webp",
-        "tecnology": ["Angular", "LocalStorage"],
-        "tag": ["angular", "localstorage"],
-        "icon": "folder open",
-        "link": "https://gifs-draquio.vercel.app/",
-        "code": "https://github.com/draquio/GifsApp"
+        "title": "Chatz",
+        "content": "Chat grupal en linea ideal para equipos y entornos grupales.",
+        "img": "/projects/chat.webp",
+        "tecnology": ["React", "Tailwind", "Node", "Socket io"],
+        "tag": ["react", "tailwind", "node", "socketio"],
+        "icon": "chat",
+        "link": "https://chat-draquio.vercel.app/",
+        "code": "https://github.com/draquio/chat-client"
       },
       {
         "title": "DescargaVideos",
@@ -89,6 +59,26 @@
         "icon": "cloud download",
         "link": "https://descargavideos.vercel.app/",
         "code": "https://github.com/draquio/VideoDonwloader"
+      },
+      {
+        "title": "Web del Clima",
+        "content": "Página web donde podrás consultar el clima de tu ciudad con detalles por hora y por día.",
+        "img": "/projects/clima.webp",
+        "tecnology": ["NextJs", "Tailwind"],
+        "tag": ["next", "tailwind"],
+        "icon": "cloud",
+        "link": "https://clima-draquio.vercel.app/",
+        "code": "https://github.com/draquio/weather"
+      },
+      {
+        "title": "Traductor",
+        "content": "Traductor de varios idiomas",
+        "img": "/projects/traductor.webp",
+        "tecnology": ["React", "TypeScript", "Sass"],
+        "tag": ["react", "typescript", "sass"],
+        "icon": "translate",
+        "link": "https://traductor-bice.vercel.app/",
+        "code": "https://github.com/draquio/traductor"
       },
       {
         "title": "Generador de QR",
@@ -111,14 +101,24 @@
         "code": "https://github.com/draquio/thestore"
       },
       {
-        "title": "Traductor",
-        "content": "Traductor de varios idiomas",
-        "img": "/projects/traductor.webp",
-        "tecnology": ["React", "TypeScript", "Sass"],
-        "tag": ["react", "typescript", "sass"],
-        "icon": "translate",
-        "link": "https://traductor-bice.vercel.app/",
-        "code": "https://github.com/draquio/traductor"
+        "title": "Blog React - Node",
+        "content": "Un blog con Front y Backend creado con el MERN stack.",
+        "img": "/projects/reactblog.webp",
+        "tecnology": ["React", "Node", "Sass"],
+        "tag": ["react", "node", "sass"],
+        "icon": "blogger",
+        "link": "https://draquioblog.vercel.app/",
+        "code": "https://github.com/draquio/frontendblog"
+      },
+      {
+        "title": "GifApp",
+        "content": "Página web de Gifs mediante una API con buscador",
+        "img": "/projects/thegifs.webp",
+        "tecnology": ["Angular", "LocalStorage"],
+        "tag": ["angular", "localstorage"],
+        "icon": "folder open",
+        "link": "https://gifs-draquio.vercel.app/",
+        "code": "https://github.com/draquio/GifsApp"
       },
       {
         "title": "ThePics",
@@ -131,14 +131,24 @@
         "code": "https://github.com/draquio/thepics"
       },
       {
-        "title": "Blog React - Node",
-        "content": "Un blog con Front y Backend creado con el MERN stack.",
-        "img": "/projects/reactblog.webp",
-        "tecnology": ["React", "Node", "Sass"],
-        "tag": ["react", "node", "sass"],
-        "icon": "blogger",
-        "link": "https://draquioblog.vercel.app/",
-        "code": "https://github.com/draquio/frontendblog"
+        "title": "Prueba técnica - Productos",
+        "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
+        "img": "/projects/pruebatecnica1.webp",
+        "tecnology": ["React", "Sass", "LocalStorage"],
+        "tag": ["react", "sass" ,"localstorage"],
+        "icon": "shopping basket",
+        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
+        "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
+      },
+      {
+        "title": "Prueba técnica Fullstack - Notas",
+        "content": "Página web para crear, editar, eliminar y archivar notas con Login por Usuario",
+        "img": "/projects/notas.webp",
+        "tecnology": ["React", "Sass", "Node"],
+        "tag": ["react", "sass" ,"node"],
+        "icon": "sticky note",
+        "link": "https://fullstack-frontend-nu.vercel.app/",
+        "code": "https://github.com/draquio/prueba-tecnica-tienda"
       },
       {
         "title": "Portfolio personal",

@@ -41,45 +41,14 @@
         "code": "https://github.com/draquio/themovie"
       },
       {
-        "title": "Weather Website",
-        "content": "Website where you can check the weather in your city with details by hour and day.",
-        "img": "/projects/clima.webp",
-        "tecnology": ["NextJs", "Tailwind"],
-        "tag": ["next", "tailwind"],
-        "icon": "cloud",
-        "link": "https://clima-draquio.vercel.app/",
-        "code": "https://github.com/draquio/weather"
-      },
-      {
-        "title": "Technical test - Products",
-        "content": "Technical test web page of a store to register product sales.",
-        "img": "/projects/pruebatecnica1.webp",
-        "tecnology": ["React", "Sass", "LocalStorage"],
-        "tag": ["react", "sass" ,"localstorage"],
-        "icon": "shopping basket",
-        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
-        "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
-
-      },
-      {
-        "title": "Fullstack Technical Test – Notes",
-        "content": "Web page to create, edit, delete and archive notes with User Login",
-        "img": "/projects/notas.webp",
-        "tecnology": ["React", "Sass", "Node"],
-        "tag": ["react", "sass" ,"node"],
-        "icon": "sticky note",
-        "link": "https://fullstack-frontend-nu.vercel.app/",
-        "code": "https://github.com/draquio/prueba-tecnica-tienda"
-      },
-      {
-        "title": "GifApp",
-        "content": "Website of Gifs through an API with searcher",
-        "img": "/projects/thegifs.webp",
-        "tecnology": ["Angular", "LocalStorage"],
-        "tag": ["angular", "localstorage"],
-        "icon": "folder open",
-        "link": "https://gifs-draquio.vercel.app/",
-        "code": "https://github.com/draquio/GifsApp"
+        "title": "Chatz",
+        "content": "Online group chat ideal for teams and group environments.",
+        "img": "/projects/chat.webp",
+        "tecnology": ["React", "Tailwind", "Node", "Socket io"],
+        "tag": ["react", "tailwind", "node", "socketio"],
+        "icon": "chat",
+        "link": "https://chat-draquio.vercel.app/",
+        "code": "https://github.com/draquio/chat-client"
       },
       {
         "title": "DownloadVideos",
@@ -90,6 +59,26 @@
         "icon": "cloud download",
         "link": "https://descargavideos.vercel.app/",
         "code": "https://github.com/draquio/VideoDonwloader"
+      },
+      {
+        "title": "Weather Website",
+        "content": "Website where you can check the weather in your city with details by hour and day.",
+        "img": "/projects/clima.webp",
+        "tecnology": ["NextJs", "Tailwind"],
+        "tag": ["next", "tailwind"],
+        "icon": "cloud",
+        "link": "https://clima-draquio.vercel.app/",
+        "code": "https://github.com/draquio/weather"
+      },
+      {
+        "title": "Translate",
+        "content": "Multi-language translator",
+        "img": "/projects/traductor.webp",
+        "tecnology": ["React", "TypeScript", "Sass"],
+        "tag": ["react", "typescript", "sass"],
+        "icon": "translate",
+        "link": "https://traductor-bice.vercel.app/",
+        "code": "https://github.com/draquio/traductor"
       },
       {
         "title": "QR Generator",
@@ -112,14 +101,24 @@
         "code": "https://github.com/draquio/thestore"
       },
       {
-        "title": "Translate",
-        "content": "Multi-language translator",
-        "img": "/projects/traductor.webp",
-        "tecnology": ["React", "TypeScript", "Sass"],
-        "tag": ["react", "typescript", "sass"],
-        "icon": "translate",
-        "link": "https://traductor-bice.vercel.app/",
-        "code": "https://github.com/draquio/traductor"
+        "title": "Blog React - Node",
+        "content": "A blog with Front y Backend made with MERN stack.",
+        "img": "/projects/reactblog.webp",
+        "tecnology": ["React", "Node", "Sass"],
+        "tag": ["react", "node", "sass"],
+        "icon": "blogger",
+        "link": "https://draquioblog.vercel.app/",
+        "code": "https://github.com/draquio/frontendblog"
+      },
+      {
+        "title": "GifApp",
+        "content": "Website of Gifs through an API with searcher",
+        "img": "/projects/thegifs.webp",
+        "tecnology": ["Angular", "LocalStorage"],
+        "tag": ["angular", "localstorage"],
+        "icon": "folder open",
+        "link": "https://gifs-draquio.vercel.app/",
+        "code": "https://github.com/draquio/GifsApp"
       },
       {
         "title": "ThePics",
@@ -132,14 +131,25 @@
         "code": "https://github.com/draquio/thepics"
       },
       {
-        "title": "Blog React - Node",
-        "content": "A blog with Front y Backend made with MERN stack.",
-        "img": "/projects/reactblog.webp",
-        "tecnology": ["React", "Node", "Sass"],
-        "tag": ["react", "node", "sass"],
-        "icon": "blogger",
-        "link": "https://draquioblog.vercel.app/",
-        "code": "https://github.com/draquio/frontendblog"
+        "title": "Technical test - Products",
+        "content": "Technical test web page of a store to register product sales.",
+        "img": "/projects/pruebatecnica1.webp",
+        "tecnology": ["React", "Sass", "LocalStorage"],
+        "tag": ["react", "sass" ,"localstorage"],
+        "icon": "shopping basket",
+        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
+        "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
+
+      },
+      {
+        "title": "Fullstack Technical Test – Notes",
+        "content": "Web page to create, edit, delete and archive notes with User Login",
+        "img": "/projects/notas.webp",
+        "tecnology": ["React", "Sass", "Node"],
+        "tag": ["react", "sass" ,"node"],
+        "icon": "sticky note",
+        "link": "https://fullstack-frontend-nu.vercel.app/",
+        "code": "https://github.com/draquio/prueba-tecnica-tienda"
       },
       {
         "title": "Personal Portfolio",
