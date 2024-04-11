@@ -11,14 +11,14 @@
       "dev": "Web Developer",
       "ing": "System Engineer"
     },
-    "content": "I am Sergio Mercado, <b>System Engineer</b> with <b>B2 english </b> level, i work as <b>web developer</b> focused on good practices and agile methodologies to provide quality results.",
+    "content": "I am Sergio Mercado, <b>System Engineer</b> with <b>B2 english </b> level, for 1 and a half years i work as <b>web developer</b> focused on good practices and agile methodologies to provide quality results.",
     "button": "Download CV",
     "document": "Eng_Sergio_Mercado_CV"
   },
   "AM": {
     "title": "About me",
-    "content_One": "Hi, I'm Sergio Mercado Galarza, 26 years old, and I'm from Bolivia, I studied <b class='bg_text bg_yellow'>Systems Engineering</b> at Domingo Savio Private University and also <b class='bg_text bg_purple'>English</b> at Bolivian American Center (CBA).",
-    "content_Two": "Over the years, I had worked with different tecnologies, mostly on monetized personal projects, I have also worked on <b class='text_line_bottom'>SEO for blogs</b> and Youtube channels.",
+    "content_One": "Hi, I'm Sergio Mercado Galarza, 27 years old, and I'm from Bolivia, I studied <b class='bg_text bg_yellow'>Systems Engineering</b> at Domingo Savio Private University and also <b class='bg_text bg_purple'>English</b> at Bolivian American Center (CBA).",
+    "content_Two": "I have more than <b>1 year and a half</b> working with different technologies, mostly on monetized personal projects, I have also worked on <b class='text_line_bottom'>SEO for blogs</b> and Youtube channels.",
     "content_Three": "One of my biggest goals is to be able to dedicate myself full-time to my greatest passion, <b class='bg_text bg_red'>'Web Development'</b>."
   },
   "SK": {
@@ -251,6 +251,20 @@
       {
         "skill": "Python",
         "icon": "/tecnologies/python.svg"
+      }
+    ],
+    "Testing":[
+      {
+        "skill": "Vitest",
+        "icon": "/tecnologies/vitest.svg"
+      },
+      {
+        "skill": "Jest",
+        "icon": "/tecnologies/jest.svg"
+      },
+      {
+        "skill": "React Testing Library",
+        "icon": "/tecnologies/react-testing-library.svg"
       }
     ],
     "DB":[

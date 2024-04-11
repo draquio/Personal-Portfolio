@@ -7,6 +7,7 @@ export function Skillssection(props) {
   const { language, skills } = props;
   const frontend = skills.Frontend;
   const backend = skills.Backend;
+  const testing = skills.Testing;
   const db = skills.DB;
   const others = skills.Others;
   return (
@@ -41,6 +42,19 @@ export function Skillssection(props) {
                       src={language.icon}
                     />
                     {language.skill}
+                  </div>
+                ))}
+              </div>
+              <h4>Testing</h4>
+              <div className="tecnology_content">
+                {testing.map((testing, index) => (
+                  <div key={index} className="icon_container">
+                    <Image
+                      alt={testing.skill}
+                      className="icon_skill"
+                      src={testing.icon}
+                    />
+                    {testing.skill}
                   </div>
                 ))}
               </div>

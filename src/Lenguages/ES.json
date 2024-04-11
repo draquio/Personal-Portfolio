@@ -11,14 +11,14 @@
       "dev": "Desarrollador Web",
       "ing": "Ingeniero de Sistemas"
     },
-    "content": "Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de <b>inglés B2</b>, me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
+    "content": "Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de <b>inglés B2</b>, hace 1 año y medio me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
     "button": "Descargar CV",
     "document": "Ing_Sergio_Mercado_CV"
   },
   "AM": {
     "title": "Sobre mi",
-    "content_One": "Hola, soy Sergio Mercado Galarza, tengo 26 años y soy de Bolivia, estudié <b class='bg_text bg_yellow'>Ingeniería en Sistemas</b> en la Universidad Privada Domingo Savio y también <b class='bg_text bg_purple'>Inglés</b> en el Centro Boliviano Americano (CBA).",
-    "content_Two": "A lo largo de los años he trabajado con diferentes tecnologías, la mayoría en proyectos personales monetizados, también trabajé haciendo <b class='text_line_bottom'>SEO para blogs</b> y canales de Youtube.",
+    "content_One": "Hola, soy Sergio Mercado Galarza, tengo 27 años y soy de Bolivia, estudié <b class='bg_text bg_yellow'>Ingeniería en Sistemas</b> en la Universidad Privada Domingo Savio y también <b class='bg_text bg_purple'>Inglés</b> en el Centro Boliviano Americano (CBA).",
+    "content_Two": "Tengo más de <b>1 año y medio</b> trabajando con diferentes tecnologías, la mayoría en proyectos personales monetizados, también trabajé haciendo <b class='text_line_bottom'>SEO para blogs</b> y canales de Youtube.",
     "content_Three": "Una de mis mayores metas es poder dedicarme a tiempo completo a mi más grande pasión, el <b class='bg_text bg_red'>'Desarrollo Web'</b>."
   },
   "SK": {
@@ -250,6 +250,20 @@
       {
         "skill": "Python",
         "icon": "/tecnologies/python.svg"
+      }
+    ],
+    "Testing":[
+      {
+        "skill": "Vitest",
+        "icon": "/tecnologies/vitest.svg"
+      },
+      {
+        "skill": "Jest",
+        "icon": "/tecnologies/jest.svg"
+      },
+      {
+        "skill": "React Testing Library",
+        "icon": "/tecnologies/react-testing-library.svg"
       }
     ],
     "DB":[
