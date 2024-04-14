@@ -34,6 +34,7 @@ export function Nav(props) {
             smooth={true}
             offset={-100}
             duration={500}
+            aria-label="Portfolio personal"
           >
             &lt;Draquio/&gt;
           </Link>
@@ -62,6 +63,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección sobre mi"
               >
                 {len.aboutme}
               </Link>
@@ -74,6 +76,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección de habilidades"
               >
                 {len.skills}
               </Link>
@@ -86,6 +89,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección de proyectos"
               >
                 {len.projects}
               </Link>
@@ -98,6 +102,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección de contacto"
               >
                 {len.contact}
               </Link>
@@ -125,6 +130,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección de sobre mi en movil"
               >
                 {len.aboutme}
               </Link>
@@ -138,6 +144,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección de habilidades en movil"
               >
                 {len.skills}
               </Link>
@@ -152,6 +159,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección de proyectos en movil"
               >
                 {len.projects}
               </Link>
@@ -165,6 +173,7 @@ export function Nav(props) {
                 smooth={true}
                 offset={0}
                 duration={500}
+                aria-label="sección de contacto en movil"
               >
                 {len.contact}
               </Link>

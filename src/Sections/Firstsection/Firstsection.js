@@ -47,13 +47,15 @@ export function Firstsection(props) {
           <Link
             target="_blank"
             to="https://www.linkedin.com/in/sergio-mercado-galarza-4a4b42274/"
+            title="linkedin"
+            aria-label="linkedin red social"
           >
             <Icon size="large" name="linkedin" />
           </Link>
-          <Link target="_blank" to="https://github.com/draquio">
+          <Link target="_blank" to="https://github.com/draquio" title="github" aria-label="github">
             <Icon size="large" name="github" />
           </Link>
-          <Link to="mailto:draquio@gmail.com">
+          <Link to="mailto:draquio@gmail.com" title="mail" aria-label="mail">
             <Icon size="large" name="mail" />
           </Link>
         </div>
