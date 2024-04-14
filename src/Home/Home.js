@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 import { Firstsection, Nav, Footer, ProjectSections, Aboutmesection, Skillssection, Contactsection } from "../Sections";
 import "./home.scss";
@@ -21,7 +20,7 @@ export function Home() {
     AOS.init({
       duration: 1000,
       once: false,
-      offset: 300,
+      offset: 0,
       mirror: false,
     });
   }, []);
@@ -34,7 +33,6 @@ export function Home() {
         <Skillssection  language={language.SK} skills={language.SKILLS} />
         <ProjectSections language={language.PJS} />
         <Contactsection language={language.CF} />
-        <SpeedInsights />
         <Analytics />
       </main>
       <footer><Footer /></footer>

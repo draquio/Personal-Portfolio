@@ -24,43 +24,50 @@ export function Firstsection(props) {
     };
   }, [language]);
   return (
-    <div id="draquio" data-aos="fade-down"  className="first-block">
-      <div className="img_block">
+    <div id="draquio" className="first-block">
+      <div data-aos="fade-down" className="img_block">
         <div className="avatar_main"></div>
       </div>
       <div className="about_me_block">
-        <h2>{language.FS.title}</h2>
+        <h2 data-aos="fade-down">{language.FS.title}</h2>
         <div className="dev_title">
           <span ref={el} className="dev_title_span"></span>
         </div>
         <span
+          data-aos="zoom-in"
           className="summary_about_me"
           dangerouslySetInnerHTML={{ __html: language.FS.content }}
         ></span>
-        <div className="icons_profile">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-offset="-300"
+          className="icons_profile"
+        >
           <Link
             target="_blank"
             to="https://www.linkedin.com/in/sergio-mercado-galarza-4a4b42274/"
           >
             <Icon size="large" name="linkedin" />
           </Link>
-          <Link
-            target="_blank"
-            to="https://github.com/draquio"
-          >
+          <Link target="_blank" to="https://github.com/draquio">
             <Icon size="large" name="github" />
           </Link>
-          <Link
-            to="mailto:draquio@gmail.com"
-          >
+          <Link to="mailto:draquio@gmail.com">
             <Icon size="large" name="mail" />
           </Link>
         </div>
-        <div className="download_button">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-offset="-300"
+          className="download_button"
+        >
           <a
             className="btn btn_yellow"
             download
-            href={`/document/${language.FS.document}.pdf`}>
+            href={`/document/${language.FS.document}.pdf`}
+          >
             {language.FS.button} <Icon name="download" />
           </a>
         </div>
@@ -68,4 +75,3 @@ export function Firstsection(props) {
     </div>
   );
 }
-
