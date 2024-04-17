@@ -255,16 +255,20 @@
     ],
     "Testing":[
       {
+        "skill": "Cypress",
+        "icon": "/tecnologies/cypress.svg"
+      },
+      {
         "skill": "Vitest",
         "icon": "/tecnologies/vitest.svg"
       },
       {
-        "skill": "Jest",
-        "icon": "/tecnologies/jest.svg"
-      },
-      {
         "skill": "React Testing Library",
         "icon": "/tecnologies/react-testing-library.svg"
+      },
+      {
+        "skill": "Jest",
+        "icon": "/tecnologies/jest.svg"
       }
     ],
     "DB":[
