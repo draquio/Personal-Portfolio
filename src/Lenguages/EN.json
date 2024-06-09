@@ -241,8 +241,8 @@
     ],
     "Backend":[
       {
-        "skill": "PHP",
-        "icon": "/tecnologies/php.svg"
+        "skill": ".Net Core",
+        "icon": "/tecnologies/netcore.svg"
       },
       {
         "skill": "NodeJs",
@@ -251,6 +251,10 @@
       {
         "skill": "Python",
         "icon": "/tecnologies/python.svg"
+      },
+      {
+        "skill": "PHP",
+        "icon": "/tecnologies/php.svg"
       }
     ],
     "Testing":[
