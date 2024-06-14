@@ -27,6 +27,7 @@ body::-webkit-scrollbar-thumb{
     max-width: 100%;
     background-color: white;
     padding: 0;
+    min-height: 100vh;
     .separator_red{
         border-top: 1px dashed red;
     }
@@ -38,3 +39,59 @@ body::-webkit-scrollbar-thumb{
     color:$text-dark;
 }
 
+
+.tag {
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 5px;
+    color: $text-light;
+  }
+  .react {
+    background-color: #61dbfb;
+  }
+  .node {
+    background-color: #68a063;
+  }
+  .php {
+    background-color: #787cb5;
+  }
+  .redux {
+    background-color: #764abc;
+  }
+  .express {
+    background-color: #303030;
+  }
+  .typescript {
+    background-color: #3178c6;
+  }
+  .angular {
+    background-color: #eb455f;
+  }
+  .wordpress {
+    background-color: #374259;
+  }
+  .next {
+    background-color: #000000;
+  }
+  .tailwind {
+    background-color: #35bef8;
+  }
+  .sass {
+    background-color: #cf649a;
+  }
+  .mongodb {
+    background-color: #47A248;
+  }
+  .sqlserver {
+    background-color: #A91D22;
+  }
+  .socketio {
+    background-color: #fb6d48;
+  }
+  .localstorage {
+    background-color: #f3cc03;
+    color: #58595b;
+  }
+  .netcore {
+    background-color: #512BD4;
+  }

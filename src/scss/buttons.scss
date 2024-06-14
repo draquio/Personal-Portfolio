@@ -9,7 +9,7 @@
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    
+    display: inline-block;
 }
 .btn:hover{
     opacity: 0.8;
@@ -17,23 +17,26 @@
 
 .btn_purple{
     background: #614BC3;
-    border-bottom: 4px solid #504099;
+    border-bottom: 2px solid #504099;
     &:active{
         background: #5543a3;
     }
 }
 .btn_red{
     background: #EA5455;
-    border-bottom: 4px solid #d14e4e;
+    border-bottom: 2px solid #d14e4e;
     &:active{
         background: #d1494a;
     }
 }
 .btn_yellow{
     background: #f3cc03;
-    border-bottom: 4px solid #d3b204;
+    border-bottom: 2px solid #d3b204;
     color: $text-dark;
     &:active{
         background: #d5b510;
     }
+}
+.float-right{
+    float: right;
 }

@@ -29,158 +29,253 @@
   },
   "PJS": {
     "title": "Proyectos",
-    "projects": [
-      {
-        "title": "TheMovie",
-        "content": "Página web de películas y series, así como las tendencias en ambas secciones.",
-        "img": "/projects/themovie.webp",
-        "tecnology": ["React", "Sass"],
-        "tag": ["react", "sass"],
-        "icon": "tv",
-        "link": "https://themovie-draquio.vercel.app/",
-        "code": "https://github.com/draquio/themovie"
-      },
-      {
-        "title": "Chatz",
-        "content": "Chat grupal en linea ideal para equipos y entornos grupales.",
-        "img": "/projects/chat.webp",
-        "tecnology": ["React", "Tailwind", "Node", "Socket io"],
-        "tag": ["react", "tailwind", "node", "socketio"],
-        "icon": "chat",
-        "link": "https://chat-draquio.vercel.app/",
-        "code": "https://github.com/draquio/chat-client"
-      },
-      {
-        "title": "DescargaVideos",
-        "content": "Descarga videos totalmente gratis de Youtube y Tiktok",
-        "img": "/projects/descargavideos.webp",
-        "tecnology": ["React", "TypeScript", "Sass"],
-        "tag": ["react", "typescript", "sass"],
-        "icon": "cloud download",
-        "link": "https://descargavideos.vercel.app/",
-        "code": "https://github.com/draquio/VideoDonwloader"
-      },
-      {
-        "title": "Web del Clima",
-        "content": "Página web donde podrás consultar el clima de tu ciudad con detalles por hora y por día.",
-        "img": "/projects/clima.webp",
-        "tecnology": ["NextJs", "Tailwind"],
-        "tag": ["next", "tailwind"],
-        "icon": "cloud",
-        "link": "https://clima-draquio.vercel.app/",
-        "code": "https://github.com/draquio/weather"
-      },
-      {
-        "title": "Traductor",
-        "content": "Traductor de varios idiomas",
-        "img": "/projects/traductor.webp",
-        "tecnology": ["React", "TypeScript", "Sass"],
-        "tag": ["react", "typescript", "sass"],
-        "icon": "translate",
-        "link": "https://traductor-bice.vercel.app/",
-        "code": "https://github.com/draquio/traductor"
-      },
-      {
-        "title": "Generador de QR",
-        "content": "Genera y descargar QRs como imagen fácilmente para Whatsapp, URLs, Wifi, Email, etc",
-        "img": "/projects/qrgeneratorweb.webp",
-        "tecnology": ["React", "Redux Toolkit", "Sass"],
-        "tag": ["react", "redux", "sass"],
-        "icon": "qrcode",
-        "link": "https://qrg.draquio.vercel.app/",
-        "code": "https://github.com/draquio/qrgenerator"
-      },
-      {
-        "title": "TheStore - Tienda en Linea",
-        "content": "Tienda en linea con LocalStorage y useContext",
-        "img": "/projects/thestore.webp",
-        "tecnology": ["React", "Sass", "LocalStorage"],
-        "tag": ["react", "sass", "localstorage"],
-        "icon": "shopping cart",
-        "link": "https://thestoreweb.vercel.app/",
-        "code": "https://github.com/draquio/thestore"
-      },
-      {
-        "title": "Blog React - Node",
-        "content": "Un blog con Front y Backend creado con el MERN stack.",
-        "img": "/projects/reactblog.webp",
-        "tecnology": ["React", "Node", "Sass"],
-        "tag": ["react", "node", "sass"],
-        "icon": "blogger",
-        "link": "https://draquioblog.vercel.app/",
-        "code": "https://github.com/draquio/frontendblog"
-      },
-      {
-        "title": "GifApp",
-        "content": "Página web de Gifs mediante una API con buscador",
-        "img": "/projects/thegifs.webp",
-        "tecnology": ["Angular", "LocalStorage"],
-        "tag": ["angular", "localstorage"],
-        "icon": "folder open",
-        "link": "https://gifs-draquio.vercel.app/",
-        "code": "https://github.com/draquio/GifsApp"
-      },
-      {
-        "title": "ThePics",
-        "content": "Página web de galería de imágenes",
-        "img": "/projects/thepics.webp",
-        "tecnology": ["React", "Typescript", "Sass"],
-        "tag": ["react", "typescript", "sass"],
-        "icon": "image",
-        "link": "https://thepics-draquio.vercel.app/",
-        "code": "https://github.com/draquio/thepics"
-      },
-      {
-        "title": "Prueba técnica - Productos",
-        "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
-        "img": "/projects/pruebatecnica1.webp",
-        "tecnology": ["React", "Sass", "LocalStorage"],
-        "tag": ["react", "sass" ,"localstorage"],
-        "icon": "shopping basket",
-        "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
-        "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
-      },
-      {
-        "title": "Prueba técnica Fullstack - Notas",
-        "content": "Página web para crear, editar, eliminar y archivar notas con Login por Usuario",
-        "img": "/projects/notas.webp",
-        "tecnology": ["React", "Sass", "Node"],
-        "tag": ["react", "sass" ,"node"],
-        "icon": "sticky note",
-        "link": "https://fullstack-frontend-nu.vercel.app/",
-        "code": "https://github.com/draquio/prueba-tecnica-tienda"
-      },
-      {
-        "title": "Portfolio personal",
-        "content": "Portfolio personal realizado con React y Redux Toolkit",
-        "img": "/projects/draquio-portfolio.webp",
-        "tecnology": ["React", "Redux Toolkit", "Sass"],
-        "tag": ["react", "redux", "sass"],
-        "icon": "address card",
-        "link": "https://draquioportfolio.vercel.app/",
-        "code": "https://github.com/draquio/portfolio"
-      },
-      {
-        "title": "DameFans",
-        "content": "DameFans fue una web de intercambios sociales con +120k Usuarios y +1 millón de visitas/mes",
-        "img": "/projects/damefans.webp",
-        "tecnology": ["Php"],
-        "tag": ["php"],
-        "icon": "fire",
-        "link": "https://web.archive.org/web/20190914214728/https://damefans.com/"
-      },
-      {
-        "title": "Draquio Blog Wordpress",
-        "content": "Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave",
-        "img": "/projects/blog-wordpress.webp",
-        "tecnology": ["Wordpress"],
-        "tag": ["wordpress"],
-        "icon": "microphone",
-        "link": "https://www.draquio.com/"
+    "projects": {
+      "frontend": [
+        {
+          "title": "TheMovie",
+          "content": "Página web de películas y series, así como las tendencias en ambas secciones.",
+          "img": "/projects/themovie.webp",
+          "tecnology": ["React", "Sass"],
+          "tag": ["react", "sass"],
+          "icon": "tv",
+          "link": "https://themovie-draquio.vercel.app/",
+          "code": "https://github.com/draquio/themovie"
+        },
+        {
+          "title": "Chatz",
+          "content": "Chat grupal en linea ideal para equipos y entornos grupales.",
+          "img": "/projects/chat.webp",
+          "tecnology": ["React", "Tailwind", "Node", "Socket io"],
+          "tag": ["react", "tailwind", "node", "socketio"],
+          "icon": "chat",
+          "link": "https://chat-draquio.vercel.app/",
+          "code": "https://github.com/draquio/chat-client"
+        },
+        {
+          "title": "DescargaVideos",
+          "content": "Descarga videos totalmente gratis de Youtube y Tiktok",
+          "img": "/projects/descargavideos.webp",
+          "tecnology": ["React", "TypeScript", "Sass"],
+          "tag": ["react", "typescript", "sass"],
+          "icon": "cloud download",
+          "link": "https://descargavideos.vercel.app/",
+          "code": "https://github.com/draquio/VideoDonwloader"
+        },
+        {
+          "title": "Web del Clima",
+          "content": "Página web donde podrás consultar el clima de tu ciudad con detalles por hora y por día.",
+          "img": "/projects/clima.webp",
+          "tecnology": ["NextJs", "Tailwind"],
+          "tag": ["next", "tailwind"],
+          "icon": "cloud",
+          "link": "https://clima-draquio.vercel.app/",
+          "code": "https://github.com/draquio/weather"
+        },
+        {
+          "title": "Traductor",
+          "content": "Traductor de varios idiomas",
+          "img": "/projects/traductor.webp",
+          "tecnology": ["React", "TypeScript", "Sass"],
+          "tag": ["react", "typescript", "sass"],
+          "icon": "translate",
+          "link": "https://traductor-bice.vercel.app/",
+          "code": "https://github.com/draquio/traductor"
+        },
+        {
+          "title": "Generador de QR",
+          "content": "Genera y descargar QRs como imagen fácilmente para Whatsapp, URLs, Wifi, Email, etc",
+          "img": "/projects/qrgeneratorweb.webp",
+          "tecnology": ["React", "Redux Toolkit", "Sass"],
+          "tag": ["react", "redux", "sass"],
+          "icon": "qrcode",
+          "link": "https://qrg.draquio.vercel.app/",
+          "code": "https://github.com/draquio/qrgenerator"
+        },
+        {
+          "title": "TheStore - Tienda en Linea",
+          "content": "Tienda en linea con LocalStorage y useContext",
+          "img": "/projects/thestore.webp",
+          "tecnology": ["React", "Sass", "LocalStorage"],
+          "tag": ["react", "sass", "localstorage"],
+          "icon": "shopping cart",
+          "link": "https://thestoreweb.vercel.app/",
+          "code": "https://github.com/draquio/thestore"
+        },
+        {
+          "title": "Blog React - Node",
+          "content": "Un blog con Front y Backend creado con el MERN stack.",
+          "img": "/projects/reactblog.webp",
+          "tecnology": ["React", "Node", "Sass"],
+          "tag": ["react", "node", "sass"],
+          "icon": "blogger",
+          "link": "https://draquioblog.vercel.app/",
+          "code": "https://github.com/draquio/frontendblog"
+        },
+        {
+          "title": "GifApp",
+          "content": "Página web de Gifs mediante una API con buscador",
+          "img": "/projects/thegifs.webp",
+          "tecnology": ["Angular", "LocalStorage"],
+          "tag": ["angular", "localstorage"],
+          "icon": "folder open",
+          "link": "https://gifs-draquio.vercel.app/",
+          "code": "https://github.com/draquio/GifsApp"
+        },
+        {
+          "title": "ThePics",
+          "content": "Página web de galería de imágenes",
+          "img": "/projects/thepics.webp",
+          "tecnology": ["React", "Typescript", "Sass"],
+          "tag": ["react", "typescript", "sass"],
+          "icon": "image",
+          "link": "https://thepics-draquio.vercel.app/",
+          "code": "https://github.com/draquio/thepics"
+        },
+        {
+          "title": "Prueba técnica - Productos",
+          "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
+          "img": "/projects/pruebatecnica1.webp",
+          "tecnology": ["React", "Sass", "LocalStorage"],
+          "tag": ["react", "sass", "localstorage"],
+          "icon": "shopping basket",
+          "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
+          "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
+        },
+        {
+          "title": "Prueba técnica Fullstack - Notas",
+          "content": "Página web para crear, editar, eliminar y archivar notas con Login por Usuario",
+          "img": "/projects/notas.webp",
+          "tecnology": ["React", "Sass", "Node"],
+          "tag": ["react", "sass", "node"],
+          "icon": "sticky note",
+          "link": "https://fullstack-frontend-nu.vercel.app/",
+          "code": "https://github.com/draquio/prueba-tecnica-tienda"
+        },
+        {
+          "title": "Portfolio personal",
+          "content": "Portfolio personal realizado con React y Redux Toolkit",
+          "img": "/projects/draquio-portfolio.webp",
+          "tecnology": ["React", "Redux Toolkit", "Sass"],
+          "tag": ["react", "redux", "sass"],
+          "icon": "address card",
+          "link": "https://draquioportfolio.vercel.app/",
+          "code": "https://github.com/draquio/portfolio"
+        },
+        {
+          "title": "DameFans",
+          "content": "DameFans fue una web de intercambios sociales con +120k Usuarios y +1 millón de visitas/mes",
+          "img": "/projects/damefans.webp",
+          "tecnology": ["Php"],
+          "tag": ["php"],
+          "icon": "fire",
+          "link": "https://web.archive.org/web/20190914214728/https://damefans.com/"
+        },
+        {
+          "title": "Draquio Blog Wordpress",
+          "content": "Blog realizado con Wordpress con SEO realizado para posicionar en ciertas palabras clave",
+          "img": "/projects/blog-wordpress.webp",
+          "tecnology": ["Wordpress"],
+          "tag": ["wordpress"],
+          "icon": "microphone",
+          "link": "https://www.draquio.com/"
+        }
+      ],
+      "backend": [
+        {
+          "title": "Películas Backend .NET Core",
+          "content": [
+            "Backend de películas realizado con C# y .Net core implementando la arquitectura N Capas con:",
+            "- Patrón Repositorio",
+            "- Patrón Servicio",
+            "- Patrón DTO y AutoMapper",
+            "Así también se utilizó EntityFramework como ORM y SQlServer como motor de base de datos.",
+            "Se implementó relación de 1 a muchos y de muchos a muchos para las diferentes tablas en la base de dato, adamás de sus respectivas relaciones."
+          ],
+          "img": "/projects/movie_backend.webp",
+          "tecnology": [".NET Core", "SQLServer"],
+          "tag": ["netcore", "sqlserver"],
+          "icon": "tv",
+          "code": "https://github.com/draquio/Movie-Backend-Net-Core"
+        },
+        {
+          "title": "Backend de Personas con Repository",
+          "content": [
+            "Backend para leer, crear, editar y eliminar personas mediante el patrón Repositorio con C# y .Net core",
+            "Como gestor de base de datos se utilizó SQLServer",
+            "- CRUD completo",
+            "- Patrón repositorio",
+            "- EntityFramework como ORM"
+          ],
+          "img": "/projects/person_backend.webp",
+          "tecnology": [".NET Core", "SQLServer"],
+          "tag": ["netcore", "sqlserver"],
+          "icon": "user",
+          "code": "https://github.com/draquio/CRUDRepository"
+        },
+        {
+          "title": "Backend de Customer sencillo",
+          "content": [
+            "Backend para leer, crear, editar y eliminar customers con C# y .Net core",
+            "Como gestor de base de datos se utilizó SQLServer",
+            "- CRUD completo",
+            "- EntityFramework como ORM"
+          ],
+          "img": "/projects/customer_backend.webp",
+          "tecnology": [".NET Core", "SQLServer"],
+          "tag": ["netcore", "sqlserver"],
+          "icon": "bell",
+          "code": "https://github.com/draquio/CRUDCustomer"
+        },
+        {
+          "title": "Chatz Backend",
+          "content": [
+            "Backend de la web Chatz realizado con NodeJS y SocketIo para la comunicación continua de usuarios, además retorna la cantidad de usuarios en linea",
+            "- Continua comunicación",
+            "- Retorna la cantidad de usuarios conectados"
+          ],
+          "img": "/projects/chat.webp",
+          "tecnology": ["NodeJS", "Socket Io"],
+          "tag": ["node", "socketio"],
+          "icon": "chat",
+          "code": "https://github.com/draquio/chat-server"
+        },
+        {
+          "title": "Blog Backend (MERN)",
+          "content": [
+            "Backend de blog realizado con el stack MERN (MongoDB, Express, React y NodeJS)",
+            "Está realizado para que sea administrable por usuarios donde estos pueden registrarse y crear artículos para el blog.",
+            "Como gestor de base de datos, se utilizó MongoDB.",
+            "- Se implementó Middlerwares",
+            "- sistema de Login",
+            "- Sesiones",
+            "- Registro."
+          ],
+          "img": "/projects/reactblog.webp",
+          "tecnology": ["NodeJS", "Express", "MongoDB"],
+          "tag": ["node", "express", "mongodb"],
+          "icon": "blogger",
+          "code": "https://github.com/draquio/backendblog"
+        },
+        {
+          "title": "Prueba técnica Backend Notas",
+          "content": [
+            "Backend de web para leer, crear, editar, eliminar y archivar Notas realizada a partir de una prueba técnica",
+            "Se realizó con NodeJS y Express además de MongoDB como gestor de base de datos",
+            "- CRUD completo de Notas",
+            "- Login y sesiones"
+          ],
+          "img": "/projects/notas.webp",
+          "tecnology": ["NodeJS", "Express", "MongoDB"],
+          "tag": ["node", "express", "mongodb"],
+          "icon": "sticky note",
+          "code": "https://github.com/draquio/prueba-tecnica-fullstack-backend"
+        }
+      ],
+      "buttons": {
+        "demo": "Ver demo",
+        "code": "Ver código"
       }
-    ],
-    "demo": "Ver demo",
-    "code": "Ver código"
+    }
   },
   "CF": {
     "title": "Formulario de contacto",
@@ -210,7 +305,7 @@
         "icon": "/tecnologies/react.svg"
       },
       {
-        "skill": "Next",
+        "skill": "NextJS",
         "icon": "/tecnologies/next.svg"
       },
       {
@@ -222,23 +317,11 @@
         "icon": "/tecnologies/angular.svg"
       },
       {
-        "skill": "Redux",
-        "icon": "/tecnologies/redux.svg"
-      },
-      {
         "skill": "Tailwind",
         "icon": "/tecnologies/tailwind.svg"
-      },
-      {
-        "skill": "Bootstrap",
-        "icon": "/tecnologies/bootstrap.svg"
-      },
-      {
-        "skill": "Sass",
-        "icon": "/tecnologies/sass.svg"
       }
     ],
-    "Backend":[
+    "Backend": [
       {
         "skill": ".Net Core",
         "icon": "/tecnologies/netcore.svg"
@@ -256,7 +339,7 @@
         "icon": "/tecnologies/php.svg"
       }
     ],
-    "Testing":[
+    "Testing": [
       {
         "skill": "Cypress",
         "icon": "/tecnologies/cypress.svg"
@@ -274,7 +357,7 @@
         "icon": "/tecnologies/jest.svg"
       }
     ],
-    "DB":[
+    "DB": [
       {
         "skill": "MongoDB",
         "icon": "/tecnologies/mongodb.svg"
@@ -288,7 +371,7 @@
         "icon": "/tecnologies/sql-server.svg"
       }
     ],
-    "Others":[
+    "Others": [
       {
         "skill": "Git",
         "icon": "/tecnologies/git.svg"

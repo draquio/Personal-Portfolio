@@ -4,9 +4,8 @@ import emailjs from "@emailjs/browser";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Icon, Button } from "semantic-ui-react";
 import "semantic-ui-css/components/button.min.css";
-import LazyLoad from "react-lazy-load";
 
-export function Contactsection(props) {
+function Contactsection(props) {
   const { language } = props;
   const [isLoading, setIsLoading] = useState(false);
   const [messagealert, SetMessageAlert] = useState("");
@@ -23,11 +22,13 @@ export function Contactsection(props) {
     };
     if (isSent) {
       SetIsSent(false);
-      emailjs.send("service_57f4nyj", "template_my6qqr4", templateParams).then(function () {
-        SetTypeClass("alert success");
-        SetMessageAlert("Tu correo fue enviado");
-        setIsLoading(false);
-      });
+      emailjs
+        .send("service_57f4nyj", "template_my6qqr4", templateParams)
+        .then(function () {
+          SetTypeClass("alert success");
+          SetMessageAlert("Tu correo fue enviado");
+          setIsLoading(false);
+        });
     } else {
       SetTypeClass("alert error");
       SetMessageAlert("Tu correo ya fue enviado");
@@ -35,16 +36,17 @@ export function Contactsection(props) {
     }
   };
   return (
-    <div style={{minHeight:'600px', height:'100%'}}>
+    <>
       <div id="contact"></div>
-      <LazyLoad offset={0}>
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         className="contact_section"
       >
         <h4 className="title_content">{language.title}</h4>
-        <p>{language.info} <strong>{language.email}</strong></p>
+        <p>
+          {language.info} <strong>{language.email}</strong>
+        </p>
         <div className="contact_content">
           <div className="form_contact">
             <form onSubmit={sendContactForm}>
@@ -74,7 +76,7 @@ export function Contactsection(props) {
               </Button>
             </form>
             {messagealert && (
-              <label >
+              <label>
                 <input type="checkbox" className="alertCheckbox" />
                 <div onClick={() => SetMessageAlert("")} className={typeclass}>
                   <span className="alertClose">X</span>
@@ -101,7 +103,7 @@ export function Contactsection(props) {
           </div>
         </div>
       </div>
-    </LazyLoad>
-    </div>
+    </>
   );
 }
+export default Contactsection;
