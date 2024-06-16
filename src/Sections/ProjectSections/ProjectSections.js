@@ -4,7 +4,7 @@ import { ProjectMenu } from "./ProjectMenu";
 import { Frontend } from "./Frontend";
 import { Backend } from "./Backend";
 
-function ProjectSections(props) {
+export function ProjectSections(props) {
   const { language } = props;
   const [menu, setMenu] = useState("frontend");
 
@@ -31,5 +31,3 @@ function ProjectSections(props) {
     </>
   );
 }
-
-export default ProjectSections;

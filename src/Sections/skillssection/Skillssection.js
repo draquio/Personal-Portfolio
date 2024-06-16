@@ -2,7 +2,7 @@ import React from "react";
 import "./skillssection.scss";
 import { Image } from "semantic-ui-react";
 import { Player } from "@lottiefiles/react-lottie-player";
-function Skillssection(props) {
+export function Skillssection(props) {
   const { language, skills } = props;
   const frontend = skills.Frontend;
   const backend = skills.Backend;
@@ -102,5 +102,3 @@ function Skillssection(props) {
     </>
   );
 }
-
-export default Skillssection;

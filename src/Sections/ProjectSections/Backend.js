@@ -4,7 +4,6 @@ import { Icon } from "semantic-ui-react";
 
 export function Backend(props) {
   const { backend, buttons } = props;
-  console.log(backend[0].content);
   return (
     <>
       {backend.map((project, index) => (

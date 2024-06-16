@@ -5,7 +5,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import { Icon, Button } from "semantic-ui-react";
 import "semantic-ui-css/components/button.min.css";
 
-function Contactsection(props) {
+export function Contactsection(props) {
   const { language } = props;
   const [isLoading, setIsLoading] = useState(false);
   const [messagealert, SetMessageAlert] = useState("");
@@ -106,4 +106,3 @@ function Contactsection(props) {
     </>
   );
 }
-export default Contactsection;
