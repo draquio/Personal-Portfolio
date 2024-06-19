@@ -199,6 +199,20 @@
           "code": "https://github.com/draquio/Movie-Backend-Net-Core"
         },
         {
+          "title": "Permissions and Roles with JWT",
+          "content": [
+            "Backend project made with .NET Core and C# + JWT for endpoint authentication and authorization.",
+            "- Endpoint public",
+            "- Endpoint protected by token",
+            "- Endpoint protected by token and user role"
+          ],
+          "img": "/projects/jwt.webp",
+          "tecnology": [".NET Core", "JWT"],
+          "tag": ["netcore", "jwt"],
+          "icon": "file code outline",
+          "code": "https://github.com/draquio/JWT-Permisos-y-Roles"
+        },
+        {
           "title": "Person Backend with Repository",
           "content": [
             "Backend for reading, creating, editing, and deleting people using the Repository Pattern with C# and .Net Core",
