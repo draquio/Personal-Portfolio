@@ -9,6 +9,7 @@ export function ProjectMenu(props) {
     <div className="menu_projects">
       <button className={`btn ${menu === "frontend" ? "active" : ""}`} onClick={() => handleChangeMenu("frontend")}>Frontend</button>
       <button className={`btn ${menu === "backend" ? "active" : ""}`} onClick={() => handleChangeMenu("backend")}>Backend</button>
+      <button className={`btn ${menu === "challenge" ? "active" : ""}`} onClick={() => handleChangeMenu("challenge")}>Challenges</button>
     </div>
   );
 }

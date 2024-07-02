@@ -9,24 +9,22 @@ Una de mis mayores metas es poder dedicarme a tiempo completo a mi más grande p
 # Tecnologías
 
 Frontend:
-- HTML
-- CSS
-- Javascript
+- HTML, CSS, Javascript y TypeScript
+- Redux, Bootstrap, Sass y Tailwind
 - React
-- Typescript
-- Redux
-- Bootstrap
-- Sass
-- Tailwind
+- NextJS
+- Angular
+
 
 Backend:
 - Python
 - Php
 - NodeJs
+- .NET Core
 
 Base de Datos: 
 - MySQL
-- SQL server
+- SQLServer
 - MongoDB
 
 Otro: 
@@ -34,11 +32,3 @@ Otro:
 - Git
 - Photoshop
 - Inglés B2
-
-CMS: 
-- Wordpress
--vBulletin
-
-En desarrollo: 
-- Angular
-- Laravel

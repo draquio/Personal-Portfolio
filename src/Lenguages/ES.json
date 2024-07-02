@@ -42,6 +42,15 @@
           "code": "https://github.com/draquio/themovie"
         },
         {
+          "title": "Ayuda Auditiva",
+          "content": "Página web para el negocio Ayuda Auditiva de Tarija enfocado en SEO.",
+          "img": "/projects/auditiva.webp",
+          "tecnology": ["NextJS", "Tailwind", "TypeScript"],
+          "tag": ["next", "tailwind", "typescript"],
+          "icon": "deaf",
+          "link": "https://ayudauditiva.vercel.app/"
+        },
+        {
           "title": "Chatz",
           "content": "Chat grupal en linea ideal para equipos y entornos grupales.",
           "img": "/projects/chat.webp",
@@ -132,26 +141,6 @@
           "code": "https://github.com/draquio/thepics"
         },
         {
-          "title": "Prueba técnica - Productos",
-          "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
-          "img": "/projects/pruebatecnica1.webp",
-          "tecnology": ["React", "Sass", "LocalStorage"],
-          "tag": ["react", "sass", "localstorage"],
-          "icon": "shopping basket",
-          "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
-          "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
-        },
-        {
-          "title": "Prueba técnica Fullstack - Notas",
-          "content": "Página web para crear, editar, eliminar y archivar notas con Login por Usuario",
-          "img": "/projects/notas.webp",
-          "tecnology": ["React", "Sass", "Node"],
-          "tag": ["react", "sass", "node"],
-          "icon": "sticky note",
-          "link": "https://fullstack-frontend-nu.vercel.app/",
-          "code": "https://github.com/draquio/prueba-tecnica-tienda"
-        },
-        {
           "title": "Portfolio personal",
           "content": "Portfolio personal realizado con React y Redux Toolkit",
           "img": "/projects/draquio-portfolio.webp",
@@ -180,6 +169,38 @@
           "link": "https://www.draquio.com/"
         }
       ],
+      "challenge": [
+        {
+          "title": "Prueba técnica - Productos",
+          "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
+          "img": "/projects/pruebatecnica1.webp",
+          "tecnology": ["React", "Sass", "LocalStorage"],
+          "tag": ["react", "sass", "localstorage"],
+          "icon": "shopping basket",
+          "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
+          "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
+        },
+        {
+          "title": "Prueba técnica Fullstack - Notas",
+          "content": "Página web para crear, editar, eliminar y archivar notas con Login por Usuario",
+          "img": "/projects/notas.webp",
+          "tecnology": ["React", "Sass", "Node"],
+          "tag": ["react", "sass", "node"],
+          "icon": "sticky note",
+          "link": "https://fullstack-frontend-nu.vercel.app/",
+          "code": "https://github.com/draquio/prueba-tecnica-tienda"
+        },
+        {
+          "title": "Prueba técnica - Tarjeta de perfil",
+          "content": "Página web de perfil personal",
+          "img": "/projects/profile.webp",
+          "tecnology": ["NextJS", "Sass", "TypeScript"],
+          "tag": ["next", "sass", "typescript"],
+          "icon": "address card",
+          "link": "https://profileweb-draquio.vercel.app/",
+          "code": "https://github.com/draquio/profileweb"
+        }
+      ],
       "backend": [
         {
           "title": "Películas Backend .NET Core",
@@ -196,6 +217,21 @@
           "tag": ["netcore", "sqlserver"],
           "icon": "tv",
           "code": "https://github.com/draquio/Movie-Backend-Net-Core"
+        },
+        {
+          "title": "Chat con MVC + Docker",
+          "content": [
+            "Chat en tiempo real desarrollado con .NET Core y SignalR",
+            "- Patrón de diseño MVC",
+            "- Salas de chat",
+            "- Dockerizado",
+            "- SignalR"
+          ],
+          "img": "/projects/chat_signalr.webp",
+          "tecnology": [".NET Core", "Docker", "SigalR"],
+          "tag": ["netcore", "docker", "signalr"],
+          "icon": "chat",
+          "code": "https://github.com/draquio/Chat-MVC-SignalR-DotNet"
         },
         {
           "title": "Permisos y Roles con JWT",

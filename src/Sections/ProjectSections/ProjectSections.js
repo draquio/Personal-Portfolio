@@ -3,10 +3,16 @@ import "./ProjectSections.scss";
 import { ProjectMenu } from "./ProjectMenu";
 import { Frontend } from "./Frontend";
 import { Backend } from "./Backend";
+import { Challenge } from "./Challenge";
 
 export function ProjectSections(props) {
   const { language } = props;
   const [menu, setMenu] = useState("frontend");
+  const components = {
+    frontend: <Frontend frontend={language.projects.frontend} buttons={language.projects.buttons} />,
+    backend: <Backend backend={language.projects.backend} buttons={language.projects.buttons} />,
+    challenge: <Challenge challenge={language.projects.challenge} buttons={language.projects.buttons} />
+  };
 
   return (
     <>
@@ -17,15 +23,7 @@ export function ProjectSections(props) {
           <ProjectMenu menu={menu} setMenu={setMenu} />
         </div>
         <div className="project_container">
-          {menu === "frontend" ? (
-              <Frontend
-                frontend={language.projects.frontend}
-                buttons={language.projects.buttons}
-              />
-          ) : (
-              <Backend backend={language.projects.backend}
-              buttons={language.projects.buttons} />
-          )}
+        {components[menu]}
         </div>
       </div>
     </>
