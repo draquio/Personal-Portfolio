@@ -203,6 +203,27 @@
       ],
       "backend": [
         {
+          "title": "Backend Blog + JWT + SQLServer + Servicio de Email",
+          "content": [
+            "Backend para un blog realizado con arquitectura en capas y diferentes patrones, DTO, mappers, etc.",
+            "- Arquitectura en capas.",
+            "- Patrón de capa Servicio, Repositorio y DTO.",
+            "- Validación de modelos DTOs con FluentValidation.",
+            "- AutoMapper para la mapear de manera más eficiente los DTOs a modelos.",
+            "- Middleware para gestionar todas las excepciones",
+            "- Subida de imágenes al directorio wwwroot.",
+            "- Envío de correos electrónicos para Auth.",
+            "- Jwt para autenticación y autorizacón.",
+            "- Permisos y Roles.",
+            "- Etc."
+          ],
+          "img": "/projects/backendblog.webp",
+          "tecnology": [".NET Core", "SQLServer"],
+          "tag": ["netcore", "sqlserver"],
+          "icon": "blogger",
+          "code": "https://github.com/draquio/Backend-Blog-DotNet"
+        },
+        {
           "title": "Películas Backend .NET Core",
           "content": [
             "Backend de películas realizado con C# y .Net core implementando la arquitectura N Capas con:",
@@ -401,6 +422,10 @@
       {
         "skill": "React Testing Library",
         "icon": "/tecnologies/react-testing-library.svg"
+      },
+      {
+        "skill": "xUnit",
+        "icon": "/tecnologies/xunit.svg"
       },
       {
         "skill": "Jest",
