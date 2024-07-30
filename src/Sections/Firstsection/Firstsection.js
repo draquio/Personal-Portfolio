@@ -25,7 +25,8 @@ export function Firstsection(props) {
   }, [language]);
   return (
     <div id="draquio" className="first-block">
-      <div data-aos="fade-down" className="img_block">
+      <div data-aos="fade-down" className="img_block" 
+      >
         <div className="avatar_main"></div>
       </div>
       <div className="about_me_block">
@@ -41,7 +42,7 @@ export function Firstsection(props) {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-offset="-300"
+          data-aos-offset="-200"
           className="icons_profile"
         >
           <Link
@@ -62,7 +63,7 @@ export function Firstsection(props) {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-offset="-300"
+          data-aos-offset="-250"
           className="download_button"
         >
           <a

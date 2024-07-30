@@ -29,7 +29,7 @@ export function Home() {
     AOS.init({
       duration: 1000,
       once: false,
-      offset: 0,
+      offset: 150,
       mirror: false,
     });
   }, []);

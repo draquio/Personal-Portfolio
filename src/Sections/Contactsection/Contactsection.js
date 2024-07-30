@@ -40,6 +40,7 @@ export function Contactsection(props) {
       <div id="contact"></div>
       <div
         data-aos="fade-up"
+        data-aos-offset="-200"
         data-aos-anchor-placement="center-bottom"
         className="contact_section"
       >
