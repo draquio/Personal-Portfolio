@@ -204,6 +204,26 @@
       ],
       "backend": [
         {
+          "title": "Link Shortener + Clean Architecture + Analytics",
+          "content": [
+            "Backend of a Link Shortener made with Clean Architecture, design patterns and analytics.",
+            "- Clean Architecture + Vertical Slicing architecture structure",
+            "- CQRS pattern",
+            "- Mediator pattern",
+            "- Dependency Injection pattern",
+            "- Service and repository",
+            "- AutoMapper for DTOs.",
+            "- Daily, weekly and monthly reports.",
+            "- Testing",
+            "- Etc."
+          ],
+          "img": "/projects/shortened-links.webp",
+          "tecnology": [".NET Core", "SQLServer"],
+          "tag": ["netcore", "sqlserver"],
+          "icon": "linkify",
+          "code": "https://github.com/draquio/Shortened-Link-Clean-Architecture-Dot-Net"
+        },
+        {
           "title": "Backend Blog + JWT + SQLServer + Email Service",
           "content": [
             "Backend for a blog made with N layer architecture and different patterns, DTOs, mappers, etc.",
