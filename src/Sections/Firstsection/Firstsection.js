@@ -42,7 +42,7 @@ export function Firstsection(props) {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-offset="-200"
+          data-aos-offset="-300"
           className="icons_profile"
         >
           <Link
@@ -63,7 +63,7 @@ export function Firstsection(props) {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-offset="-250"
+          data-aos-offset="-300"
           className="download_button"
         >
           <a

@@ -1,8 +1,7 @@
 @import "~/src/scss/index.scss";
 
 .first-block {
-  padding-top: 125px;
-  padding-bottom: 200px;
+
   align-items: center;
   margin: auto;
   display: flex;
@@ -13,8 +12,8 @@
   background-size: cover;
   background-position: center;
   color:$text-light;
-  font-display: swap;
-  min-height: 65dvh;
+  min-height: 100dvh;
+  justify-content: center;
 }
 .img_block {
   width: 100%;
@@ -39,7 +38,6 @@
 }
 
 .about_me_block {
-  margin-top: 30px;
   text-align: center;
   display: flex;
   flex-direction: column;
