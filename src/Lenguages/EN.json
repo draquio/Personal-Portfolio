@@ -11,7 +11,7 @@
       "dev": "Web Developer",
       "ing": "System Engineer"
     },
-    "content": "I am Sergio Mercado, <b>System Engineer</b> with <b>B2 english </b> level, for 1 and a half years i work as <b>web developer</b> focused on good practices and agile methodologies to provide quality results.",
+    "content": "I am Sergio Mercado, <b>System Engineer</b> with <b>B2 english </b> level, for almost 2 years i work as <b>web developer</b> focused on good practices and agile methodologies to provide quality results.",
     "button": "Download CV",
     "document": "Eng_Sergio_Mercado_CV"
   },
@@ -411,6 +411,10 @@
       {
         "skill": "Tailwind",
         "icon": "/tecnologies/tailwind.svg"
+      },
+      {
+        "skill": "Redux",
+        "icon": "/tecnologies/redux.svg"
       }
     ],
     "Backend":[
@@ -473,6 +477,10 @@
         "icon": "/tecnologies/git.svg"
       },
       {
+        "skill": "Github",
+        "icon": "/tecnologies/github.svg"
+      },
+      {
         "skill": "SEO",
         "icon": "/tecnologies/seo.svg"
       },
@@ -485,8 +493,8 @@
         "icon": "/tecnologies/photoshop.svg"
       },
       {
-        "skill": "English B2",
-        "icon": "/tecnologies/english.svg"
+        "skill": "Figma",
+        "icon": "/tecnologies/figma.svg"
       }
     ]
   }

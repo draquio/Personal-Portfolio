@@ -11,7 +11,7 @@
       "dev": "Desarrollador Web",
       "ing": "Ingeniero de Sistemas"
     },
-    "content": "Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de <b>inglés B2</b>, hace 1 año y medio me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
+    "content": "Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de <b>inglés B2</b>, hace casi 2 años me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
     "button": "Descargar CV",
     "document": "Ing_Sergio_Mercado_CV"
   },
@@ -410,6 +410,10 @@
       {
         "skill": "Tailwind",
         "icon": "/tecnologies/tailwind.svg"
+      },
+      {
+        "skill": "Redux",
+        "icon": "/tecnologies/redux.svg"
       }
     ],
     "Backend": [
@@ -472,6 +476,10 @@
         "icon": "/tecnologies/git.svg"
       },
       {
+        "skill": "Github",
+        "icon": "/tecnologies/github.svg"
+      },
+      {
         "skill": "SEO",
         "icon": "/tecnologies/seo.svg"
       },
@@ -484,8 +492,8 @@
         "icon": "/tecnologies/photoshop.svg"
       },
       {
-        "skill": "Inglés B2",
-        "icon": "/tecnologies/english.svg"
+        "skill": "Figma",
+        "icon": "/tecnologies/figma.svg"
       }
     ]
   }
