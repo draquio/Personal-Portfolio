@@ -7,10 +7,10 @@ export function Aboutmesection(props) {
   return (
     <>
     <div id="about_me"></div>
-    <div data-aos="fade-right" className="about_me_section">
-      <h2 className="title_content">{language.title}</h2>
+    <div className="about_me_section">
+      <h2 className="title_content" data-aos="fade-down">{language.title}</h2>
       <div className="about_me_content">
-        <div className="about_me_img">
+        <div className="about_me_img" data-aos="fade-right">
           <Player
             className="about_me_player"
             src="https://lottie.host/98a36679-a4fe-4383-ba30-324b95640f52/belvPl3QLO.json"
@@ -23,7 +23,7 @@ export function Aboutmesection(props) {
             mode="normal"
           ></Player>
         </div>
-        <div className="about_me_info">
+        <div className="about_me_info" data-aos="fade-left">
           <p dangerouslySetInnerHTML={{ __html: language.content_One }}></p>
           <p dangerouslySetInnerHTML={{ __html: language.content_Two }}></p>
           <p dangerouslySetInnerHTML={{ __html: language.content_Three }}></p>

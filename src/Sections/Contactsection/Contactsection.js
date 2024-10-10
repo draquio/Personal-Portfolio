@@ -39,17 +39,16 @@ export function Contactsection(props) {
     <>
       <div id="contact"></div>
       <div
-        data-aos="fade-up"
-        data-aos-offset="-200"
+        // data-aos-offset="-200"
         data-aos-anchor-placement="center-bottom"
         className="contact_section"
       >
-        <h4 className="title_content">{language.title}</h4>
-        <p>
+        <h4 className="title_content" data-aos-duration="1000" data-aos="fade-down">{language.title}</h4>
+        <p data-aos-duration="1000" data-aos="fade-down">
           {language.info} <strong>{language.email}</strong>
         </p>
         <div className="contact_content">
-          <div className="form_contact">
+          <div className="form_contact" data-aos-duration="1000" data-aos="fade-right">
             <form onSubmit={sendContactForm}>
               <input
                 type="text"
@@ -89,7 +88,7 @@ export function Contactsection(props) {
               </label>
             )}
           </div>
-          <div className="contact_info">
+          <div className="contact_info" data-aos-duration="1000" data-aos="fade-left">
             <Player
               className="contact_player"
               src="https://lottie.host/1d4a413a-a510-4b26-a63f-0aeeb8e0f561/MPkHLJM8qN.json"

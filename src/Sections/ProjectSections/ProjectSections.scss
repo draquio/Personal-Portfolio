@@ -3,7 +3,7 @@
   padding: $padding-section;
   max-width: $max-width;
   margin: 10px auto;
-  min-height: 500px;
+  min-height: 100vh;
 
   // menu projects
   .menu_projects {
@@ -31,7 +31,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 40px 20px;
-
     //frontend card
     .item_card_frontend {
       width: 100%;
@@ -53,7 +52,7 @@
         img {
           width: 100%;
           transition: 0.5s ease all;
-          aspect-ratio: 2 / 1.5;
+          aspect-ratio: 7/5;
         }
       }
       .content_img {

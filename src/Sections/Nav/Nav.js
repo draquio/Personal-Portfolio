@@ -40,7 +40,7 @@ export function Nav(props) {
           </Link>
         </div>
         <input
-          onClick={onActive}
+          onChange={onActive}
           hidden
           className="check-icon"
           id="check-icon"
@@ -48,7 +48,7 @@ export function Nav(props) {
           type="checkbox"
           checked={isActive ? true : false}
         />
-        <label className="icon-menu menu_mobile_icon" for="check-icon">
+        <label className="icon-menu menu_mobile_icon" htmlFor="check-icon">
           <div className="bar bar--1"></div>
           <div className="bar bar--2"></div>
           <div className="bar bar--3"></div>

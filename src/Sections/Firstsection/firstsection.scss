@@ -85,6 +85,9 @@
   }
 }
 @media (max-width: $responsive_media) {
+  .first-block{
+    min-height: 105dvh;
+  }
   .about_me_block .summary_about_me {
     width: 80%;
   }

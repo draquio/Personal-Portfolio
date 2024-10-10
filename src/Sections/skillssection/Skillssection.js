@@ -12,28 +12,30 @@ export function Skillssection(props) {
   return (
     <>
       <div id="skills"></div>
-      <div data-aos="fade-up" className="skills_section">
-        <h2 className="title_content">{language.title}</h2>
+      <div className="skills_section">
+        <h2 className="title_content" data-aos="fade-up">
+          {language.title}
+        </h2>
         <div className="skill_content">
           <div className="skill_icons_section">
-            <h4>FrontEnd</h4>
-            <div className="tecnology_content">
-              {frontend.map((language, index) => (
-                <div key={index} className="icon_container">
-                  <Image
-                    alt={language.skill}
-                    className="icon_skill"
-                    src={language.icon}
-                    loading="lazy"
-                  />
-                  {language.skill}
-                </div>
-              ))}
-            </div>
-            <h4>Backend</h4>
+              <h4 data-aos-duration="1000" data-aos="fade-up">FrontEnd</h4>
+              <div className="tecnology_content">
+                {frontend.map((language, index) => (
+                  <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
+                    <Image
+                      alt={language.skill}
+                      className="icon_skill"
+                      src={language.icon}
+                      loading="lazy"
+                    />
+                    {language.skill}
+                  </div>
+                ))}
+              </div>
+            <h4 data-aos-duration="1000" data-aos="fade-up">Backend</h4>
             <div className="tecnology_content">
               {backend.map((language, index) => (
-                <div key={index} className="icon_container">
+                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
                   <Image
                     alt={language.skill}
                     className="icon_skill"
@@ -43,10 +45,10 @@ export function Skillssection(props) {
                 </div>
               ))}
             </div>
-            <h4>Testing</h4>
+            <h4 data-aos-duration="1000" data-aos="fade-up">Testing</h4>
             <div className="tecnology_content">
               {testing.map((testing, index) => (
-                <div key={index} className="icon_container">
+                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
                   <Image
                     alt={testing.skill}
                     className="icon_skill"
@@ -56,10 +58,10 @@ export function Skillssection(props) {
                 </div>
               ))}
             </div>
-            <h4>{language.bd}</h4>
+            <h4 data-aos-duration="1000" data-aos="fade-up">{language.bd}</h4>
             <div className="tecnology_content">
               {db.map((language, index) => (
-                <div key={index} className="icon_container">
+                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
                   <Image
                     alt={language.skill}
                     className="icon_skill"
@@ -69,10 +71,10 @@ export function Skillssection(props) {
                 </div>
               ))}
             </div>
-            <h4>{language.tools}</h4>
+            <h4 data-aos-duration="1000" data-aos="fade-up">{language.tools}</h4>
             <div className="tecnology_content">
               {others.map((tool, index) => (
-                <div key={index} className="icon_container">
+                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
                   <Image
                     alt={tool.skill}
                     className="icon_skill"
@@ -84,7 +86,7 @@ export function Skillssection(props) {
             </div>
           </div>
           {/* IMG */}
-          <div className="skill_img">
+          <div className="skill_img" data-aos-duration="1000" data-aos="fade-up">
             <Player
               className="skill_player"
               src="https://lottie.host/d529ee6e-4815-45b3-8ab6-98cba52a9c47/F3YatGd310.json"
