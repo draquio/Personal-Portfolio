@@ -14,14 +14,14 @@
   color:$text-light;
   min-height: 100dvh;
   justify-content: center;
-}
-.img_block {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  .avatar_main{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    animation: main_avatar_animation 2s linear infinite;
+  .img_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .avatar_main{
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      animation: main_avatar_animation 2s linear infinite;
+    }
   }
 }
 .avatar_main {
@@ -86,11 +86,16 @@
 }
 @media (max-width: $responsive_media) {
   .first-block{
-    min-height: 105dvh;
+    min-height: 110dvh;
+    .img_block .avatar_main{
+      width: 170px;
+      height: 170px;
+    }
   }
   .about_me_block .summary_about_me {
     width: 80%;
   }
+
 }
 
 
