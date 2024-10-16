@@ -171,6 +171,16 @@
       ],
       "challenge": [
         {
+          "title": "Prueba técnica - MovieWebApp",
+          "content": "Prueba técnica Frontend realizada con Server Side Rendering para el uso de una API de películas",
+          "img": "/projects/moviewebapp.webp",
+          "tecnology": ["NextJS", "Tailwind", "Docker"],
+          "tag": ["next", "tailwind", "docker"],
+          "icon": "tv",
+          "link": "https://movieapp-draquio.vercel.app/",
+          "code": "https://github.com/draquio/MovieApp-NextJS"
+        },
+        {
           "title": "Prueba técnica - Productos",
           "content": "Página web de prueba técnica de una tienda para registro de venta de productos.",
           "img": "/projects/pruebatecnica1.webp",
