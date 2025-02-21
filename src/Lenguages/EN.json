@@ -214,6 +214,23 @@
       ],
       "backend": [
         {
+          "title": "Currency converter + Optimized cache + Reports",
+          "content": [
+            "Currency converter backend built with .NET Core using Redis to optimize and cache responses from a third-party API with current values.",
+            "- Layered architecture.",
+            "- Dependency Injection pattern",
+            "- Cache memory with Redis",
+            "- AutoMapper parfora DTOs.",
+            "- Reports by date range",
+            "- Export report to CSV"
+          ],
+          "img": "/projects/currency_converter.webp",
+          "tecnology": [".NET Core", "SQLServer", "Redis", "Docker"],
+          "tag": ["netcore", "sqlserver", "redis", "docker"],
+          "icon": "dollar",
+          "code": "https://github.com/draquio/CurrencyConverter"
+        },
+        {
           "title": "Link Shortener + Clean Architecture + Analytics",
           "content": [
             "Backend of a Link Shortener made with Clean Architecture, design patterns and analytics.",
@@ -237,7 +254,7 @@
           "title": "Backend Blog + JWT + SQLServer + Email Service",
           "content": [
             "Backend for a blog made with N layer architecture and different patterns, DTOs, mappers, etc.",
-            "- Layer architecture.",
+            "- Layered architecture.",
             "- Service, Repository and DTO pattern.",
             "- Validation of DTO models with FluentValidation.",
             "- AutoMapper to more efficiently map DTOs to models.",

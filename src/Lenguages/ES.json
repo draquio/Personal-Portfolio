@@ -213,6 +213,23 @@
       ],
       "backend": [
         {
+          "title": "Convertidor de divisas + Memoria cache optimizada + Reportes",
+          "content": [
+            "Backend de conversor de divisas creado con .NET Core usando Redis para optimizar y guardar en cache las respuestas de una API de terceros con los valores actuales.",
+            "- Layered architecture.",
+            "- Patrón de Inyección de dependencias",
+            "- Memoria en cache con Redis",
+            "- AutoMapper para DTOs.",
+            "- Reportes por rango",
+            "- Exportar reporte a Csv"
+          ],
+          "img": "/projects/currency_converter.webp",
+          "tecnology": [".NET Core", "SQLServer", "Redis", "Docker"],
+          "tag": ["netcore", "sqlserver", "redis", "docker"],
+          "icon": "dollar",
+          "code": "https://github.com/draquio/CurrencyConverter"
+        },
+        {
           "title": "Acortador de Enlaces + Arquitectura limpia + Analíticas",
           "content": [
             "Backend de un Acortador de enlaces realizado con Arquitectura Limpia, patrones de diseño y analíticas.",
