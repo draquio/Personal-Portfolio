@@ -54,7 +54,8 @@ body::-webkit-scrollbar-thumb{
     color: $text-light;
   }
   .react {
-    background-color: #61dbfb;
+    background: #61DBFB;
+    background: linear-gradient(90deg, rgba(97, 219, 251, 1) 0%, rgba(84, 197, 220, 1) 100%);
   }
   .node {
     background-color: #68a063;
@@ -65,11 +66,17 @@ body::-webkit-scrollbar-thumb{
   .redux {
     background-color: #764abc;
   }
+  .zustand {
+    color: white;
+    background: #593040;
+    background: linear-gradient(90deg,rgba(89, 48, 64, 1) 0%, rgba(56, 32, 56, 1) 100%);
+  }
   .express {
     background-color: #303030;
   }
   .typescript {
-    background-color: #3178c6;
+    background: #3178C6;
+    background: linear-gradient(90deg, rgba(49, 120, 198, 1) 0%, rgba(73, 139, 209, 1) 100%);
   }
   .angular {
     background-color: #eb455f;
@@ -78,13 +85,16 @@ body::-webkit-scrollbar-thumb{
     background-color: #374259;
   }
   .next {
-    background-color: #000000;
+    background: #242424;
+    background: linear-gradient(90deg, rgba(36, 36, 36, 1) 0%, rgba(0, 0, 0, 1) 100%);
   }
   .tailwind {
-    background-color: #35bef8;
+    background: #38BDF8;
+background: linear-gradient(90deg, rgba(56, 189, 248, 1) 0%, rgba(101, 204, 247, 1) 100%);
   }
   .sass {
-    background-color: #cf649a;
+    background: #CF649A;
+    background: linear-gradient(90deg, rgba(207, 100, 154, 1) 0%, rgba(176, 93, 135, 1) 100%);
   }
   .mongodb {
     background-color: #47A248;
@@ -113,4 +123,8 @@ body::-webkit-scrollbar-thumb{
   }
   .redis{
     background-color: #D82C20;
+  }
+  .astro{
+    background: #E24376;
+    background: linear-gradient(90deg, rgba(226, 67, 118, 1) 0%, rgba(242, 67, 242, 1) 100%);
   }

@@ -42,6 +42,24 @@
           "code": "https://github.com/draquio/themovie"
         },
         {
+          "title": "DolarBolivia",
+          "content": "Revisa la cotización del dolar oficial y dolar paralelo en Bolivia.",
+          "img": "/projects/dolarbolivia.webp",
+          "tecnology": ["Astro", "Tailwind"],
+          "tag": ["astro", "tailwind"],
+          "icon": "dollar",
+          "link": "https://dolarbolivia.vercel.app/"
+        },
+        {
+          "title": "Generador de CVs",
+          "content": "Crea tu CV online totalmente optimizado y con formato aceptado por las ATS gratis.",
+          "img": "/projects/cvgenerator.webp",
+          "tecnology": ["NextJS", "Tailwind", "Zustand"],
+          "tag": ["next", "tailwind", "zustand"],
+          "icon": "paste",
+          "link": "https://cv-generator-free.vercel.app/"
+        },
+        {
           "title": "Ayuda Auditiva",
           "content": "Página web para el negocio Ayuda Auditiva de Tarija enfocado en SEO.",
           "img": "/projects/auditiva.webp",

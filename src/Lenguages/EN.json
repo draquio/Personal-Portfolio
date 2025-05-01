@@ -42,6 +42,24 @@
           "code": "https://github.com/draquio/themovie"
         },
         {
+          "title": "DolarBolivia",
+          "content": "Compare the official dollar and parallel dollar exchange rates in Bolivia.",
+          "img": "/projects/dolarbolivia.webp",
+          "tecnology": ["Astro", "Tailwind"],
+          "tag": ["astro", "tailwind"],
+          "icon": "dollar",
+          "link": "https://dolarbolivia.vercel.app/"
+        },
+        {
+          "title": "CV Generator",
+          "content": "Create your fully optimized CV online with an ATS-approved format for free.",
+          "img": "/projects/cvgenerator.webp",
+          "tecnology": ["NextJS", "Tailwind", "Zustand"],
+          "tag": ["next", "tailwind", "zustand"],
+          "icon": "paste",
+          "link": "https://cv-generator-free.vercel.app/"
+        },
+        {
           "title": "Ayuda Auditiva",
           "content": "Website for the business Ayuda Auditiva of Tarija focused on SEO.",
           "img": "/projects/auditiva.webp",
