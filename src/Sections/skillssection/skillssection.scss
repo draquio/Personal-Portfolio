@@ -6,15 +6,26 @@
   background-color: #f7f7f7;
   min-height: 100vh;
   .skill_content {
-    display: flex;
-    gap: 3rem;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: $max-width;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: start;
+    // max-width: $max-width;
+    max-width: 800px;
     margin: auto;
-    .skill_icons_section {
-      width: 55%;
+    section{
+      max-width: 350px;
+      text-align: center;
+      box-shadow: 0px 0px 8px 0px #e3e3e3;
+      background-color: white;
+      border-radius: 5px;
+      padding: 20px 10px;
+      margin: auto;
+      width: 100%;
+      h4{
+        font-size: 20px;
+        margin-top: 10px;
+      }
       .tecnology_content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -37,14 +48,6 @@
             }
           }
         }
-      }
-    }
-    .skill_img {
-      text-align: center;
-      width: 45%;
-      .skill_player {
-        width: $img_width;
-        text-align: center;
       }
     }
   }

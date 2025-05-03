@@ -445,6 +445,10 @@
         "icon": "/tecnologies/next.svg"
       },
       {
+        "skill": "Astro",
+        "icon": "/tecnologies/astro.svg"
+      },
+      {
         "skill": "TypeScript",
         "icon": "/tecnologies/typescript.svg"
       },
@@ -455,16 +459,16 @@
       {
         "skill": "Tailwind",
         "icon": "/tecnologies/tailwind.svg"
-      },
-      {
-        "skill": "Redux",
-        "icon": "/tecnologies/redux.svg"
       }
     ],
     "Backend": [
       {
         "skill": ".Net Core",
         "icon": "/tecnologies/netcore.svg"
+      },
+      {
+        "skill": "Spring Boot",
+        "icon": "/tecnologies/springboot.svg"
       },
       {
         "skill": "NodeJs",
@@ -477,6 +481,18 @@
       {
         "skill": "PHP",
         "icon": "/tecnologies/php.svg"
+      },
+      {
+        "skill": "MongoDB",
+        "icon": "/tecnologies/mongodb.svg"
+      },
+      {
+        "skill": "MySQL",
+        "icon": "/tecnologies/mysql.svg"
+      },
+      {
+        "skill": "SQLServer",
+        "icon": "/tecnologies/sql-server.svg"
       }
     ],
     "Testing": [
@@ -489,7 +505,7 @@
         "icon": "/tecnologies/vitest.svg"
       },
       {
-        "skill": "React Testing Library",
+        "skill": "Testing Library",
         "icon": "/tecnologies/react-testing-library.svg"
       },
       {
@@ -499,20 +515,6 @@
       {
         "skill": "Jest",
         "icon": "/tecnologies/jest.svg"
-      }
-    ],
-    "DB": [
-      {
-        "skill": "MongoDB",
-        "icon": "/tecnologies/mongodb.svg"
-      },
-      {
-        "skill": "MySQL",
-        "icon": "/tecnologies/mysql.svg"
-      },
-      {
-        "skill": "SQLServer",
-        "icon": "/tecnologies/sql-server.svg"
       }
     ],
     "Others": [

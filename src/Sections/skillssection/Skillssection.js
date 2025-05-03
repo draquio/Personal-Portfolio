@@ -7,7 +7,6 @@ export function Skillssection(props) {
   const frontend = skills.Frontend;
   const backend = skills.Backend;
   const testing = skills.Testing;
-  const db = skills.DB;
   const others = skills.Others;
   return (
     <>
@@ -17,25 +16,42 @@ export function Skillssection(props) {
           {language.title}
         </h2>
         <div className="skill_content">
-          <div className="skill_icons_section">
-              <h4 data-aos-duration="1000" data-aos="fade-up">FrontEnd</h4>
-              <div className="tecnology_content">
-                {frontend.map((language, index) => (
-                  <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
-                    <Image
-                      alt={language.skill}
-                      className="icon_skill"
-                      src={language.icon}
-                      loading="lazy"
-                    />
-                    {language.skill}
-                  </div>
-                ))}
-              </div>
-            <h4 data-aos-duration="1000" data-aos="fade-up">Backend</h4>
+          {/* <div className="skill_icons_section"> */}
+          <section>
+            <h4 data-aos-duration="1000" data-aos="fade-up">
+              Frontend
+            </h4>
+            <div className="tecnology_content">
+              {frontend.map((language, index) => (
+                <div
+                  key={index}
+                  className="icon_container"
+                  data-aos-duration="1000"
+                  data-aos="fade-up"
+                >
+                  <Image
+                    alt={language.skill}
+                    className="icon_skill"
+                    src={language.icon}
+                    loading="lazy"
+                  />
+                  {language.skill}
+                </div>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h4 data-aos-duration="1000" data-aos="fade-up">
+              Backend
+            </h4>
             <div className="tecnology_content">
               {backend.map((language, index) => (
-                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
+                <div
+                  key={index}
+                  className="icon_container"
+                  data-aos-duration="1000"
+                  data-aos="fade-up"
+                >
                   <Image
                     alt={language.skill}
                     className="icon_skill"
@@ -45,10 +61,19 @@ export function Skillssection(props) {
                 </div>
               ))}
             </div>
-            <h4 data-aos-duration="1000" data-aos="fade-up">Testing</h4>
+          </section>
+          <section>
+            <h4 data-aos-duration="1000" data-aos="fade-up">
+              Testing
+            </h4>
             <div className="tecnology_content">
               {testing.map((testing, index) => (
-                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
+                <div
+                  key={index}
+                  className="icon_container"
+                  data-aos-duration="1000"
+                  data-aos="fade-up"
+                >
                   <Image
                     alt={testing.skill}
                     className="icon_skill"
@@ -58,23 +83,19 @@ export function Skillssection(props) {
                 </div>
               ))}
             </div>
-            <h4 data-aos-duration="1000" data-aos="fade-up">{language.bd}</h4>
-            <div className="tecnology_content">
-              {db.map((language, index) => (
-                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
-                  <Image
-                    alt={language.skill}
-                    className="icon_skill"
-                    src={language.icon}
-                  />
-                  {language.skill}
-                </div>
-              ))}
-            </div>
-            <h4 data-aos-duration="1000" data-aos="fade-up">{language.tools}</h4>
+          </section>
+          <section>
+            <h4 data-aos-duration="1000" data-aos="fade-up">
+              {language.tools}
+            </h4>
             <div className="tecnology_content">
               {others.map((tool, index) => (
-                <div key={index} className="icon_container" data-aos-duration="1000" data-aos="fade-up">
+                <div
+                  key={index}
+                  className="icon_container"
+                  data-aos-duration="1000"
+                  data-aos="fade-up"
+                >
                   <Image
                     alt={tool.skill}
                     className="icon_skill"
@@ -84,21 +105,8 @@ export function Skillssection(props) {
                 </div>
               ))}
             </div>
-          </div>
-          {/* IMG */}
-          <div className="skill_img" data-aos-duration="1000" data-aos="fade-up">
-            <Player
-              className="skill_player"
-              src="https://lottie.host/d529ee6e-4815-45b3-8ab6-98cba52a9c47/F3YatGd310.json"
-              background="transparent"
-              speed="1"
-              loop
-              controls
-              autoplay
-              direction="1"
-              mode="normal"
-            ></Player>
-          </div>
+          </section>
+          {/* </div> */}
         </div>
       </div>
     </>
