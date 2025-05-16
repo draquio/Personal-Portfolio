@@ -56,7 +56,7 @@
 @media (max-width: $responsive_media) {
   .skills_section {
     .skill_content {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
     column-gap: 15px;
     .skill_icons_section {
       width: 90%;
