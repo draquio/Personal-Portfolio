@@ -1,5 +1,5 @@
 {
-  "Menu":{
+  "Menu": {
     "aboutme": "Who I am?",
     "skills": "Skills",
     "projects": "Projects",
@@ -30,7 +30,7 @@
   "PJS": {
     "title": "Projects",
     "projects": {
-      "frontend":[
+      "frontend": [
         {
           "title": "TheMovie",
           "content": "Website of Movies and series, also with the trending on both sections.",
@@ -42,6 +42,17 @@
           "code": "https://github.com/draquio/themovie"
         },
         {
+          "title": "CV Generator",
+          "content": "Create your fully optimized CV online with an ATS-approved format for free.",
+          "img": "/projects/cvgenerator.webp",
+          "tecnology": ["NextJS", "Tailwind", "Zustand"],
+          "tag": ["next", "tailwind", "zustand"],
+          "icon": "paste",
+          "link": "https://cv-generator-free.vercel.app/",
+          "featured": true,
+          "featuredContent": "Featured project"
+        },
+        {
           "title": "DolarBolivia",
           "content": "Compare the official dollar and parallel dollar exchange rates in Bolivia.",
           "img": "/projects/dolarbolivia.webp",
@@ -49,15 +60,6 @@
           "tag": ["astro", "tailwind"],
           "icon": "dollar",
           "link": "https://dolarbolivia.vercel.app/"
-        },
-        {
-          "title": "CV Generator",
-          "content": "Create your fully optimized CV online with an ATS-approved format for free.",
-          "img": "/projects/cvgenerator.webp",
-          "tecnology": ["NextJS", "Tailwind", "Zustand"],
-          "tag": ["next", "tailwind", "zustand"],
-          "icon": "paste",
-          "link": "https://cv-generator-free.vercel.app/"
         },
         {
           "title": "Ayuda Auditiva",
@@ -185,9 +187,9 @@
           "tag": ["wordpress"],
           "icon": "microphone",
           "link": "https://www.draquio.com/"
-        } 
+        }
       ],
-      "challenge":[
+      "challenge": [
         {
           "title": "Technical test - MovieWebApp",
           "content": "Frontend technical test performed with Server Side Rendering for the use of a movie API",
@@ -203,18 +205,17 @@
           "content": "Technical test web page of a store to register product sales.",
           "img": "/projects/pruebatecnica1.webp",
           "tecnology": ["React", "Sass", "LocalStorage"],
-          "tag": ["react", "sass" ,"localstorage"],
+          "tag": ["react", "sass", "localstorage"],
           "icon": "shopping basket",
           "link": "https://prueba-tecnica-tienda-draquio.vercel.app/",
           "code": "https://github.com/draquio/prueba-tecnica-fullstack-frontend"
-  
         },
         {
           "title": "Fullstack Technical Test – Notes",
           "content": "Web page to create, edit, delete and archive notes with User Login",
           "img": "/projects/notas.webp",
           "tecnology": ["React", "Sass", "Node"],
-          "tag": ["react", "sass" ,"node"],
+          "tag": ["react", "sass", "node"],
           "icon": "sticky note",
           "link": "https://fullstack-frontend-nu.vercel.app/",
           "code": "https://github.com/draquio/prueba-tecnica-tienda"
@@ -223,8 +224,8 @@
           "title": "Technical test - Profile Card",
           "content": "Website of personal profile",
           "img": "/projects/profile.webp",
-          "tecnology": ["NextJS","Sass", "TypeScript"],
-          "tag": ["next","sass", "typescript"],
+          "tecnology": ["NextJS", "Sass", "TypeScript"],
+          "tag": ["next", "sass", "typescript"],
           "icon": "address card",
           "link": "https://profileweb-draquio.vercel.app/",
           "code": "https://github.com/draquio/profileweb"
@@ -408,13 +409,13 @@
           "code": "https://github.com/draquio/prueba-tecnica-fullstack-backend"
         }
       ],
-      "buttons":{
+      "buttons": {
         "demo": "View demo",
         "code": "View code"
       }
     }
   },
-  "CF":{
+  "CF": {
     "title": "Contact Form",
     "name": "Your name",
     "mail": "yourmail@mail.com",
@@ -462,7 +463,7 @@
         "icon": "/tecnologies/tailwind.svg"
       }
     ],
-    "Backend":[
+    "Backend": [
       {
         "skill": ".Net Core",
         "icon": "/tecnologies/netcore.svg"
@@ -496,7 +497,7 @@
         "icon": "/tecnologies/sql-server.svg"
       }
     ],
-    "Testing":[
+    "Testing": [
       {
         "skill": "Cypress",
         "icon": "/tecnologies/cypress.svg"
@@ -518,7 +519,7 @@
         "icon": "/tecnologies/jest.svg"
       }
     ],
-    "Others":[
+    "Others": [
       {
         "skill": "Git",
         "icon": "/tecnologies/git.svg"

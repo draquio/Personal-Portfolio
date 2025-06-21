@@ -9,7 +9,10 @@ export function Frontend(props) {
       {frontend.map((project, index) => (
         <div key={index} className="item_card_frontend" data-aos="zoom-in">
           <h4 className="item_card_title">
-            <Icon name={project.icon} /> {project.title}
+            <span><Icon name={project.icon} /> {project.title}</span>
+            {project.featured && (
+              <span className="item_card_title_featured">{project.featuredContent}</span>
+            )}
           </h4>
           <div className="image_card">
             <img src={project.img} alt={project.title} loading="lazy" />

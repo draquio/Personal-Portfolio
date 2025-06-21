@@ -42,6 +42,17 @@
           "code": "https://github.com/draquio/themovie"
         },
         {
+          "title": "Generador de CVs",
+          "content": "Crea tu CV online totalmente optimizado y con formato aceptado por las ATS gratis.",
+          "img": "/projects/cvgenerator.webp",
+          "tecnology": ["NextJS", "Tailwind", "Zustand"],
+          "tag": ["next", "tailwind", "zustand"],
+          "icon": "paste",
+          "link": "https://cv-generator-free.vercel.app/",
+          "featured": true,
+          "featuredContent": "Proyecto destacado"
+        },
+        {
           "title": "DolarBolivia",
           "content": "Revisa la cotización del dolar oficial y dolar paralelo en Bolivia.",
           "img": "/projects/dolarbolivia.webp",
@@ -49,15 +60,6 @@
           "tag": ["astro", "tailwind"],
           "icon": "dollar",
           "link": "https://dolarbolivia.vercel.app/"
-        },
-        {
-          "title": "Generador de CVs",
-          "content": "Crea tu CV online totalmente optimizado y con formato aceptado por las ATS gratis.",
-          "img": "/projects/cvgenerator.webp",
-          "tecnology": ["NextJS", "Tailwind", "Zustand"],
-          "tag": ["next", "tailwind", "zustand"],
-          "icon": "paste",
-          "link": "https://cv-generator-free.vercel.app/"
         },
         {
           "title": "Ayuda Auditiva",
