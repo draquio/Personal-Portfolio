@@ -233,6 +233,23 @@
       ],
       "backend": [
         {
+          "title": "Link Shortener + JWT + Prisma",
+          "content": [
+            "Backend for a link shortener with user authentication and authorization, using Prisma as the ORM and PostgreSQL as the database manager.",
+            "- Layered architecture.",
+            "- Dependency Injection pattern.",
+            "- AutoMapper and DTOs.",
+            "- Validations with Zod.",
+            "- Unit testing.",
+            "- Json Web Token (JWT) for authentication and authorization."
+          ],
+          "img": "/projects/acortador-de-enlaces-node.webp",
+          "tecnology": ["NodeJS", "Express", "PostgreSQL", "Docker"],
+          "tag": ["node", "express", "postgresql", "docker"],
+          "icon": "linkify",
+          "code": "https://github.com/draquio/Link-Shortener-Backend-Node"
+        },
+        {
           "title": "Currency converter + Optimized cache + Reports",
           "content": [
             "Currency converter backend built with .NET Core using Redis to optimize and cache responses from a third-party API with current values.",
