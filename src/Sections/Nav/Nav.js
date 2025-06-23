@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Nav.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { changelanguage } from "../../feactures/languages/languageSlice";
@@ -11,6 +11,7 @@ export function Nav(props) {
   const [language, Setlanguage] = useState(
     useSelector((state) => state.language.type)
   );
+  const [isTop, setIsTop] = useState(true);
   const onActive = () => {
     SetIsActive(!isActive);
   };
@@ -23,9 +24,40 @@ export function Nav(props) {
       Setlanguage("ES");
     }
   };
+  // Detectar si el scroll está en la parte superior
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsTop(window.scrollY === 0);
+    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Evitar el salto al desaparecer el scrollbar y evita el scroll del body
+  useEffect(() => {
+    const scrollbarWidth =
+      window.innerWidth - document.documentElement.clientWidth;
+    if (isActive) {
+      document.body.style.overflow = "hidden";
+
+      // Evita salto al desaparecer scrollbar
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+    } else {
+      document.body.style.overflow = "auto";
+      document.body.style.paddingRight = "0px";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+      document.body.style.paddingRight = "0px";
+    };
+  }, [isActive]);
 
   return (
-    <div className="nav_section">
+    <div className={`nav_section ${isTop ? "" : "scrolled"}`}>
       <div className="nav_content">
         <div className="logo">
           <Link
@@ -49,15 +81,16 @@ export function Nav(props) {
           checked={isActive ? true : false}
         />
         <label className="icon-menu menu_mobile_icon" htmlFor="check-icon">
-          <div className="bar bar--1"></div>
-          <div className="bar bar--2"></div>
-          <div className="bar bar--3"></div>
+          <div className={`bar bar--1 ${isTop ? "" : "scrolled"}`}></div>
+          <div className={`bar bar--2 ${isTop ? "" : "scrolled"}`}></div>
+          <div className={`bar bar--3 ${isTop ? "" : "scrolled"}`}></div>
         </label>
         <nav className="menu_list">
           <ul>
             <li>
               <Link
                 activeClass="active"
+                className="menu_list_link"
                 to="about_me"
                 spy={true}
                 smooth={true}
@@ -71,6 +104,7 @@ export function Nav(props) {
             <li>
               <Link
                 activeClass="active"
+                className="menu_list_link"
                 to="skills"
                 spy={true}
                 smooth={true}
@@ -84,6 +118,7 @@ export function Nav(props) {
             <li>
               <Link
                 activeClass="active"
+                className="menu_list_link"
                 to="projects"
                 spy={true}
                 smooth={true}
@@ -97,6 +132,7 @@ export function Nav(props) {
             <li>
               <Link
                 activeClass="active"
+                className="menu_list_link"
                 to="contact"
                 spy={true}
                 smooth={true}

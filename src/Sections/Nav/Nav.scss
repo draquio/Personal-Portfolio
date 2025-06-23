@@ -3,11 +3,21 @@
 .nav_section {
   scroll-behavior: smooth;
   width: 100%;
-  background-color: white;
+  background-color: none;
   position: fixed;
   top: 0;
-  border-bottom: 2px solid #f1f1f1;
+  color: white;
   z-index: 10;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in-out all;
+  &.scrolled {
+    background-color: white;
+    border-bottom: 2px solid #f1f1f1;
+    color: $text-dark;
+    .menu_list ul li .menu_list_link {
+      color: $text-dark !important;
+    }
+  }
   .nav_content {
     max-width: $max-width;
     margin: auto;
@@ -16,14 +26,13 @@
     justify-content: space-between;
     align-items: center;
     height: 55px;
-
     .logo a {
       margin-left: 10px;
       cursor: pointer;
       font-weight: bold;
       font-size: 20px;
     }
-    .icon-menu{
+    .icon-menu {
       display: none;
     }
     .menu_list {
@@ -39,13 +48,14 @@
         li {
           a {
             display: block;
-            color: $text-dark;
+            // color: $text-dark;
+            color: $text-light;
             text-decoration: none;
             cursor: pointer;
             font-size: 14px;
             font-weight: bold;
             padding: 5px;
-            transition: 0.3s ease-in-out all;
+            // transition: 0.3s ease-in-out all;
           }
           .flag_lenguage {
             vertical-align: middle;
@@ -64,6 +74,7 @@
       top: 55px;
       right: 100%;
       background: rgb(255 255 255 / 90%);
+      // background: rgb(255 255 255 / 100%);
       backdrop-filter: blur(10px);
       transition: 0.3s ease-in-out all;
       ul {
@@ -81,6 +92,9 @@
           .flag_lenguage {
             width: 64px;
             cursor: pointer;
+          }
+          a {
+            color: $text-dark;
           }
         }
       }
@@ -124,7 +138,10 @@
     height: var(--height-bar);
     width: 100%;
     border-radius: 0.5rem;
-    background-color: $text-dark;
+    background-color: $text-light;
+    &.scrolled{
+      background-color: $text-dark;
+    }
   }
 
   .bar--1 {

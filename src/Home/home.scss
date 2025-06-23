@@ -1,133 +1,157 @@
 @import "~/src/scss/index.scss";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
-body{
-    font-family: 'Noto Sans KR', Arial, sans-serif;
-    min-width: 0;
-    font-size: 16px;
-    background: none;
-    margin: 0;
-    padding: 0;
-
+body {
+  font-family: "Noto Sans KR", Arial, sans-serif;
+  min-width: 0;
+  font-size: 16px;
+  background: none;
+  margin: 0;
+  padding: 0;
 }
 @font-face {
-  font-family: 'Noto Sans KR';
+  font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 }
-body::-webkit-scrollbar{
-   width: 7px;
-   background-color: #f7f7f7;
-}
-
-body::-webkit-scrollbar-thumb{
-    background: $text-red;
-    border-radius: 2px;
- }
-
- 
-.container-class{
-    border-radius: 10px;
-    max-width: 100%;
-    background-color: white;
-    padding: 0;
-    min-height: 100vh;
-    overflow: hidden;
-    .separator_red{
-        border-top: 1px dashed red;
-    }
-}
-.title_content{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 35px;
-    color:$text-dark;
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f7f7f7;
 }
 
+body::-webkit-scrollbar-thumb {
+  background: $text-red;
+  border-radius: 2px;
+}
+
+.container-class {
+  max-width: 100%;
+  background-color: white;
+  padding: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  .separator_red {
+    border-top: 1px dashed red;
+  }
+}
+.title_content {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: $text-dark;
+}
 
 .tag {
-    cursor: pointer;
-    padding: 3px 6px;
-    border-radius: 5px;
-    color: $text-light;
-  }
-  .react {
-    background: #61DBFB;
-    background: linear-gradient(90deg, rgba(97, 219, 251, 1) 0%, rgba(84, 197, 220, 1) 100%);
-  }
-  .node {
-    background-color: #68a063;
-  }
-  .php {
-    background-color: #787cb5;
-  }
-  .redux {
-    background-color: #764abc;
-  }
-  .zustand {
-    color: white;
-    background: #593040;
-    background: linear-gradient(90deg,rgba(89, 48, 64, 1) 0%, rgba(56, 32, 56, 1) 100%);
-  }
-  .express {
-    background-color: #303030;
-  }
-  .typescript {
-    background: #3178C6;
-    background: linear-gradient(90deg, rgba(49, 120, 198, 1) 0%, rgba(73, 139, 209, 1) 100%);
-  }
-  .angular {
-    background-color: #eb455f;
-  }
-  .wordpress {
-    background-color: #374259;
-  }
-  .next {
-    background: #242424;
-    background: linear-gradient(90deg, rgba(36, 36, 36, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  }
-  .tailwind {
-    background: #38BDF8;
-background: linear-gradient(90deg, rgba(56, 189, 248, 1) 0%, rgba(101, 204, 247, 1) 100%);
-  }
-  .sass {
-    background: #CF649A;
-    background: linear-gradient(90deg, rgba(207, 100, 154, 1) 0%, rgba(176, 93, 135, 1) 100%);
-  }
-  .mongodb {
-    background-color: #47A248;
-  }
-  .sqlserver {
-    background-color: #EB455F;
-  }
-  .socketio {
-    background-color: #fb6d48;
-  }
-  .localstorage {
-    background-color: #f3cc03;
-    color: #58595b;
-  }
-  .netcore {
-    background-color: #512BD4;
-  }
-  .jwt {
-    background-color: #00A8E1;
-  }
-  .signalr{
-    background-color: #59b4d9;
-  }
-  .docker{
-    background-color: #2496ED;
-  }
-  .redis{
-    background-color: #D82C20;
-  }
-  .postgresql{
-    background-color: #0064a5;
-  }
-  .astro{
-    background: #E24376;
-    background: linear-gradient(90deg, rgba(226, 67, 118, 1) 0%, rgba(242, 67, 242, 1) 100%);
-  }
+  cursor: pointer;
+  padding: 3px 6px;
+  border-radius: 5px;
+  color: $text-light;
+}
+.react {
+  background: #61dbfb;
+  background: linear-gradient(
+    90deg,
+    rgba(97, 219, 251, 1) 0%,
+    rgba(84, 197, 220, 1) 100%
+  );
+}
+.node {
+  background-color: #68a063;
+}
+.php {
+  background-color: #787cb5;
+}
+.redux {
+  background-color: #764abc;
+}
+.zustand {
+  color: white;
+  background: #593040;
+  background: linear-gradient(
+    90deg,
+    rgba(89, 48, 64, 1) 0%,
+    rgba(56, 32, 56, 1) 100%
+  );
+}
+.express {
+  background-color: #303030;
+}
+.typescript {
+  background: #3178c6;
+  background: linear-gradient(
+    90deg,
+    rgba(49, 120, 198, 1) 0%,
+    rgba(73, 139, 209, 1) 100%
+  );
+}
+.angular {
+  background-color: #eb455f;
+}
+.wordpress {
+  background-color: #374259;
+}
+.next {
+  background: #242424;
+  background: linear-gradient(
+    90deg,
+    rgba(36, 36, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.tailwind {
+  background: #38bdf8;
+  background: linear-gradient(
+    90deg,
+    rgba(56, 189, 248, 1) 0%,
+    rgba(101, 204, 247, 1) 100%
+  );
+}
+.sass {
+  background: #cf649a;
+  background: linear-gradient(
+    90deg,
+    rgba(207, 100, 154, 1) 0%,
+    rgba(176, 93, 135, 1) 100%
+  );
+}
+.mongodb {
+  background-color: #47a248;
+}
+.sqlserver {
+  background-color: #eb455f;
+}
+.socketio {
+  background-color: #fb6d48;
+}
+.localstorage {
+  background-color: #f3cc03;
+  color: #58595b;
+}
+.netcore {
+  background-color: #512bd4;
+}
+.jwt {
+  background-color: #00a8e1;
+}
+.signalr {
+  background-color: #59b4d9;
+}
+.docker {
+  background-color: #2496ed;
+}
+.redis {
+  background-color: #d82c20;
+}
+.postgresql {
+  background-color: #0064a5;
+}
+.astro {
+  background: #e24376;
+  background: linear-gradient(
+    90deg,
+    rgba(226, 67, 118, 1) 0%,
+    rgba(242, 67, 242, 1) 100%
+  );
+}
