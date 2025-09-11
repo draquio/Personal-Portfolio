@@ -11,7 +11,8 @@ export function Frontend(props) {
           <h4 className="item_card_title">
             <span><Icon name={project.icon} /> {project.title}</span>
             {project.featured && (
-              <span className="item_card_title_featured">{project.featuredContent}</span>
+              // <span className="item_card_title_featured">{project.featuredContent}</span>
+              <span className="item_card_title_featured"><Icon name="star" /></span>
             )}
           </h4>
           <div className="image_card">

@@ -11,15 +11,15 @@
       "dev": "Desarrollador Web",
       "ing": "Ingeniero de Sistemas"
     },
-    "content": "Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de <b>inglés B2</b>, hace casi 2 años me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
+    "content": "Soy Sergio Mercado, <b>Ingeniero de Sistemas</b> con un nivel de <b>inglés B2</b>, hace mas de 2 años me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
     "button": "Descargar CV",
-    "document": "Ing_Sergio_Mercado_CV"
+    "document": "backend_es_Sergio_Mercado_CV"
   },
   "AM": {
     "title": "Sobre mi",
-    "content_One": "Hola, soy Sergio Mercado Galarza, tengo 27 años y soy de Bolivia, estudié <b class='bg_text bg_yellow'>Ingeniería en Sistemas</b> en la Universidad Privada Domingo Savio y también <b class='bg_text bg_purple'>Inglés</b> en el Centro Boliviano Americano (CBA).",
-    "content_Two": "Llevo casi <b>2 años</b> trabajando con diferentes tecnologías, tengo páginas web y proyectos que día a día reciben cientos de visitas, también trabajé haciendo <b class='text_line_bottom'>SEO para blogs</b> y canales de Youtube.",
-    "content_Three": "Busco un equipo para colaborar donde pueda aportar y seguir aprendiendo para llevar mi carrera al siguiente nivel como un gran <b class='bg_text bg_red'>'Desarrollor Web'</b>."
+    "content_One": "Hola, soy Sergio Mercado, <b class='bg_text bg_yellow'>Ingeniero de Sistemas</b>, desarrollador web y amante de la tecnología con <b class='bg_text bg_purple'>Inglés B2</b>, lo cual me ha permitido trabajar con compañeros de varias partes del mundo.",
+    "content_Two": "Llevo mas de <b>2 años</b> trabajando con diferentes tecnologías, pero enfocado principalmente en <b class='text_line_bottom'>backend</b> con .NET Core y NodeJs.",
+    "content_Three": "Actualmente trabajo como <b class='bg_text bg_red'>Ingeniero de Software</b> para el extranjero. Si tienes algun reto o una propuesta, siempre tengo unos minutos para conversar."
   },
   "SK": {
     "title": "Habilidades",
@@ -49,8 +49,7 @@
           "tag": ["next", "tailwind", "zustand"],
           "icon": "paste",
           "link": "https://cv-generator-free.vercel.app/",
-          "featured": true,
-          "featuredContent": "Proyecto destacado"
+          "featured": true
         },
         {
           "title": "DolarBolivia",

@@ -11,15 +11,15 @@
       "dev": "Web Developer",
       "ing": "System Engineer"
     },
-    "content": "I am Sergio Mercado, <b>System Engineer</b> with <b>B2 english </b> level, for almost 2 years i work as <b>web developer</b> focused on good practices and agile methodologies to provide quality results.",
+    "content": "I am Sergio Mercado, <b>System Engineer</b> with <b>B2 english </b> level, for more than 2 years i work as <b>web developer</b> focused on good practices and agile methodologies to provide quality results.",
     "button": "Download CV",
-    "document": "Eng_Sergio_Mercado_CV"
+    "document": "backend_en_Sergio_Mercado_CV"
   },
   "AM": {
     "title": "About me",
-    "content_One": "Hi, I'm Sergio Mercado Galarza, 27 years old, and I'm from Bolivia, I studied <b class='bg_text bg_yellow'>Systems Engineering</b> at Domingo Savio Private University and also <b class='bg_text bg_purple'>English</b> at Bolivian American Center (CBA).",
-    "content_Two": "I have been working for almost <b>2 years</b> working with different technologies, I have websites and projects that receive hundreds of visits every day, I have also worked on <b class='text_line_bottom'>SEO for blogs</b> and Youtube channels.",
-    "content_Three": "I am looking for a team to collaborate with where I can contribute and continue learning to take my career to the next level as a big <b class='bg_text bg_red'>'Web Developer'</b>."
+    "content_One": "Hi, Im Sergio Mercado, <b class='bg_text bg_yellow'>System Engineer</b>, web developer and technology enthusiast with <b class='bg_text bg_purple'>B2 English</b> level, which has allowed me to work with colleagues from all over the world.",
+    "content_Two": "I have more than <b>2 years</b> working with different technologies, mainly focused on <b class='text_line_bottom'>backend</b> with .NET Core and NodeJs.",
+    "content_Three": "Im currently working as a <b class='bg_text bg_red'>Software Engineer</b> abroad. If you have a challenge or a proposal, Im always happy to talk."
   },
   "SK": {
     "title": "Skills",
@@ -49,8 +49,7 @@
           "tag": ["next", "tailwind", "zustand"],
           "icon": "paste",
           "link": "https://cv-generator-free.vercel.app/",
-          "featured": true,
-          "featuredContent": "Featured project"
+          "featured": true
         },
         {
           "title": "DolarBolivia",
