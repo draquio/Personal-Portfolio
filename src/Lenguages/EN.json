@@ -3,7 +3,8 @@
     "aboutme": "Who I am?",
     "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "experience": "Experience"
   },
   "FS": {
     "title": "Eng. Sergio Mercado",
@@ -493,12 +494,12 @@
         "icon": "/tecnologies/node-js.svg"
       },
       {
-        "skill": "Python",
-        "icon": "/tecnologies/python.svg"
-      },
-      {
         "skill": "PHP",
         "icon": "/tecnologies/php.svg"
+      },
+      {
+        "skill": "Redis",
+        "icon": "/tecnologies/redis.svg"
       },
       {
         "skill": "MongoDB",
@@ -511,6 +512,10 @@
       {
         "skill": "SQLServer",
         "icon": "/tecnologies/sql-server.svg"
+      },
+      {
+        "skill": "PostgreSQL",
+        "icon": "/tecnologies/postgresql.svg"
       }
     ],
     "Testing": [
@@ -561,5 +566,23 @@
         "icon": "/tecnologies/figma.svg"
       }
     ]
+  },
+  "EXPERIENCE": [
+  {
+    "company": "RithmXO",
+    "position": "Backend Developer",
+    "period": "August 2025 - Present",
+    "imagen": "/experience/rithm.jfif",
+    "description": "I participated in the development and improvement of the main production software, focusing on performance, code quality, and stability. I contributed to new features, database optimization, and backend services.",
+    "tags": ["Node.js", ".NET", "Angular", "Rest API", "SQL", "Performance", "Refactoring"]
+  },
+  {
+    "position": "Freelance Web Developer",
+    "period": "2023 - 2025 (Occasional)",
+    "imagen": "/experience/linkedin.webp",
+    "description": "I worked on both frontend and backend development, building platforms, APIs, and open-source projects with a focus on performance, SEO, and scalability. I developed real-world tools used by users, such as a CV generator with thousands of monthly visits, while continuously applying new technologies and best practices.",
+    "tags": ["React", "Node.js", ".NET", "Next.js", "Tailwind", "MySQL", "MongoDB"]
   }
+]
+
 }

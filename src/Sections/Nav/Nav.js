@@ -105,6 +105,20 @@ export function Nav(props) {
               <Link
                 activeClass="active"
                 className="menu_list_link"
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                aria-label="sección experiencia"
+              >
+                {len.experience}
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                className="menu_list_link"
                 to="skills"
                 spy={true}
                 smooth={true}
@@ -169,6 +183,20 @@ export function Nav(props) {
                 aria-label="sección de sobre mi en movil"
               >
                 {len.aboutme}
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                onClick={onActive}
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                aria-label="sección de experiencia en movil"
+              >
+                {len.experience}
               </Link>
             </li>
             <li>

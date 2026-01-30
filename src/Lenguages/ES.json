@@ -3,7 +3,8 @@
     "aboutme": "¿Quién soy?",
     "skills": "Habilidades",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "experience": "Experiencia"
   },
   "FS": {
     "title": "Ing. Sergio Mercado",
@@ -493,12 +494,12 @@
         "icon": "/tecnologies/node-js.svg"
       },
       {
-        "skill": "Python",
-        "icon": "/tecnologies/python.svg"
-      },
-      {
         "skill": "PHP",
         "icon": "/tecnologies/php.svg"
+      },
+      {
+        "skill": "Redis",
+        "icon": "/tecnologies/redis.svg"
       },
       {
         "skill": "MongoDB",
@@ -511,6 +512,10 @@
       {
         "skill": "SQLServer",
         "icon": "/tecnologies/sql-server.svg"
+      },
+      {
+        "skill": "PostgreSQL",
+        "icon": "/tecnologies/postgresql.svg"
       }
     ],
     "Testing": [
@@ -561,5 +566,38 @@
         "icon": "/tecnologies/figma.svg"
       }
     ]
-  }
+  },
+  "EXPERIENCE": [
+    {
+      "company": "RithmXO",
+      "position": "Desarrollador Backend",
+      "period": "Agosto 2025 - Presente",
+      "imagen": "/experience/rithm.jfif",
+      "description": "Participé en el desarrollo y mejora del software principal en producción, enfocándome en rendimiento, calidad de código y estabilidad. Contribuí a nuevas funcionalidades, optimización de base de datos y servicios backend.",
+      "tags": [
+        "Node.js",
+        ".NET",
+        "Angular",
+        "Rest API",
+        "SQL",
+        "Performance",
+        "Refactoring"
+      ]
+    },
+    {
+      "position": "Desarrollador Web Freelance",
+      "period": "2023 - 2025 (Ocasional)",
+      "imagen": "/experience/linkedin.webp",
+      "description": "Participé en el desarrollo como frontend y backend, creando plataformas, APIs y proyectos open source con foco en rendimiento, SEO y escalabilidad. Desarrollé herramientas reales usadas por usuarios, como un generador de CV con miles de visitas mensuales, aplicando continuamente nuevas tecnologías y buenas prácticas.",
+      "tags": [
+        "React",
+        "Node.js",
+        ".NET",
+        "Next.js",
+        "Tailwind",
+        "MySQL",
+        "MongoDB"
+      ]
+    }
+  ]
 }

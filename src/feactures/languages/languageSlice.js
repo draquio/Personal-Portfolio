@@ -11,8 +11,6 @@ export const languageSlice = createSlice({
   reducers: {
     changelanguage: (state, action) => {
       state.type = action.payload;
-      // console.log("state: "+state.type);
-      // console.log(action.payload);
     },
   },
 });

@@ -10,6 +10,7 @@ import {
   Skillssection,
   ProjectSections,
   Contactsection,
+  Experiencesection,
 } from "../Sections";
 
 import "./home.scss";
@@ -41,6 +42,7 @@ export function Home() {
       <main className="container-class">
         <Firstsection language={language} />
         <Aboutmesection language={language.AM} />
+        <Experiencesection title={language.Menu} experience={language.EXPERIENCE} />
         <Skillssection language={language.SK} skills={language.SKILLS} />
         <ProjectSections language={language.PJS} />
         <Contactsection language={language.CF} />

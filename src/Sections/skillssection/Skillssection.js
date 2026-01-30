@@ -1,7 +1,6 @@
 import React from "react";
 import "./skillssection.scss";
-import { Icon, Image } from "semantic-ui-react";
-import { Player } from "@lottiefiles/react-lottie-player";
+import { Image } from "semantic-ui-react";
 export function Skillssection(props) {
   const { language, skills } = props;
   const frontend = skills.Frontend;

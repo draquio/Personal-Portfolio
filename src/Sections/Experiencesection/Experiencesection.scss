@@ -1,0 +1,116 @@
+@import "~/src/scss/index.scss";
+.experience_section {
+  padding: $padding-section;
+  max-width: $max-width;
+  margin: 10px auto;
+  min-height: 650px;
+  .experiece_content {
+    margin: 40px 10px 0 10px;
+    display: flex; 
+    flex-direction: column;
+    row-gap: 30px;
+    .experience_card {
+      padding: 10px 20px 30px 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 8px 0px #e3e3e3;
+      box-sizing: border-box;
+      width: 100%;
+      display: flex;
+      column-gap: 20px;
+      &:hover {
+        box-shadow: 0px 0px 12px 5px #e3e3e3;
+      }
+      &_image img {
+        box-shadow: 0px 0px 8px 0px #e3e3e3;
+        border-radius: 100%;
+        max-width: 100px;
+        margin-top: 20px;
+      }
+      &_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // background-color: red;
+        margin: 20px 0 0 0;
+        h3 {
+          font-size: 20px;
+          margin: 0;
+        }
+        p {
+          background: #0000000f;
+          padding: 5px 15px;
+          border-radius: 22px;
+          font-size: 14px;
+          margin: 0;
+          &:hover {
+            background-color: #00000023;
+            cursor: pointer;
+          }
+        }
+      }
+      &_company {
+        // margin-top: -15px;
+        color: #444;
+        font-size: 15px;
+      }
+      &_content {
+        font-size: 14px;
+        font-weight: 400;
+        color: #555;
+        margin-bottom: 18px;
+        p {
+          text-align: justify;
+          margin-bottom: 10px;
+        }
+        .item {
+          .content {
+            margin-bottom: 5px;
+            display: flex;
+            column-gap: 10px;
+            align-items: center;
+          }
+        }
+      }
+      &_tags {
+        display: flex;
+        column-gap: 5px;
+        font-size: 13px;
+        justify-content: end;
+        span {
+          &:hover {
+            background-color: #00000023;
+          }
+          cursor: pointer;
+          background: #0000000f;
+          padding: 3px 10px;
+          border-radius: 120px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $responsive_media) {
+  .experience_section .experiece_content .experience_card {
+    &_title {
+      flex-direction: column;
+      row-gap: 10px;
+      align-items: start;
+    }
+    &_company {
+      margin-top: 10px;
+    }
+    &_tags {
+      justify-content: start;
+      row-gap: 10px;
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: $responsive_nav) {
+  .experience_section .experiece_content .experience_card {
+    &_image img {
+      max-width: 64px;
+    }
+  }
+}
