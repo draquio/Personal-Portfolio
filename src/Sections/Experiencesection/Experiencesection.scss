@@ -75,7 +75,7 @@
         display: flex;
         column-gap: 5px;
         font-size: 13px;
-        justify-content: end;
+        justify-content: flex-end;
         span {
           &:hover {
             background-color: #00000023;

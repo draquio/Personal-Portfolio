@@ -1,4 +1,3 @@
-import React from "react";
 import "./Experiencesection.scss";
 import { Icon } from "semantic-ui-react";
 export const Experiencesection = (props) => {
