@@ -68,8 +68,10 @@ export function Firstsection(props) {
         >
           <a
             className="btn btn_yellow"
-            download
+            // download
+            target="_blank"
             href={`/document/${language.FS.document}.pdf`}
+            rel="noopener noreferrer"
           >
             {language.FS.button} <Icon name="download" />
           </a>
